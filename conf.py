@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Enroute Flight Navigation'
-copyright = '2021, Stefan Kebekus'
+copyright = '2024, Stefan Kebekus'
 author = 'Stefan Kebekus'
 
 # The full version, including alpha/beta/rc tags
@@ -41,50 +41,18 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
-# -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
 #
-#html_theme = 'sphinx_material'
-html_theme = 'sphinx_rtd_theme'
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
-
-html_title = ''
-
-html_theme_options = {
-    'globaltoc_depth': 1,
-    "logo_icon": "&#xe865",
-    'touch_icon': 'enroute.png',
-#    'color_primary': 'teal',
-#    'html_minify': True,   
-#    'css_minify': True,
-    "nav_links": [
-        {"href": "https://akaflieg-freiburg.github.io/enrouteText/manual", "internal": False, "title": "Online"},
-        {"href": "https://akaflieg-freiburg.github.io/enrouteText/manual.epub", "internal": False, "title": "eBook"},
-        {"href": "https://akaflieg-freiburg.github.io/enrouteText/manual.pdf", "internal": False, "title": "PDF"},
-    ],
-    'nav_title': 'Manual for Enroute Flight Navigation',
-}
-
-# globaltoc seems it's not added by default
-html_sidebars = {
-    "**": [
-        "globaltoc.html",
-        "localtoc.html",
-        "searchbox.html",
-    ]
-}
+# Options for HTML output
+#
 
 html_favicon = "de.akaflieg_freiburg.enroute.png"
+html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+}
 
 
 #
-# -- Options for LaTeX output -------------------------------------------------
+# Options for LaTeX output
 #
 
 latex_docclass = {

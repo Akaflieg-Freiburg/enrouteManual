@@ -34,3 +34,5 @@ Consult the `homepage <https://akaflieg-freiburg.github.io/enroute>`_ of
    :maxdepth: 2
 
    01-gettingStarted
+   02-tutorialBasic
+   03-tutorialAdvanced
