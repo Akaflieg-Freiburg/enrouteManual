@@ -34,6 +34,29 @@ Consult the `homepage <https://akaflieg-freiburg.github.io/enroute>`_ of
    :maxdepth: 2
 
    01-gettingStarted
+
+.. raw:: latex
+
+    \part{Tutorials}
+
+
+
+.. toctree::
+   :caption: Tutorials
+   :maxdepth: 2
+
    02-tutorialBasic
    03-tutorialAdvanced
+
+
+.. raw:: latex
+
+    \part{Reference Manual}
+
+.. toctree::
+   :caption: Reference Manual
+   :maxdepth: 2
+
    04-referencePages
+   05-referenceWorkflow
+   06-referenceOther

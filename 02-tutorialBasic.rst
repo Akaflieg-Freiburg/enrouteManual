@@ -1,5 +1,5 @@
-Tutorial: Basic Use
-###################
+Basic Use
+#########
 
 The following tutorials walk you through the basic functionality of **Enroute
 Flight Navigation**.

@@ -8,11 +8,12 @@ users to import files from various external sources. This document provides a
 step-by-step guide on how to utilize this functionality.  A list of supported
 file formats is found at the end of this section
 
-There are three ways to import files into **Enroute Flight Navigation**.
+There are four ways to import files into **Enroute Flight Navigation**.
 
 - Import Files Shared by Other Apps
 - Import Files from Local or Remote Storage
-- Drag-and-Drop (Linux Desktop)
+- Drag-and-Drop (Linux Desktop only)
+- Command line (Linux Desktop only)
 
 We expect that most users on mobile devices will import files that are shared by
 other apps.  Users on Linux desktop computers will probably prefer drag-and-drop.
@@ -109,12 +110,19 @@ Library/Waypoints     GPX         Waypoint Collection
 ===================== =========== ====================
 
 
-Drag-and-Drop (Linux Desktop)
------------------------------
+Drag-and-Drop (Linux Desktop Only)
+----------------------------------
 
 If you are running **Enroute Flight Navigation** on a Linux desktop computer,
 you can import a file by dragging its icon from the desktop and drop it anywhere
 in the **Enroute Flight Navigation** window.
+
+
+Command Line (Linux Desktop Only)
+---------------------------------
+
+When starting **Enroute Flight Navigation** from the Unix command line, it is
+possible to pass file names as command line arguments.
 
 
 Supported File Formats
@@ -128,6 +136,7 @@ Functionality             File Format
 Airspace Data             `OpenAir <https://pyopenair.readthedocs.io/en/latest/openair.html>`_ 
 Approach Charts           `GeoTIFF <https://trac.osgeo.org/geotiff>`_
 Approach Chart Collection `ZIP <https://en.wikipedia.org/wiki/ZIP_(file_format)>`_/`TripKit <https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE%20-%20Trip-Kit-Spezifikation.html>`_
+FLARM Test Data           Text file
 Flight Routes             `GPX <https://en.wikipedia.org/wiki/GPS_Exchange_Format>`_  
 Flight Routes             `GeoJSON <https://en.wikipedia.org/wiki/GeoJSON>`_          
 Raster Maps               `MBTILES <https://docs.mapbox.com/help/glossary/mbtiles/>`_

@@ -1,5 +1,5 @@
-Reference: Pages
-################
+User Interface: Pages
+#####################
 
 The user interface of **Enroute Flight Navigation** is organized in pages.  This
 section describes the most relevant pages in full detail.
