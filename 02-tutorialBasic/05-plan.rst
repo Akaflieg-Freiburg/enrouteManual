@@ -54,7 +54,7 @@ Step 1: Set Aircraft Characteristics
 To compute travel time, **Enroute Flight Navigation** needs to know the cruise
 speed of your aircraft. If you have followed this manual, you have entered this
 piece of data after you downloaded the aviation map. If not, then please check
-the section :ref:`setUpSetAircraft` again.
+the Section :ref:`setUpSetAircraft` again.
 
 
 Step 2: Specify Wind
@@ -74,14 +74,15 @@ several ways to specify the waypoints in your route.
 
 - Enter waypoints by name
 - Select waypoints in the moving map
-- Import a route from the route library
+- Load a route from the route library
 - Import a GPX file from another program
 
 Most users will enter the waypoints manually. Still, we explain all four methods
 in some detail.
 
 
-**Option 1: Enter Waypoints by Name**
+Option 1: Enter Waypoints by Name
+.................................
 
 If you are not on the "Route and Wind" page, open the main menu and choose the
 item "Route and Wind." On the page, select the "Route" tab. The page will
@@ -110,7 +111,8 @@ click will add it to the route.
 Click on the field "Add Waypoint" again to enter more waypoints.
 
 
-**Option 2: Select waypoints in the moving map**
+Option 2: Select Waypoints in the Moving Map
+............................................
 
 It is possible to add waypoints directly from the moving map. 
 
@@ -138,31 +140,25 @@ The waypoint can be added in several ways.
   remove the waypoint from the route.
 
 
-**Option 3: Import a Route From the Library**
+Option 3: Load a Route From the Library
+.......................................
 
-Section `Optional: Save route for future use`_ will show how to save a route to
-the library for future use. If you have already saved a route to the library, go
-to the open the main menu and choose the item "Library/Routes." The route
-library page will open. Choose a route by tapping on the respective item in the
-list.
+Section `Save route for future use`_ will show how to save a route to the
+library for future use. If you have already saved a route to the library, go to
+the open the main menu and choose the item "Library/Routes." The route library
+page will open. Choose a route by tapping on the respective item in the list.
 
 
-**Option 4: Import a GPX File From Another Program**
+Option 4: Import a GPX File From Another Program
+................................................
 
 To prepare your flight, you might want to use full-featured flight preparation
 software or online services, such as `FL95 <https://fl95.de>`_. Most (if not
 all) programs allow exporting the route in GPX format. Transfer the GPX file to
 your device (using Bluetooth file transfer, Google Drive, sending yourself an
-e-mail, or any other communication channel).
+e-mail, or any other communication channel) and open the file on your device.
+The Section :ref:`importData` explains the process in detail.
 
-- On Android devices, it suffices to open the file. Depending on the transfer
-  mode, you can open the file after the Bluetooth transfer, in the Google Drive
-  App, or perhaps in the e-mail client.  **Enroute Flight Navigation** will
-  automatically open and import the route. If more than one program on your
-  device can handle GPX files, the system will ask you which program to use.
-
-- On the Linux desktop, drag-and-drop the GPX file to the **Enroute Flight
-  Navigation** window.
 
 
 Step 4: Edit the Route if Necessary
@@ -173,13 +169,15 @@ page, open the main menu and choose the item "Route and Wind." On the page,
 select the "Route" tab.
 
 
-**Global Functions**
+Global Functions
+................
 
 The three-dot-menu in the upper right corner of the screen allows reversing the
 route or deleting it entirely.
 
 
-**Waypoint-Specific Functions**
+Waypoint-Specific Functions
+...........................
 
 The three-dot-menu to the right of each waypoint allows one to delete a specific
 waypoint or move it up and down in the list. You can edit waypoints that do not
@@ -187,36 +185,10 @@ refer to pre-set airfields, navaids, or reporting points. Tap on the pencil
 symbol to open a dialog that allows you to set a name and edit the coordinates.
 
 
-Optional: Save Route for Future Use
------------------------------------
+Save Route for Future Use
+-------------------------
 
 Once you are happy with the route, you might want to save it for future use. If
 you are not on the "Route and Wind" page, open the main menu and choose the item
 "Route and Wind." On the page, select the "Route" tab. The three-dot-menu in the
 upper right corner of the screen allows saving the route to the library.
-
-
-Optional: Export and Share the Route
-------------------------------------
-
-**Enroute Flight Navigation** can write the route to a file, which can then be
-transferred to other devices, or opened with other apps. **Enroute Flight
-Navigation** is able to write files in GeoJSON and GPX format. While GPX is
-understood by most programs, GeoJSON is the preferred format for sharing data
-between several instances of **Enroute Flight Navigation**.
-
-- On Android and iOS devices, choose the item "Share…" from the three-dot menu
-  at the top right of the screen, and choose the appropriate file type from the
-  submenu.
-
-- On the Linux desktop, choose the item "Export…" from the three-dot menu at the
-  top right of the screen, and choose the appropriate file type from the
-  submenu.
-
-
-Optional: Open the Route in Another App
----------------------------------------
-
-It is possible to open the route in another app. Choose the item "Open in other
-app…" from the three-dot menu at the top right of the screen, and choose the
-appropriate file type from the submenu.

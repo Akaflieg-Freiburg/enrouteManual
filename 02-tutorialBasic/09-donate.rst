@@ -1,4 +1,4 @@
-Make a donation
+Make a Donation
 ===============
 
 **Enroute Flight Navigation** is a non-commercial project of Akaflieg Freiburg,
@@ -36,4 +36,3 @@ Bank Address
    BIC:     GENODE61FR1
    Bank:    Volksbank Freiburg
    Message: Enroute Flight Navigation
-

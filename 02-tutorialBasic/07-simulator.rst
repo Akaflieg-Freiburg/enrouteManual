@@ -1,15 +1,15 @@
-Connect your flight simulator
+Connect Your Flight Simulator
 =============================
 
 **Enroute Flight Navigation** can connect to flight simulator software.  When
 setup correctly, position and traffic information is sent from the flight
-simulator via WiFi to the device that runs **Enroute Flight Navigation**.
+simulator via Wi-Fi to the device that runs **Enroute Flight Navigation**.
 
 The author has tested **Enroute Flight Navigation** with the following flight
 simulator programs.
 
 - `FlightGear`_
-- `X-Plane 11`_  for desktop computers
+- `X-Plane 11`_ for desktop computers
 
 Users have reported success with the following programs.
 
@@ -24,7 +24,7 @@ Please contact us if you are aware of other programs that also work.
     the "Information" menu.
 
 
-Before you connect
+Before You Connect
 ------------------
 
 This manual assumes a typical home setup, where both the computer that runs the
@@ -46,7 +46,7 @@ following conditions are met.
   transfer between the devices in the "guest network"
 
 
-Set up your flight simulator
+Set Up Your Flight Simulator
 ----------------------------
 
 Your flight simulation software needs to broadcast position and traffic
@@ -98,7 +98,7 @@ The figure :ref:`flightGear-img` shows settings window.
    :scale: 50 %
    :align: center
 
-   FlightGear settings
+   FlightGear Settings
 
   
 MS Flight Simulator
@@ -127,47 +127,55 @@ lists additional EFB-connector programs that might also work.
 
 
 fs2ff
-  The program `fs2ff <https://github.com/astenlund/fs2ff>`__ does not require
-  any complicated installation or setup, just download and run.  The latest
-  release of fs2ff can be downloaded `here
-  <https://github.com/astenlund/fs2ff/releases/latest>`__.  Detailed instruction
-  are found `here
-  <https://github.com/astenlund/fs2ff#fs2ff-flight-simulator-to-foreflight>`__.
-  The figure :ref:`fs2ff-img` shows extremely simple settings window.
-  
-  .. _fs2ff-img:
-  .. figure:: fs2ff.png
-     :scale: 75 %
-     :align: center
+.....
 
-     fs2ff settings
+The program `fs2ff <https://github.com/astenlund/fs2ff>`_ does not require any
+complicated installation or setup, just download and run.  The latest release of
+fs2ff can be downloaded `here
+<https://github.com/astenlund/fs2ff/releases/latest>`_. Detailed instruction are
+found `here
+<https://github.com/astenlund/fs2ff#fs2ff-flight-simulator-to-foreflight>`__.
+The figure :ref:`fs2ff-img` shows extremely simple settings window.
+  
+.. _fs2ff-img:
+.. figure:: fs2ff.png
+   :scale: 75 %
+   :align: center
+
+   fs2ff Settings
+
 
 XMapsy Essential
-  If you use XMapsy Essential, you need not to setup anything. Just start Xmapsy
-  Essential and start MSFS2020. The broadcast address will be setup
-  automatically.  The figure :ref:`XMapsyEssential` shows the settings.
-  
-  .. _XMapsyEssential:
-  .. figure:: XMapsyEssential.png
-     :scale: 75 %
-     :align: center
+................
 
-     XMapsy Essential settings
+If you use XMapsy Essential, you need not to set up anything. Just start XMapsy
+Essential and start MSFS2020. The broadcast address will be setup automatically.
+The figure :ref:`XMapsyEssential` shows the settings.
+  
+.. _XMapsyEssential:
+.. figure:: XMapsyEssential.png
+   :scale: 75 %
+   :align: center
+
+   XMapsy Essential Settings
+
 
 XMapsy V3
-  If you use XMapsy V3, set the “Message-Format” to “ADS-B/GDL90” and the
-  “Preferred Technology” to SIMCONNECT.  To receive the correct altitude, be
-  sure to check the box “GDL90 ownship geometric altitudes based on MSL”.  The
-  figure :ref:`XMapsyV3` shows verified XMapsy V3 settings for proper work with
-  MSFS2020.  The Broadcast address will be determined by Xmapsy and should not
-  be touched except you have extended network configuration experience.
+.........
 
-  .. _XMapsyV3:
-  .. figure:: XMapsyV3.png
-     :scale: 75 %
-     :align: center
+If you use XMapsy V3, set the “Message-Format” to “ADS-B/GDL90” and the
+“Preferred Technology” to "SIMCONNECT".  To receive the correct altitude, be
+sure to check the box “GDL90 ownship geometric altitudes based on MSL”.  The
+figure :ref:`XMapsyV3` shows verified XMapsy V3 settings for proper work with
+MSFS2020. The Broadcast address will be determined by XMapsy and should not be
+touched except you have extended network configuration experience.
 
-     XMapsy V3 settings
+.. _XMapsyV3:
+.. figure:: XMapsyV3.png
+   :scale: 75 %
+   :align: center
+
+   XMapsy V3 Settings
 
 
 X-Plane 11
@@ -175,13 +183,13 @@ X-Plane 11
 
 Open the "Settings" window and choose the "Network" tab.  Locate the settings
 group "This machine's role" on the right-hand side of the tab. Open the section
-"iPHONE, iPAD, and EXTERNAL APPS" and select the item "Broadcast to all mapping
-apps on the network" under the headline "OTHER MAPPING APPS".
+"iPhone, iPad, and external apps" and select the item "Broadcast to all mapping
+apps on the network" under the headline "other mapping apps".
 
 .. image:: X-Plane-11.png
 
 
-Other programs
+Other Programs
 ^^^^^^^^^^^^^^
 
 The flight simulator needs to be set up to send UDP datagrams in one of the
