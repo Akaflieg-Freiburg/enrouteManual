@@ -36,3 +36,4 @@ Consult the `homepage <https://akaflieg-freiburg.github.io/enroute>`_ of
    01-gettingStarted
    02-tutorialBasic
    03-tutorialAdvanced
+   04-referencePages
