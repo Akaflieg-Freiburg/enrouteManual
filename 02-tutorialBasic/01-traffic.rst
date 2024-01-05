@@ -18,8 +18,7 @@ show nearby traffic.
    Approaching EDTF with Traffic
 
 The figure :ref:`EDTFtraffic` shows what to expect.  The figure shows two
-traffic factors.  The section :ref:`mainPage` covers the traffic display in
-detail.
+traffic factors.
 
 - There is one aircraft in the downwind section of the traffic circuit.  The
   traffic has approximately the same altitude as the own aircraft and is
@@ -28,6 +27,8 @@ detail.
   receiver; this is often the case with traffic that has only a Mode-S
   transponder.  The traffic is most likely found within the yellow circle. The
   yellow color indicates that the traffic might be close enough to be dangerous.
+
+The section :ref:`mainPage` covers the traffic display in detail.
 
 .. note:: To show only relevant traffic, **Enroute Flight Navigation** will
     display traffic factors only if the vertical distance is less than 1,500 m

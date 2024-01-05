@@ -60,3 +60,14 @@ Consult the `homepage <https://akaflieg-freiburg.github.io/enroute>`_ of
    04-referencePages
    05-referenceWorkflow
    06-referenceOther
+
+
+.. raw:: latex
+
+    \part{Appendix}
+
+.. toctree::
+   :caption: Appendix
+   :maxdepth: 2
+
+   07-appendix

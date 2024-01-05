@@ -1,7 +1,7 @@
 Before Your First Flight
 ========================
 
-If you have followed the steps outline in :ref:`secInstallation`, then you are
+If you have followed the steps outlined in :ref:`secInstallation`, then you are
 now ready to use **Enroute Flight Navigation**.  The user interface is designed
 to be as intuitive as we could make it.  Still, we recommend that you take a
 minute to make yourself familiar with the moving map display and with the basic
