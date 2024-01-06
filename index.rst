@@ -59,7 +59,7 @@ Consult the `homepage <https://akaflieg-freiburg.github.io/enroute>`_ of
 
    04-referencePages
    05-referenceWorkflow
-   06-referenceOther
+   06-referenceTechnology
 
 
 .. raw:: latex

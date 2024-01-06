@@ -1,12 +1,12 @@
 
-Platform notes
+Platform Notes
 ===============
 
 Android
 -------
 
-Network security problems
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Network Security Problems on Outdated Devices
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Like most other programs, **Enroute Flight Navigation** uses `Transport Layer
 Security (TLS) <https://en.wikipedia.org/wiki/Transport_Layer_Security>`_ for
@@ -47,7 +47,7 @@ can then decide to do one of the following.
     of security updates.  Other brands might have similar offers.
 
 
-Screen backlighting
+Screen Backlighting
 ^^^^^^^^^^^^^^^^^^^
 
 **Enroute Flight Navigation** overrides the system settings of your device and
@@ -56,7 +56,7 @@ screen can be switched off manually with the hardware "power button" of your
 device.
 
 
-Screen locking
+Screen Locking
 ^^^^^^^^^^^^^^
 
 **Enroute Flight Navigation** stays on top of the lock screen of your device.
@@ -65,7 +65,7 @@ You can therefore use **Enroute Flight Navigation** without unlocking your
 device.
 
 
-Wi-Fi locking
+Wi-Fi Locking
 ^^^^^^^^^^^^^
 
 When running on Android, **Enroute Flight Navigation** acquires a Wi-Fi lock as
@@ -73,33 +73,20 @@ soon as the app receives heartbeat messages from one of the channels where it
 listens for traffic receivers.  The lock is released when the messages no longer
 arrive.
 
+iOS
+---
+
+Users may experience a degraded workflow when connecting to a traffic data
+receiver that requires a password, in addition to the password required to enter
+the Wi-Fi network. Privacy features of iOS prevent **Enroute Flight Navigation**
+from accessing the SSID of the Wi-Fi network, which makes in impossible to
+identify networks and suggest correct passwords from the password storage.
 
 
-Linux desktop
+Linux Desktop
 -------------
 
-File import by drag-and-drop
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-It is possible to import files by dragging and dropping then anywhere in the
-main window of **Enroute Flight Navigation**.  The following file types are
-accepted.
-
-=============== ======= =============
-Content         Format  File name 
-=============== ======= =============
-FLARM Test Data Text    \*.txt
-Flight Route    GeoJSON \*.geojson 
-Flight Route    GPX     \*.gpx
-=============== ======= =============
-
-
-Command line
-^^^^^^^^^^^^
-
-Rather than importing file by drag-and-drop, file names can also be given when
-starting **Enroute Flight Navigation** via the Unix command line.  The following
-command line options are supported.
+The following command line options are supported.
 
 ============== =====================
 Option         Description
