@@ -1,4 +1,4 @@
-Traffic Data Receiver support
+Traffic Data Receiver Support
 -----------------------------
 
 Communication
@@ -36,7 +36,7 @@ preference.
 
 .. _gdl90problems:  
 
-Known issues with GDL90
+Known Issues with GDL90
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 The GDL90 protocol has a number of shortcomings, and we recommend to use
@@ -97,7 +97,7 @@ The GDL90 "port" field is currently 4000, but might change in the future.
 
 .. _skyEcho:
 
-Known issues with SkyEcho devices
+Known Issues with SkyEcho Devices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Enroute Flight Navigation** works fine with SkyEcho devices. There are,
@@ -106,7 +106,7 @@ however, several shortcomings that users should be aware of.
 Unidirectional FLARM
   The SkyEcho can receive FLARM signals, but cannot send them.  The SkyEcho
   device cannot be seen by other FLARM users.  The author of **Enroute Flight
-  Navigation** is not convinced that unidirectionl FLARM is a good idea.
+  Navigation** is not convinced that unidirectional FLARM is a good idea.
 
 FLARM Output 
   uAvionix follows an unusual business model.  The FLARM/NMEA output of the
@@ -128,7 +128,7 @@ Altimeter readings
 
 .. _pingUSB:
 
-Known issues with pingUSB devices
+Known Issues with pingUSB Devices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **Enroute Flight Navigation** works fine with pingUSB devices. There are,
