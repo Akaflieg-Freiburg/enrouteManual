@@ -65,8 +65,8 @@ scenario, do the following.
   or remote storage, as explained in the next section.
 
 
-Import Files from Local or Remote Storage
------------------------------------------
+Import Files from Local or Remote Storage (not vailable for iOS/iPadOS)
+-----------------------------------------------------------------------
 
 There are scenarios where the operating system cannot identify the file type and
 does not offer to open a given file with **Enroute Flight Navigation**.  In
