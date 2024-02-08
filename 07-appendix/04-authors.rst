@@ -11,7 +11,7 @@ Contributions
 ~~~~~~~~~~~~~
 
 **iOS Version** The app has been ported to iOS by Simon Schneider. Simon
-is currently student pilot (PPL) and member of the Akaflieg Freiburg
+recently got his PPL and is member of the Akaflieg Freiburg
 flight club, just like Stefan.
 
 **Programming** Heinz Blöchinger has helped us with OpenAir support.
