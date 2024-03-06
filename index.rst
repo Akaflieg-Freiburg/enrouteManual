@@ -47,6 +47,7 @@ Consult the `homepage <https://akaflieg-freiburg.github.io/enroute>`_ of
 
    02-tutorialBasic
    03-tutorialAdvanced
+   04-otherSoftware
 
 
 .. raw:: latex
