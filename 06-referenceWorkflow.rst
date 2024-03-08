@@ -6,4 +6,4 @@ This part of the manual describes procedures that are used throughout the app.
 .. toctree::
    :maxdepth: 1
 
-   05-referenceWorkflow/01-share
+   06-referenceWorkflow/01-share

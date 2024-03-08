@@ -4,9 +4,5 @@
 # build dirs
 _build/
 
-# IDE
-.vscode
-CMakeLists.txt.user
-
 # Mac
 .DS_Store

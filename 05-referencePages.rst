@@ -7,6 +7,6 @@ section describes the most relevant pages in full detail.
 .. toctree::
    :maxdepth: 1
 
-   04-referencePages/01-mainPage
-   04-referencePages/02-settings
-   04-referencePages/03-about
+   05-referencePages/01-mainPage
+   05-referencePages/02-settings
+   05-referencePages/03-about
