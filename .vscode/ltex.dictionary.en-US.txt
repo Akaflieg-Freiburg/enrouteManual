@@ -4,3 +4,5 @@ NOTAM
 autorouter
 Eurocontrol
 EasyVFR
+FLARM
+NMEA
