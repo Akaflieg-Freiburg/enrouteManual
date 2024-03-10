@@ -9,3 +9,4 @@ other software what we should list here.
    :maxdepth: 1
 
    04-additionalSoftware/01-flightPlanning
+   04-additionalSoftware/02-mapping

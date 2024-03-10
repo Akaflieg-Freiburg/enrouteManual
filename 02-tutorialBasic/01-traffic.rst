@@ -56,7 +56,7 @@ traffic receivers.  The author has tested the following receivers.
 - `PowerFLARM Fusison <https://flarm.com/flarm-product/powerflarm-fusion/>`_ by
   `FLARM Technology Ltd <https://flarm.com/>`_.
   
-Users reported success with the following traffic receivers.
+Users reported success with the following traffic receiver hardware.
 
 - Classic FLARM and the `ICFly Connect <https://in-circuit.de/shop/icfly-connect>`_ 
   Wi-Fi adaptor, set to IP 192.168.1.1 and TCP Port 2000.

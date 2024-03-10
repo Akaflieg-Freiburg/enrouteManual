@@ -6,3 +6,4 @@ Eurocontrol
 EasyVFR
 FLARM
 NMEA
+OsmAnd
