@@ -4,29 +4,33 @@ Import Data
 ===========
 
 **Enroute Flight Navigation** offers a robust file import feature, allowing
-users to import files from various external sources. This document provides a
+users to import data from various external sources. This document provides a
 step-by-step guide on how to utilize this functionality.  A list of supported
-file formats is found at the end of this section
+file formats and text data items is found at the end of this section
 
 There are four ways to import files into **Enroute Flight Navigation**.
 
-- Import Files Shared by Other Apps
+- Import Files and Text Data Shared by Other Apps
 - Import Files from Local or Remote Storage
 - Drag-and-Drop (Linux Desktop only)
+- Copy-and-Paste (Linux Desktop only)
 - Command line (Linux Desktop only)
 
 We expect that most users on mobile devices will import files that are shared by
 other apps.  Users on Linux desktop computers will probably prefer drag-and-drop.
 
 
-Import Files Shared by Other Apps
----------------------------------
+Import Files and Text Data Shared by Other Apps
+-----------------------------------------------
 
 **Enroute Flight Navigation** is able to import files from all apps that allow
-file sharing.  While the list of these apps is endless, we expect that the most
-users employ one of the following programs to transfer and access their files.
+file sharing.  On Android, **Enroute Flight Navigation** also accepts text data
+shared by other apps.  While the list of these apps is endless, we expect that 
+most users employ one of the following programs to transfer and access files
+and data.
 
 - Web browsers allow downloading and opening files from the internet.
+- Apps such as Google Maps share text data items. 
 - File management apps can open files stored on your device. 
 - Most file management apps also allow opening files stored on cloud services
   connected to your devices. Some cloud service come with specialized apps.
@@ -115,7 +119,8 @@ Drag-and-Drop (Linux Desktop Only)
 
 If you are running **Enroute Flight Navigation** on a Linux desktop computer,
 you can import a file by dragging its icon from the desktop and drop it anywhere
-in the **Enroute Flight Navigation** window.
+in the **Enroute Flight Navigation** window.  You can import text data items by
+dragging the text into the **Enroute Flight Navigation** window.
 
 
 Command Line (Linux Desktop Only)
@@ -143,4 +148,22 @@ Raster Maps               `MBTILES <https://docs.mapbox.com/help/glossary/mbtile
 Vector Maps               `MBTILES <https://docs.mapbox.com/help/glossary/mbtiles/>`_
 Waypoint Collections      `GeoJSON <https://en.wikipedia.org/wiki/GeoJSON>`_
 Waypoints                 `CUP <https://downloads.naviter.com/docs/SeeYou_CUP_file_format.pdf>`_ 
+========================= ===================================
+
+
+Supported Text Data Items
+-------------------------
+
+**Enroute Flight Navigation** accepts data in the following formats.
+
+========================= =================================== 
+Functionality             File Format
+========================= ===================================
+Bing Map Link
+Google Map Link
+Shortened Google Map Link xx
+OpenStreetMap Link
+WeGo Link
+Shortened WeGo Link
+GEO URLs
 ========================= ===================================

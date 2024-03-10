@@ -143,6 +143,14 @@ requires a password in addition to the Wi-Fi password and if you have asked the
 app to remember the password. Tap on this entry to clear the password storage. 
 
 
+Show Privacy Warnings
+^^^^^^^^^^^^^^^^^^^^^
+
+This entry is visible if you have disabled privacy warnings by selecting "Do 
+not ask again" in an appropriate dialog. Tap on this entry to re-enable all 
+warnings.
+
+
 Help
 ----
 
