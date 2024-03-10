@@ -157,9 +157,8 @@ Supported Text Data Items
 **Enroute Flight Navigation** accepts data in the following formats.
 
 ========================= =================================== 
-Functionality             File Format
+Functionality             Sample
 ========================= ===================================
-Bing Map Link
 Google Map Link
 Shortened Google Map Link xx
 OpenStreetMap Link
