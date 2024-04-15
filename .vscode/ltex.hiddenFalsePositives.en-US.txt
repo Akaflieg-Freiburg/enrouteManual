@@ -1,0 +1,2 @@
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QHERE WeGo (Android App)\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QOsmAnd (Android App)\\E$"}
