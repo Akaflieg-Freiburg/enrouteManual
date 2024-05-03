@@ -26,8 +26,9 @@ Configure a Data Connection to a Bluetooth Classic Device
 ---------------------------------------------------------
 
 The **Enroute Flight Navigation** is able to communicate with your traffic data
-receiver via the "Bluetooth Classic" radio standard.  The competing standard
-"Bluetooth Low Energy" is currently unsupported.
+receiver via the "Bluetooth Classic" radio standard.  
+
+.. note:: The radio standard "Bluetooth Low Energy" is currently unsupported.
 
 .. note:: Due to limitations of the iOS platform, Bluetooth is not
     supported on iPhone and iPad devices.
@@ -39,6 +40,12 @@ between your computer to the Bluetooth device, proceed as follows.
 
 - Ensure that your Bluetooth Classic device is switched on and in "discoverable"
   mode.
+
+- Because Bluetooth devices support only one data connection, the following
+  steps will fail if another computer is trying to connect to your Bluetooth
+  device. Ensure that there are no other computers around that could interfere
+  with your computer.  Keep in mind that other computers might be in someone
+  else's bag, stowed away in a nearby car, or in the office building next door.
 
 - Ensure that Bluetooth is switched "on" in your computer.
 
@@ -70,3 +77,10 @@ Bluetooth radio.
 
 Remove a Data Connection
 ------------------------
+
+We recommended removing data connections that you will no longer use.  In order
+to remove a data connection, locate the data connection in the list, tap on the
+three-dot menu and choose the menu item "Remove".
+
+.. note:: **Enroute Flight Navigation** maintains a list of default data 
+    connections, which cannot be removed.
