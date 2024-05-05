@@ -34,27 +34,27 @@ receiver via the "Bluetooth Classic" radio standard.
     supported on iPhone and iPad devices.
 
 To avoid any ambiguity, this manual refers to the device running **Enroute
-Flight Navigation** as the "computer", and to your Bluetooth-enabled traffic
+Flight Navigation** as the "phone", and to your Bluetooth-enabled traffic
 data receiver as the "Bluetooth Device".  To configure a new data connection
-between your computer to the Bluetooth device, proceed as follows.
+between your phone to the Bluetooth device, proceed as follows.
 
 - Ensure that your Bluetooth Classic device is switched on and in "discoverable"
   mode.
 
 - Because Bluetooth devices support only one data connection, the following
-  steps will fail if another computer is trying to connect to your Bluetooth
-  device. Ensure that there are no other computers around that could interfere
-  with your computer.  Keep in mind that other computers might be in someone
+  steps will fail if another phone is trying to connect to your Bluetooth
+  device. Ensure that there are no other phones around that could interfere
+  with your phone.  Keep in mind that other phones might be in someone
   else's bag, stowed away in a nearby car, or in the office building next door.
 
-- Ensure that Bluetooth is switched "on" in your computer.
+- Ensure that Bluetooth is switched "on" in your phone.
 
 - Depending on the precise version of your operating system, you may need to
-  pair your computer with the Bluetooth Classic device.  Pairing never hurts, so
+  pair your phone with the Bluetooth Classic device.  Pairing never hurts, so
   we recommend pairing if possible.  Note that some Bluetooth device cannot be
   paired.
 
-- Open **Enroute Flight Navigation** on your computer, navigate to this page and
+- Open **Enroute Flight Navigation** on your phone, navigate to this page and
   tap on "Add Data Connection" at the bottom of the page.  A device discovery
   dialog will open.
 

@@ -7,3 +7,4 @@ EasyVFR
 FLARM
 NMEA
 OsmAnd
+EDTF
