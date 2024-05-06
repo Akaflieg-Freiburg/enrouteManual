@@ -2,9 +2,10 @@ Sense and Avoid
 ###############
 
 Midair collisions are a major reason for loss of lives in general aviation.
-Collisions often happen near airfields or in the traffic circuit. In order to
-enhance security, **Enroute Flight Navigation** can connect to your aircraft's
-traffic receiver and show nearby traffic in the moving map.
+While anti-collision systems are still not mandatory in several European
+countries, it is clear that no responsible pilot will fly without such a system.
+In order to enhance security, **Enroute Flight Navigation** can connect to your
+aircraft's traffic receiver and show nearby traffic in the moving map.
 
 
 .. toctree::

@@ -1,8 +1,9 @@
 Connect via Wi-Fi
 =================
 
-It takes three steps to connect **Enroute Flight Navigation** to the traffic
-receiver for the first time. 
+Wi-Fi is the recommended method to connect **Enroute Flight Navigation** to your
+traffic data receiver.  Compared with Bluetooth, Wi-Fi connections are reliable,
+hassle-free and work automatically with minimal setup.
 
 
 One-time Setup
@@ -21,12 +22,13 @@ following conditions are met.
   password.
 - Some devices require an additional password in order to access traffic data.
   If this is the case, you will need to know this password.
-- **Enroute Flight Navigation** supports all major protocols for traffic data sharing,
-  including "FLARM/NMEA" and "GDL90".  If your traffic
-  receiver supports FLARM/NMEA as well as GDL90 output, then configure it to always use FLARM/NMEA.
-  The GDL90 protocol has a number of shortcomings that **Enroute Flight
-  Navigation** cannot always work around.  See the Section
-  :ref:`gdl90problems` for more details.
+
+**Enroute Flight Navigation** supports all major protocols for traffic data
+sharing, including "FLARM/NMEA" and "GDL90".  If your traffic receiver supports
+FLARM/NMEA as well as GDL90 output, then configure it to always use FLARM/NMEA.
+The GDL90 protocol has a number of shortcomings that **Enroute Flight
+Navigation** cannot always work around.  See the Section :ref:`gdl90problems`
+for more details.
 
 
 Step 1: Enter the Traffic Receiver's Wi-Fi Network
@@ -46,14 +48,44 @@ Most operating systems will offer to remember the connection, so that your
 device will automatically connect to this Wi-Fi in the future. We recommend
 using this option.
 
-Step 2: Connect to the Traffic Data Stream
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Open the main menu and navigate to the "Information" menu.
+Step 2: Check Connectivity
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- If the entry "Traffic Receiver" is highlighted in green, then **Enroute Flight
-  Navigation** has already found the traffic receiver in the network and has
-  connected to it. Congratulations, you are done!
+After your device has entered the traffic receiver's Wi-Fi network in Step 1,
+everything else should be automatic.  To check, open the main menu and navigate
+to the "Information" menu.  If the entry "Traffic Receiver" is highlighted in
+green, then **Enroute Flight Navigation** has already found the traffic receiver
+in the network and has connected to it. Congratulations, you are done!
+
+If the entry "Traffic Receiver" is not highlighted in green, then something has
+gone wrong.  The following steps might help find the issue.
+
+- Open the Wi-Fi settings of your device and confirm that your device is indeed
+  connected to the traffic data receiver's network.  If not, then reconnect.  It
+  might help move your device closer to the traffic data receiver's Wi-Fi
+  antenna.
+
+- Some traffic data receivers offer a web-interface that can be accessed with
+  your web browser.  Check if you can access the web-interface with your
+  browser.
+
+If you are sure that your device has connected to the correct Wi-Fi network,
+then return to **Enroute Flight Navigation** open the main menu and go to
+"Settings/Data Connections".  Look at the connections of type "TCP" and "UDP".
+
+- If none of the TCP/UDP connections has status "Connected", then **Enroute
+  Flight Navigation** cannot see your traffic data receiver in the Wi-Fi
+  network.  This means that your traffic data receiver is not available at any
+  of the standard IP address/Port combinations known to **Enroute Flight
+  Navigation**.  In that case, please do the following.
+
+  - Check the manual of your traffic data receiver or Wi-Fi interface to see the
+    IP address and port that the traffic data receiver uses.
+  - b
+
+
+
 - If the entry "Traffic Receiver" is not highlighted in green, then select the
   entry. The "Traffic Receiver Status" page will open. The page explains the
   connection status in detail, and explains how to establish a connection
