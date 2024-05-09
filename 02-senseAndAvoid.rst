@@ -12,8 +12,10 @@ aircraft's traffic receiver and show nearby traffic in the moving map.
    :maxdepth: 1
 
    02-senseAndAvoid/01-whatToExpect
-   02-senseAndAvoid/02-compatibility
    02-senseAndAvoid/03-setup-wifi
    02-senseAndAvoid/04-setup-bluetooth
+   02-senseAndAvoid/02-safesky
+   02-senseAndAvoid/02-think
+   02-senseAndAvoid/02-compatibility
    02-senseAndAvoid/05-flarmnet
 
