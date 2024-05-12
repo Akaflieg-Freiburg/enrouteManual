@@ -8,3 +8,4 @@ FLARM
 NMEA
 OsmAnd
 EDTF
+Flarmnet
