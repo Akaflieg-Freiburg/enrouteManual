@@ -9,3 +9,14 @@ NMEA
 OsmAnd
 EDTF
 Flarmnet
+datagrams
+Datagrams
+ownship
+Skydemon
+ForeFlight
+Stratux
+Avioncs
+unicast
+SkyEcho
+uAvionix
+pingUSB
