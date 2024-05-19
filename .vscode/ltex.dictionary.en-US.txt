@@ -7,4 +7,5 @@ EasyVFR
 FLARM
 NMEA
 OsmAnd
-airspaces
+EDTF
+Flarmnet
