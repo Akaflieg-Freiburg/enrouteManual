@@ -134,7 +134,7 @@ exist, then please do the following.
 **Step 3: [Censored Profanity]** 
 
 If **Enroute Flight Navigation** has connected to your traffic data receiver via
-a TCP/UDP connections but does not receive heartbeat of traffic data, then you
+a TCP/UDP connection but does not receive heartbeat of traffic data, then you
 are out of luck. Please contact us, as we would like to hear about your case.
 Return to the main moving map screen of **Enroute Flight Navigation**, open the
 main menu and go to "Bug Report".  It might be worth checking if other apps
