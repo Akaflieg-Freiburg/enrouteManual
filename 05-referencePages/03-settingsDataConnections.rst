@@ -113,7 +113,8 @@ Configure a Data Connection via TCP
 
 The Transmission Control Protocol (TCP) is one of the main protocols of the
 internet.  Traffic data receivers based on FLARM typically use TCP to transmit
-traffic data via Wi-Fi and LAN networks.  To configure a TCP connection, 
+traffic data via Wi-Fi and LAN networks.  To configure a TCP connection, you
+need the following data.
 
 - The internet address of the traffic data receiver in its network. This is
   typically a string of the form "192.168.1.1".
@@ -126,7 +127,7 @@ traffic data via Wi-Fi and LAN networks.  To configure a TCP connection,
     receiver that we have seen.  Manual configuration of TCP connections should
     never be necessary.  If you are aware of hardware that uses an internet
     address/port combination not covered by the predefined connections, then please
-    open the main menu and use the entry "Bug Report" to let us know,
+    open the main menu and use the entry "Bug Report" to let us know.
 
 To configure a new TCP data connection, proceed as follows.
 
@@ -145,6 +146,49 @@ To configure a new TCP data connection, proceed as follows.
   all devices that we have seen use IPv4 addresses of the form "192.168.1.1",
   IPv6 addresses and internet host names are also supported.  Tap on "OK".  A
   new data connection has been configured.
+
+- **Enroute Flight Navigation** will try to connect to your traffic data
+  receiver. Check the connectivity status by looking at the relevant entry in
+  the list of data connections.
+
+In the future, **Enroute Flight Navigation** will automatically detect and
+connect to your traffic receiver a few minutes after it becomes visible on
+Wi-Fi or LAN.
+
+
+Configure a Data Connection via UDP
+-----------------------------------
+
+The User Datagram Protocol (UDP) is one of the main protocols of the internet.
+Flight simulators and traffic data receivers based on Garmin hardware typically
+use UDP to transmit traffic data via Wi-Fi and LAN networks.  To configure a UDP
+connection, you need the following data.
+
+- The port number. This is a number between 0 and 65535, but most devices use
+  ports 4000 or 49002.
+
+.. note:: To simplify the setup process, **Enroute Flight Navigation** includes
+    a number of predefined UDP connections.  These suffice to connect to any 
+    traffic data receiver that we have seen.  Manual configuration of UDP 
+    connections should never be necessary.  If you are aware of hardware that 
+    uses a port not covered by the predefined connections, then please open the 
+    main menu and use the entry "Bug Report" to let us know.
+
+To configure a new TCP data connection, proceed as follows.
+
+- Read the manual of your traffic data receiver to find out what port number it
+  uses.
+
+- Start the traffic data receiver.
+
+- Connect to the Wi-Fi or LAN network of your traffic data receiver.
+
+- Open **Enroute Flight Navigation** on your phone, navigate to this page and
+  tap on "New Connection" at the bottom of the page and choose "UDP Connection"
+  from the menu.  A dialog will open.
+
+- Enter the port number used by your traffic data receiver.  Tap on "OK".  A new
+  data connection has been configured.
 
 - **Enroute Flight Navigation** will try to connect to your traffic data
   receiver. Check the connectivity status by looking at the relevant entry in
