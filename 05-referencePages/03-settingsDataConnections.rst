@@ -8,22 +8,48 @@ Settings: Data Connections
 This page lists all data connections that **Enroute Flight Navigation** uses to
 communicate with traffic data receivers.  It shows that status of each
 connection and allows adding/removing connections to Bluetooth devices that
-cannot be automatically configured.
+cannot be automatically configured.  The page also allows configuring additional
+data connections through a variety of communication channels.
 
+
+User Interface
+--------------
+
+The body of the page displays a list of configured connections. Tap on a
+connection to obtain more detailed information.
+ 
 - Data connections are colored in green if **Enroute Flight Navigation**
   receives heartbeat signals from a traffic data receiver via that connection.
 
 - Data connections are colored in red if **Enroute Flight Navigation** failed to
   open the connection.
 
+The footer of the page contains two buttons.
+
+- The button "Reconnect" resets all configured connections and starts a new
+  connection process for each. This can be useful in settings where a connection
+  failed and where you do not want to wait until the next reconnection attempt
+  starts automatically.
+
+- If **Enroute Flight Navigation** cannot detect your traffic data receiver
+  automatically, use the button "New Connection" to configure a connection. The
+  remainder of the present manual section explains how this is done.
+
+
+Configure New Data Connections
+------------------------------
+
 In a typical setup, where traffic data receivers broadcast information via one
 of the standard Wi-Fi channels, the default data connections allow **Enroute
 Flight Navigation** to automatically detect (and connect to) all customary
-devices.  In that case, no user interaction is ever required.
+devices.  In that case, no user interaction is ever required.  There are however
+settings where **Enroute Flight Navigation** cannot detect your traffic data
+receiver automatically.  Depending on the communication channel, the following
+subsections describe how to configure a new data connection in that case.
 
 
-Configure a Data Connection to a Bluetooth Classic Device
----------------------------------------------------------
+Bluetooth Classic
+^^^^^^^^^^^^^^^^^
 
 The **Enroute Flight Navigation** is able to communicate with your traffic data
 receiver via the "Bluetooth Classic" radio standard.  
@@ -75,8 +101,8 @@ connect to your traffic receiver a few minutes after it becomes visible on
 Bluetooth radio.
 
 
-Configure a Data Connection to a Serial Port Device
----------------------------------------------------
+Serial Port
+^^^^^^^^^^^
 
 The **Enroute Flight Navigation** is able to communicate with your traffic data
 receiver via the serial port.  Serial port communication via USB is supported.
@@ -108,8 +134,8 @@ connect to your traffic receiver a few minutes after it is connected to your
 device.
 
 
-Configure a Data Connection via TCP
------------------------------------
+TCP via Wi-Fi or LAN
+^^^^^^^^^^^^^^^^^^^^
 
 The Transmission Control Protocol (TCP) is one of the main protocols of the
 internet.  Traffic data receivers based on FLARM typically use TCP to transmit
@@ -156,8 +182,8 @@ connect to your traffic receiver a few minutes after it becomes visible on
 Wi-Fi or LAN.
 
 
-Configure a Data Connection via UDP
------------------------------------
+UDP via Wi-Fi or LAN
+^^^^^^^^^^^^^^^^^^^^
 
 The User Datagram Protocol (UDP) is one of the main protocols of the internet.
 Flight simulators and traffic data receivers based on Garmin hardware typically
@@ -204,7 +230,5 @@ Remove a Data Connection
 
 We recommended removing data connections that you will no longer use.  In order
 to remove a data connection, locate the data connection in the list, tap on the
-three-dot menu and choose the menu item "Remove".
-
-.. note:: **Enroute Flight Navigation** maintains a list of default data 
-    connections, which cannot be removed.
+three-dot menu and choose the menu item "Remove".  Note that default data
+connections cannot be removed.
