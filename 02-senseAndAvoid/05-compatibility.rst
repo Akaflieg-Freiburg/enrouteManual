@@ -44,4 +44,8 @@ The author has tested the following receivers.
 - Classic FLARM and `SH-B23A(SH-B30) Bluetooth 2.0 to RS232 Serial Adaptor
   <https://www.deshide.com/product-details.html?pid=369175&_t=1668647863>`_ by
   DSD TECH.
+  
+  
+Users reported success with the following traffic receiver hardware.
+
 - Classic FLARM and HC-06 Bluetooth Adaptor.
