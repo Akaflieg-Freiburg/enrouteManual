@@ -12,6 +12,10 @@ and co-pilots must therefore decide who gets to see traffic data.
     from the serial port device. **Enroute Flight Navigation** is not able to
     integrate into a CAN-Bus environment.
 
+.. note:: Serial port devices are currently not supported on the Android 
+    platform. For that reason, serial port communication is not available at 
+    all on Android devices. 
+
 .. note:: Serial port devices are not supported by the iOS platform. For that reason,
     serial port communication is not available at all on iPhone or iPad devices. 
 
