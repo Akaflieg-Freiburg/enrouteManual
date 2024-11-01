@@ -154,15 +154,11 @@ Waypoints                 `CUP <https://downloads.naviter.com/docs/SeeYou_CUP_fi
 Supported Text Data Items
 -------------------------
 
-**Enroute Flight Navigation** accepts data in the following formats.
+**Enroute Flight Navigation** accepts text data items in the following formats.
 
-========================= =================================== 
-Functionality             Sample
-========================= ===================================
-Google Map Link
-Shortened Google Map Link xx
-OpenStreetMap Link
-WeGo Link
-Shortened WeGo Link
-GEO URLs
-========================= ===================================
+* Google Map Link
+* Shortened Google Map Link
+* OpenStreetMap Link
+* WeGo Link
+* Shortened WeGo Link
+* GEO URLs
