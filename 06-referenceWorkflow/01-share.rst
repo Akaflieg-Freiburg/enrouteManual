@@ -142,8 +142,10 @@ Airspace Data             `OpenAir <https://pyopenair.readthedocs.io/en/latest/o
 Approach Charts           `GeoTIFF <https://trac.osgeo.org/geotiff>`_
 Approach Chart Collection `ZIP <https://en.wikipedia.org/wiki/ZIP_(file_format)>`_/`TripKit <https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE%20-%20Trip-Kit-Spezifikation.html>`_
 FLARM Test Data           Text file
+Flight Routes             Garmin FPL
 Flight Routes             `GPX <https://en.wikipedia.org/wiki/GPS_Exchange_Format>`_  
 Flight Routes             `GeoJSON <https://en.wikipedia.org/wiki/GeoJSON>`_          
+Flight Routes             `PLN <https://docs.flightsimulator.com/html/Content_Configuration/Flights_And_Missions/Flight_Plan_Definitions.htm>`_  
 Raster Maps               `MBTILES <https://docs.mapbox.com/help/glossary/mbtiles/>`_
 Vector Maps               `MBTILES <https://docs.mapbox.com/help/glossary/mbtiles/>`_
 Waypoint Collections      `GeoJSON <https://en.wikipedia.org/wiki/GeoJSON>`_
