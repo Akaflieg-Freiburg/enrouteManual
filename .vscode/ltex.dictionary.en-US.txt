@@ -42,3 +42,6 @@ Kocur
 Tholen
 Zellner
 Geoid
+pilotage
+Airspaces
+navaid
