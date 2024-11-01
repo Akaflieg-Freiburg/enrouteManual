@@ -130,6 +130,8 @@ When starting **Enroute Flight Navigation** from the Unix command line, it is
 possible to pass file names as command line arguments.
 
 
+.. _supportedFileFormats:
+
 Supported File Formats
 ----------------------
 
