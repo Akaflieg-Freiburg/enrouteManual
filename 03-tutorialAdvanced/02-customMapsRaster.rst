@@ -1,3 +1,5 @@
+.. _importRaster:
+
 Import Custom Raster Maps
 =========================
 
