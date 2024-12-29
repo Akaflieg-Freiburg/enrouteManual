@@ -56,3 +56,11 @@ QGIS
 EPSG
 METAR
 QUJ
+Ownship
+Autopan
+Hydroport
+Doppler-VORTAC
+callsigns
+Paraglider
+callsign
+VORTAC
