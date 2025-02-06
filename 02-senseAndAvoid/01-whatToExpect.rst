@@ -30,7 +30,8 @@ The section :ref:`mainPage` covers the traffic display in detail.
 
 .. note:: To show only relevant traffic, **Enroute Flight Navigation** will
     display traffic factors only if the vertical distance is less than 1,500 m
-    and the horizontal distance less than 20 nm.
+    and the horizontal distance less than 20 nm. Aircraft on the ground will
+    not be shown at all.
 
 
 Flarmnet Data
