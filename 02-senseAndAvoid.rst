@@ -9,6 +9,8 @@ countries, it is clear that no responsible pilot will fly without such a system.
 **Enroute Flight Navigation** can connect to your aircraft's traffic receiver
 and show nearby traffic in the moving map.
 
+To check the connection to your traffic data receiver anytime, open the main
+menu and choose :ref:`InfoTrafficPage`.
 
 .. toctree::
    :maxdepth: 1
