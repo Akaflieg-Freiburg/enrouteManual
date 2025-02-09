@@ -64,6 +64,11 @@
 <li class="toctree-l3"><a class="reference internal" href="#traffic-data-receiver-status">Traffic Data Receiver Status</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#traffic-currently-no-traffic">Traffic/Currently No Traffic</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#help">Help</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#page-footer">Page Footer</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#reconnect">Reconnect</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#configure-data-connections">Configure Data Connections</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="04-about.html">Information/About</a></li>
@@ -109,16 +114,16 @@
            <div itemprop="articleBody">
              
   <section id="information-traffic-data-receiver">
-<h1>Information/Traffic Data Receiver<a class="headerlink" href="#information-traffic-data-receiver" title="Link to this heading"></a></h1>
-<p>The page <strong>Traffic Data Receiver</strong> provided status information on the data
+<span id="infotrafficpage"></span><h1>Information/Traffic Data Receiver<a class="headerlink" href="#information-traffic-data-receiver" title="Link to this heading"></a></h1>
+<p>The page <strong>Traffic Data Receiver</strong> provides status information on the data
 connection between <strong>Enroute Flight Navigation</strong> and your traffic data receiver.
-If an active data connection exists, the page also lists all the traffic
-currently observed.</p>
+To access the page, open the main menu and choose “Information/Traffic Data
+Receiver.”</p>
 <section id="connection-status">
 <h2>Connection Status<a class="headerlink" href="#connection-status" title="Link to this heading"></a></h2>
 <p>To ensure reliable operation, traffic receivers emit “heartbeat messages” at
 frequent intervals. The text field “Connection Status” explains if heartbeat
-messages are received through any of the configured data channels. If yes, the
+messages are received through any of the configured data channels. If yes, this
 field shows the data connection currently used and lists the types of data
 presently received.</p>
 </section>
@@ -144,6 +149,24 @@ relevant traffic is shown in the moving map.</p>
 <p>If no heartbeat is received from any traffic receiver, two buttons “Connect to a
 traffic receiver” and “Connect to a flight simulator” will become visible. A
 click on any of these buttons will open the appropriate page of the manual.</p>
+</section>
+<section id="page-footer">
+<h2>Page Footer<a class="headerlink" href="#page-footer" title="Link to this heading"></a></h2>
+<p>The page footer shows one or two additional buttons.</p>
+<section id="reconnect">
+<h3>Reconnect<a class="headerlink" href="#reconnect" title="Link to this heading"></a></h3>
+<p>This button is visible if no heartbeat is received from any traffic receiver.
+After a click on this button will disconnect all configured data connections and
+attempt to reconnect.  This can be useful if <strong>Enroute Flight Navigation</strong> did
+not automatically connect, or if you do not wish to wait for the next automatic
+reconnection attempt.</p>
+</section>
+<section id="configure-data-connections">
+<h3>Configure Data Connections<a class="headerlink" href="#configure-data-connections" title="Link to this heading"></a></h3>
+<p>A click on this button will open the page “Data Connections”, described in the
+section <a class="reference internal" href="03-settingsDataConnections.html#settingsdataconnectionspage"><span class="std std-ref">Settings: Data Connections</span></a>. There, you can view the status of
+every single data connection, and configure new connections if required.</p>
+</section>
 </section>
 </section>
 
