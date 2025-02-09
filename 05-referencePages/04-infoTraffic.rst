@@ -1,10 +1,10 @@
 Information/Traffic Data Receiver
 =================================
 
-The page **Traffic Data Receiver** provided status information on the data
+The page **Traffic Data Receiver** provides status information on the data
 connection between **Enroute Flight Navigation** and your traffic data receiver.
-If an active data connection exists, the page also lists all the traffic
-currently observed.
+To access the page, open the main menu and choose "Information/Traffic Data
+Receiver." 
 
 
 Connection Status
@@ -12,7 +12,7 @@ Connection Status
 
 To ensure reliable operation, traffic receivers emit "heartbeat messages" at
 frequent intervals. The text field "Connection Status" explains if heartbeat
-messages are received through any of the configured data channels. If yes, the
+messages are received through any of the configured data channels. If yes, this
 field shows the data connection currently used and lists the types of data
 presently received.
 
@@ -45,3 +45,25 @@ Help
 If no heartbeat is received from any traffic receiver, two buttons "Connect to a
 traffic receiver" and "Connect to a flight simulator" will become visible. A
 click on any of these buttons will open the appropriate page of the manual.
+
+
+Page Footer
+-----------
+
+The page footer shows one or two additional buttons.
+
+Reconnect
+^^^^^^^^^
+
+This button is visible if no heartbeat is received from any traffic receiver.
+After a click on this button will disconnect all configured data connections and
+attempt to reconnect.  This can be useful if **Enroute Flight Navigation** did
+not automatically connect, or if you do not wish to wait for the next automatic
+reconnection attempt.
+
+Configure Data Connections
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A click on this button will open the page "Data Connections", described in the
+section :ref:`SettingsDataConnectionsPage`. There, you can view the status of
+every single data connection, and configure new connections if required.
