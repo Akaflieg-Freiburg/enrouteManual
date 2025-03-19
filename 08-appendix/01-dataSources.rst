@@ -126,10 +126,10 @@ Raster Maps
 ...........
 
 - Switzerland, Digital Glider Map provided by the `Federal Office of Topography
-  swisstopo <https://www.swisstopo.admin.ch/en/digital-glider-map>`_
+  swisstopo <https://www.swisstopo.admin.ch/en/digital-glider-map>`__
 - Switzerland, Digital Aeronautical Chart ICAO provided by the `Federal Office
   of Topography swisstopo
-  <https://www.swisstopo.admin.ch/en/digital-aeronautical-chart-icao>`_
+  <https://www.swisstopo.admin.ch/en/digital-aeronautical-chart-icao>`__
 
 
 Base Maps
