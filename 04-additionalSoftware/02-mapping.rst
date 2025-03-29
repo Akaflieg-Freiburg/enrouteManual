@@ -15,47 +15,56 @@ waypoint library.
   platforms.
 
 .. note:: 
-  After a change in Google's policies in early 2025, it is no longer possible to share 
-  locations from Google Maps with **Enroute Flight Navigation**. We recommend using one of 
-  the other mapping tools described below.
+  Due to a change in Google's policies in early 2025, location sharing from the apps "Google
+  Maps" and "Google Maps Go" is no longer supported. The app "HERE WeGo" has technical 
+  issues. As an alternative, use the online version in your browser of consider the app 
+  `OsmAnd <https://play.google.com/store/apps/details?id=net.osmand&hl=de&gl=US>`_″. 
 
 
-HERE WeGo (Android App)
------------------------
+Google Maps (Online)
+--------------------
 
-To share locations from the app `HERE WeGo
-<https://play.google.com/store/apps/details?id=com.here.app.maps&hl=de&gl=US>`_
-with **Enroute Flight Navigation**, proceed as follows.
+The procedure depends on the platform in use.
 
-- Open the App "Here WeGo" and mark a location by tapping into the moving map. A 
-  dialog with location information will open at the bottom of the screen.
+- Android: 
 
-- Click on the button "Share".
+  - Open the website `Google Maps <maps.google.com>`_.  You might need to
+    confirm that you wish to use the website in your browser instead of the app.
 
-- You will be presented with a list of contacts and apps that you can share the location
-  with. Choose **Enroute Flight Navigation** from this list. If **Enroute Flight 
-  Navigation** is not listed, it might be necessary to use the button "More" to present
-  an extended list of apps that are able to accept Google Map Share.
+  - Double-click into the map to mark a location. A dialog with location
+    information will open at the bottom of the screen.
 
-- **Enroute Flight Navigation** will open. Depending on the precise form of the data
-  shared, one of the following things will happen.
+  - Click on the button “Share”. It might be necessary to scroll the button row
+    sideways for “Share” to become visible.
+
+  - You will be presented with a list of contacts and apps that you can share
+    the location with. Choose **Enroute Flight Navigation** from this list. If
+    **Enroute Flight Navigation** is not listed, it might be necessary to use
+    the button “More” to present an extended list of apps that are able to
+    accept Google Map Share.
+
+  - **Enroute Flight Navigation** will open a waypoint description dialog for
+    the location marked by Google Maps. As usual, use this dialog to add the
+    location to your route or to the waypoint library.
+
+- Linux/Desktop:
+
+  - Double-click into the map to mark a location.
+
+  - Copy the text from the URL field of your text browser to the clipboard. Depending on the 
+    browser, this can be done with a context menu after a right-click into the URL field, 
+    or by activating the text field and then using the keyboard shortcuts Ctrl+A Ctrl+C.
   
-  - **Enroute Flight Navigation** will open a waypoint description dialog for the 
-    location marked by Google Maps.  As usual, use this dialog to add the location 
-    to your route or to the waypoint library.
+  - Activate the window of **Enroute Flight Navigation** and paste the text using Ctrl+V. 
+    Alternatively, drag-and-drop the text from the URL field of your browser into the
+    window of **Enroute Flight Navigation**.
 
-  - **Enroute Flight Navigation** cannot immediately determine the geographic coordinates
-    of the location from the data shared by Google. To obtain coordinates, **Enroute 
-    Flight Navigation** will then open Google Maps in an embedded browser window. 
-    For privacy reasons, you might be asked to authorize **Enroute Flight Navigation** 
-    to open the external website, and Google might ask you to accept their privacy
-    policies.  If all goes well, the embedded browser will close itself after a few 
-    seconds and the waypoint dialog will appear.  
 
-.. note:: 
-  If the embedded browser remains open for more than 30 seconds, then the coordinate
-  lookup has failed.  This can happen when there is no internet access. Close the embedded 
-  web browser page manually to continue using **Enroute Flight Navigation**.
+Here WeGo (Online)
+------------------
+
+Open the website `HERE WeGo <https://wego.here.com>`_ in your web browser and
+follows the instructions listed above for Google Maps. 
 
 
 OpenStreetMap (Online)
