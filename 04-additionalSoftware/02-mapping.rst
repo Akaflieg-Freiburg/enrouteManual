@@ -18,7 +18,7 @@ waypoint library.
   Due to a change in Google's policies in early 2025, location sharing from the apps "Google
   Maps" and "Google Maps Go" is no longer supported. The app "HERE WeGo" has technical 
   issues. As an alternative, use the online version in your browser of consider the app 
-  `OsmAnd <https://play.google.com/store/apps/details?id=net.osmand&hl=de&gl=US>`_″. 
+  `OsmAnd <https://play.google.com/store/apps/details?id=net.osmand&hl=de&gl=US>`_.
 
 
 Google Maps (Online)
@@ -100,10 +100,9 @@ The procedure depends on the platform in use.
 OsmAnd (Android App)
 --------------------
 
-Location sharing from the app `OsmAnd 
-<https://play.google.com/store/apps/details?id=net.osmand&hl=de&gl=US>`_
-does not require coordinate lookup through an embedded browser and is 
-therefore particularly easy and hassle-free. Proceed as follows.
+For location sharing from the app `OsmAnd
+<https://play.google.com/store/apps/details?id=net.osmand&hl=de&gl=US>`_,
+proceed as follows.
 
 - Open the App "OsmAnd" and mark a location by tapping into the moving map. A 
   dialog with location information will open at the bottom of the screen.
