@@ -64,3 +64,5 @@ callsigns
 Paraglider
 callsign
 VORTAC
+SafeSky
+VFR-Kollisionswarnsystem
