@@ -10,5 +10,7 @@ section describes the most relevant pages in full detail.
    05-referencePages/01-mainPage
    05-referencePages/02-settings
    05-referencePages/03-settingsDataConnections
+   05-referencePages/04-infoSatNav
    05-referencePages/04-infoTraffic
+   05-referencePages/04-infoSensors
    05-referencePages/04-about
