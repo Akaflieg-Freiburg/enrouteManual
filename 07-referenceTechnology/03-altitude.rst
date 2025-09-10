@@ -101,17 +101,11 @@ How can I provide static pressure data?
 Follow the steps outlined in chapter :ref:`traffic` to connect **Enroute Flight
 Navigation** to a traffic data receiver that provides static pressure data.  
 
-If you fly an aircraft where static pressure and cabin pressure agree, you can
-run the additional app `CCAS <https://ccas.aero/>`__, which runs in the
-background, uses pressure sensors in your mobile device and reports the pressure
-as static pressure to **Enroute Flight Navigation**.
-
-.. warning:: We strongly recommend connecting **Enroute Flight Navigation** to a 
-  proper traffic data receiver.  While CCAS might have its use for pilots flying 
-  balloons, paragliders or gyrocopters, think twice before using CCAS in a 
-  motorized plane or glider. In typical GA aircraft, static pressure and cabin 
-  pressure do not necessarily agree.  The precise error typically depends on 
-  airspeed and on the configuration of the heating and ventilation systems.
+If your mobile device is equipped with a high-precision pressure sensor and if 
+you fly an aircraft where static pressure and cabin pressure agree, you use the
+option "Use cabin pressure..." on the page :ref:`aircraftPage` to enable the use of 
+cabin pressure data.  However, please read the warnings and notes on the page 
+:ref:`aircraftPage` carefully before you enable this option.
 
 
 But other apps show side views without static pressure data!

@@ -35,32 +35,34 @@ Name
 
 
 Use cabin pressure...
-  If this option is checked, Enroute Flight Navigation will use the pressure sensor of your mobile device
-  to measure the pressure altitude and determine vertical distances to airspaces.
-  This option is only available if your device has a pressure sensor.
+  If this option is checked, Enroute Flight Navigation will use the pressure sensor 
+  of your mobile device to measure the pressure altitude and determine vertical 
+  distances to airspaces. This option is only available if your device has a pressure sensor.
 
 .. note:: If available, Enroute Flight Navigation will always use the pressure altitude
    provided by an external traffic data receiver instead of the pressure altitude
    calculated from the pressure sensor of your mobile device.
 
-Consider the following before you decide to enable the option "Use cabin pressure...".
+Precise measurement of pressure altitude is safety critical. Consider the following 
+before you decide to enable the option "Use cabin pressure...".
 
 - The pressure sensor of your device is probably not certified for use in aviation.
 
-- In typical GA aircraft, cabin pressure is not equal to static pressure.
-  The precise difference depend on factors such as airspeed and configuration of ventilation and heating.
+- In typical GA aircraft, static pressure and cabin pressure do not necessarily
+ agree, with an error depending on airspeed and on the configuration of the heating 
+ and ventilation systems.
 
-- Do not enable this option unless you convinced yourself that the data provided by your sensor is good enough for the intended use.
+- Do not enable this option unless you convinced yourself that the data provided by 
+  your sensor is good enough for the intended use.
 
 - Do not rely on data shown in this app.
 
 - Always use an approved altimeter to judge vertical distance to airspaces.
 
-.. warning:: Precise measurement of pressure altitude is safety critical.
-  While the option "Use cabin pressure..." has its use cases, for instance when flying a balloon or paraglider, we strongly
-  advise against using it in typical GA aircraft.  Instead, we recommend connecting 
-  Enroute Flight Navigation to an external traffic data receiver that provides pressure altitude.
-
+.. warning:: We strongly recommend connecting **Enroute Flight Navigation** to a 
+  proper traffic data receiver.  While option "Use cabin pressure..." might have 
+  its use for pilots flying balloons, paragliders or gyrocopters, think twice 
+  before using it in a motorized plane or glider. 
 
 Units
 ^^^^^
