@@ -68,3 +68,6 @@ SafeSky
 VFR-Kollisionswarnsystem
 paragliders
 gyrocopters
+paraglider
+enroute
+ETE
