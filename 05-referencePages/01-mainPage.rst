@@ -438,7 +438,9 @@ the moving map. The following airspaces are shown.
 - Nature Preserve Areas: Outlined with a dashed green line, with light green
   border.
 
-- Radio Mandatory Zones, Traffic Information Areas, Traffic Information Zones:
-  Outlined with a dashed blue line, filled in light blue.
+- Radio Mandatory Zones, Traffic Information Areas, Traffic Information Zones,
+  Aerodrome Traffic Zone: Outlined with a dashed blue line, filled in light
+  blue.
 
-- Parachute Jumping Exercise Areas: Outlined with a dashed red line.
+- Parachute Jumping Exercise Areas, Special Use Airspaces: Outlined with a
+  dashed red line.
