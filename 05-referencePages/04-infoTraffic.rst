@@ -31,20 +31,20 @@ field is invisible.
 Position
 --------
 
-If your traffic data receiver provides its own GPS position, this field shows the
-position reported by the traffic data receiver. If no heartbeat messages are
-received, or if the traffic data receiver does not provide its own GPS
-position, this field is invisible.
+If your traffic data receiver provides its own SatNavS position, this field
+shows the position reported by the traffic data receiver. If no heartbeat
+messages are received, or if the traffic data receiver does not provide its own
+SatNav position, this field is invisible.
 
 
 True Altitude
 -------------
 
 If your traffic data receiver provides its own altitude information, this field
-shows the true altitude reported by the traffic data receiver. Otherwise, this 
+shows the true altitude reported by the traffic data receiver. Otherwise, this
 field is invisible.
 
-True altitude AGL or AMSL is the vertical distance from the aircraft to the 
+True altitude AGL or AMSL is the vertical distance from the aircraft to the
 terrain or to the main sea level, respectively.
 
 .. warning:: 
@@ -58,11 +58,11 @@ terrain or to the main sea level, respectively.
 Pressure Altitude
 -----------------
 
-If your traffic data receiver provides its own pressure altitude information, 
-this field shows the pressure altitude reported by the traffic data receiver. 
+If your traffic data receiver provides its own pressure altitude information,
+this field shows the pressure altitude reported by the traffic data receiver.
 Otherwise, this field is invisible.
 
-Pressure altitude is the altitude in the standard atmosphere at which the 
+Pressure altitude is the altitude in the standard atmosphere at which the
 pressure is equal to the current atmospheric pressure. This is the altitude
 displayed on the aircraft's altimeter when set to the standard pressure of
 1013.2hPa. This is also the altitude shown on the transponder.

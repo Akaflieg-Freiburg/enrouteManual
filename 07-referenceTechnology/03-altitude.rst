@@ -101,10 +101,10 @@ How can I provide static pressure data?
 Follow the steps outlined in chapter :ref:`traffic` to connect **Enroute Flight
 Navigation** to a traffic data receiver that provides static pressure data.  
 
-If your mobile device is equipped with a high-precision pressure sensor and if 
+If your mobile device is equipped with a high-precision pressure sensor and if
 you fly an aircraft where static pressure and cabin pressure agree, you use the
-option "Use cabin pressure..." on the page :ref:`aircraftPage` to enable the use of 
-cabin pressure data.  However, please read the warnings and notes on the page 
+option "Use cabin pressure..." on the page :ref:`aircraftPage` to enable the use
+of cabin pressure data.  However, please read the warnings and notes on the page
 :ref:`aircraftPage` carefully before you enable this option.
 
 

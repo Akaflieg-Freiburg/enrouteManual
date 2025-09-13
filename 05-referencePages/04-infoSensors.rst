@@ -3,15 +3,15 @@
 Information/Device Sensors
 ==========================
 
-The page **Device Sensors** provides status information on the Sensors
-built into your mobile device. 
+The page **Device Sensors** provides status information on the sensors built
+into your mobile device. 
 
 
 Status
 ------
 
-This field indicates whether your device is equipped with an air pressure 
-and a temperature sensor.
+This field indicates whether your device is equipped with an air pressure and a
+temperature sensor.
 
 
 Sensor Data

@@ -3,9 +3,10 @@
 Aircraft
 ========
 
-The Aircraft Page is used to configure the settings that depend on your aircraft. For convenience,
-you can save the current settings as a new aircraft in the aircraft library, and you can select
-an aircraft from the library to load its settings.
+The Aircraft Page is used to configure the settings that depend on your
+aircraft. For convenience, you can save the current settings as a new aircraft
+in the aircraft library, and you can select an aircraft from the library to load
+its settings.
 
 
 Page Header
@@ -35,25 +36,27 @@ Name
 
 
 Use cabin pressure...
-  If this option is checked, Enroute Flight Navigation will use the pressure sensor 
-  of your mobile device to measure the pressure altitude and determine vertical 
-  distances to airspaces. This option is only available if your device has a pressure sensor.
+  If this option is checked, Enroute Flight Navigation will use the pressure
+  sensor of your mobile device to measure the pressure altitude and determine
+  vertical distances to airspaces. This option is only available if your device
+  has a pressure sensor.
 
 .. note:: If available, Enroute Flight Navigation will always use the pressure altitude
    provided by an external traffic data receiver instead of the pressure altitude
    calculated from the pressure sensor of your mobile device.
 
-Precise measurement of pressure altitude is safety critical. Consider the following 
-before you decide to enable the option "Use cabin pressure...".
+Precise measurement of pressure altitude is safety critical. Consider the
+following before you decide to enable the option "Use cabin pressure...".
 
-- The pressure sensor of your device is probably not certified for use in aviation.
+- The pressure sensor of your device is probably not certified for use in
+  aviation.
 
 - In typical GA aircraft, static pressure and cabin pressure do not necessarily
- agree, with an error depending on airspeed and on the configuration of the heating 
- and ventilation systems.
+  agree, with an error depending on airspeed and on the configuration of the
+  heating and ventilation systems.
 
-- Do not enable this option unless you convinced yourself that the data provided by 
-  your sensor is good enough for the intended use.
+- Do not enable this option unless you convinced yourself that the data provided
+  by your sensor is good enough for the intended use.
 
 - Do not rely on data shown in this app.
 
@@ -64,10 +67,12 @@ before you decide to enable the option "Use cabin pressure...".
   its use for pilots flying balloons, paragliders or gyrocopters, think twice 
   before using it in a motorized plane or glider. 
 
+
 Units
 ^^^^^
 
-Select the units you want to use for horizontal and vertical distances, and fuel volume.
+Select the units you want to use for horizontal and vertical distances, and fuel
+volume.
 
 
 True airspeed
@@ -76,10 +81,12 @@ True airspeed
 Enter typical values for the aircraft's true airspeed.
 
 Cruise 
-  This speed is used to calculate estimated time enroute (ETE) and estimated time of arrival (ETA) for your route.
+  This speed is used to calculate estimated time enroute (ETE) and estimated
+  time of arrival (ETA) for your route.
 
 Descent
-  This speed is currently not used. It will be used in future versions to improve the accuracy of ETE and ETA calculations.
+  This speed is currently not used. It will be used in future versions to
+  improve the accuracy of ETE and ETA calculations.
 
 Minimum
   This speed is used to determine whether your aircraft is flying or not.
@@ -88,5 +95,5 @@ Minimum
 Fuel Consumption
 ^^^^^^^^^^^^^^^^
 
-Enter a typical value for the aircraft's fuel consumption. This value is used to calculate 
-a very rough estimate of the fuel required for your route.
+Enter a typical value for the aircraft's fuel consumption. This value is used to
+calculate a very rough estimate of the fuel required for your route.

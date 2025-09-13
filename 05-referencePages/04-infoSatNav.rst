@@ -3,9 +3,9 @@
 Information/SatNav Positioning
 ==============================
 
-The page **SatNav Positioning** provides status information on the satellite 
-positioning system. To access the page, open the main menu and choose "Information/SatNav
-Positioning."
+The page **SatNav Positioning** provides status information on the satellite
+positioning system. To access the page, open the main menu and choose
+"Information/SatNav Positioning."
 
 
 Status
@@ -26,7 +26,7 @@ True Altitude
 
 This field shows the true altitude reported by the satellite navigation system.
 
-True altitude AGL or AMSL is the vertical distance from the aircraft to the 
+True altitude AGL or AMSL is the vertical distance from the aircraft to the
 terrain or to the main sea level, respectively.
 
 .. warning:: 
@@ -40,5 +40,5 @@ terrain or to the main sea level, respectively.
 Other
 -----
 
-The last field on the page shows the timestamp of the last position report.
-If available, it also shows the magnetic variation for your current position.
+The last field on the page shows the timestamp of the last position report. If
+available, it also shows the magnetic variation for your current position.
