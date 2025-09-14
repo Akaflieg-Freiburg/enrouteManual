@@ -357,6 +357,8 @@ Entry routes into control zones, transversal routes as well as holding patterns
 are shown as solid blue lines. Exit routes are shown as dashed blue lines.
 
 
+.. _sideView:
+
 Airspace Side View
 ------------------
 
@@ -368,12 +370,12 @@ from the Navigation Bar at the bottom of the page.
 Dependence on Static Pressure Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The Side View is only available if **Enroute Flight Navigation** has access to
+The side view is only available if **Enroute Flight Navigation** has access to
 static pressure information.  If static pressure information is not available,
 **Enroute Flight Navigation** will show a prominent warning.
 
 
-Why does **Enroute** need static pressure for the airspace side view?
+Why does **Enroute Flight Navigation** need static pressure for the airspace side view?
 
   Vertical airspace boundaries are defined as barometric altitudes, either over
   QNH or over the standard pressure level.  As a consequence, the geometric
@@ -388,11 +390,27 @@ How can I provide static pressure data?
 
   Follow the steps outlined in chapter :ref:`traffic` to connect **Enroute
   Flight Navigation** to a traffic data receiver that provides static pressure
-  data. If your mobile device is equipped with a high-precision pressure sensor
+  data. Since ADS-B data uses barometric altitudes, any traffic data receiver
+  that receives ADS-B will most likely be suitable. In particular, all
+  PowerFLARM devices provide the necessary data.
+  
+  If your mobile device is equipped with a high-precision pressure sensor
   **and** if you fly an aircraft where static pressure and cabin pressure agree,
   you use the option "Use cabin pressure..." on the page :ref:`aircraftPage` to
   enable the use of cabin pressure data.  However, please read the warnings and
   notes on the page :ref:`aircraftPage` carefully before you enable this option.
+
+
+But other apps show side views without static pressure data!
+
+  We do not know the internal workings of other apps.  However, we do not see
+  how sufficiently reliable information can possibly be provided without static
+  pressure data. 
+
+  We fly general aviation aircraft in Germany and Switzerland, where vertical
+  separation between jet aircraft and airspace limits is sometimes no more than
+  500ft.  In view of the extremely severe consequences of airspace violations,
+  we decided against showing questionable data.
 
 
 Scale
@@ -413,7 +431,7 @@ scenarios, vertical distances are greatly exaggerated.
 Side View Features
 ^^^^^^^^^^^^^^^^^^
 
-The Side View shows the ownship position and the flight path vector using the
+The side view shows the ownship position and the flight path vector using the
 same symbols as in the moving map; we refer the reader to the Section
 :ref:`movingMapOwnshipPosition` for a detailed description. If the aircraft is
 not moving at sufficiently high speed for a flight path vector to show, the
