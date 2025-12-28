@@ -3,6 +3,7 @@
 
 # build dirs
 _build/
+build_manualAssets
 
 # Mac
 .DS_Store
