@@ -34,16 +34,16 @@ respond.
 
 The server stores the following data items in its log files.
 
--  **Pseudonymized IP Address**: The last byte of your IP address is
-   replaced with a random number, ensuring it cannot identify you.
--  **Access Data**: Date and time of access, error codes, and data sent.
--  **Software Information**: The name of the web browser or software in
-   use if the visitor’s software provides this information to the
-   server. **Enroute Flight Navigation** does not provide this
-   information and sends a standard text ('Mozilla/5.0') instead.
--  **Operating System:** The operating system's name if the visitor’s
-   software provides this information to the server. **Enroute Flight
-   Navigation** does not provide this information.
+- **Pseudonymized IP Address**: The last byte of your IP address is
+  replaced with a random number, ensuring it cannot identify you.
+- **Access Data**: Date and time of access, error codes, and data sent.
+- **Software Information**: The name of the web browser or software in
+  use if the visitor’s software provides this information to the server.
+  **Enroute Flight Navigation** does not provide this information and
+  sends a standard text ('Mozilla/5.0') instead.
+- **Operating System:** The operating system's name if the visitor’s
+  software provides this information to the server. **Enroute Flight
+  Navigation** does not provide this information.
 
 1.2. Communication: Data Download
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -63,9 +63,9 @@ server **enroute-data** at regular intervals and whenever new data is
 requested. In addition to your device's IP address, the following data
 items will be sent.
 
--  Your current location
--  The currently planned route
--  Waypoint coordinates
+- Your current location
+- The currently planned route
+- Waypoint coordinates
 
 The server forwards requests for NOTAMs to a Federal Aviation
 Administration web service but hides your IP address, so the service
@@ -86,10 +86,10 @@ Users expect web browsers to follow hyperlinks immediately but may not
 expect the same behavior elsewhere in the app. To account for these
 expectations, **Enroute Flight Navigation** operates as follows.
 
--  **Embedded Browser Windows**: Clicking a hyperlink is considered
-   authorization to open the external site.
--  **Outside Embedded Browser Windows**: The app will ask for explicit
-   user authorization before opening any external site or app.
+- **Embedded Browser Windows**: Clicking a hyperlink is considered
+  authorization to open the external site.
+- **Outside Embedded Browser Windows**: The app will ask for explicit
+  user authorization before opening any external site or app.
 
 Responsible
 ~~~~~~~~~~~
@@ -129,19 +129,18 @@ antworten.
 
 Der Server speichert die folgenden Daten in seinen Loggdateien.
 
--  **Pseudonymisierte IP-Adresse**: Das letzte Byte Ihrer IP-Adresse
-   wird durch eine Zufallszahl ersetzt. Damit können Sie nicht
-   identifiziert werden.
--  **Access Data**: Datum und Uhrzeit des Zugriffs, Fehlercodes, und
-   gesendete Daten.
--  **Software Information**: Der Name des Web-Browsers oder der
-   verwendeten Software, falls er von der anfragenden Software
-   übertragen wird. **Enroute Flight Navigation** liefert diese
-   Information nicht und sendet stattdessen einen Standardtext
-   ('Mozilla/5.0').
--  **Operating System:** Der Name des Betriebssystems, falls er von der
-   anfragenden Software übertragen wird. **Enroute Flight Navigation**
-   überträgt diese Information nicht.
+- **Pseudonymisierte IP-Adresse**: Das letzte Byte Ihrer IP-Adresse wird
+  durch eine Zufallszahl ersetzt. Damit können Sie nicht identifiziert
+  werden.
+- **Access Data**: Datum und Uhrzeit des Zugriffs, Fehlercodes, und
+  gesendete Daten.
+- **Software Information**: Der Name des Web-Browsers oder der
+  verwendeten Software, falls er von der anfragenden Software übertragen
+  wird. **Enroute Flight Navigation** liefert diese Information nicht
+  und sendet stattdessen einen Standardtext ('Mozilla/5.0').
+- **Operating System:** Der Name des Betriebssystems, falls er von der
+  anfragenden Software übertragen wird. **Enroute Flight Navigation**
+  überträgt diese Information nicht.
 
 1.2. Kommunikation: Daten-Download
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -161,9 +160,9 @@ werden Anfragen zum Server **enroute-data** regelmäßig und außerdem bei
 der Abfrage neuer Daten gestellt. Zusätzlich zur IP-Adresse Ihres Geräts
 werden noch folgende Daten gesendet.
 
--  Ihre aktuelle Position
--  Die aktuell geplante Route
--  Wegpunktkoordinaten
+- Ihre aktuelle Position
+- Die aktuell geplante Route
+- Wegpunktkoordinaten
 
 Der Server leitet NOTAM-Anfragen zu einem Dienst der Federal Aviation
 Administration weiter, verbirgt aber Ihre IP-Adresse, sodass dieser
@@ -186,10 +185,10 @@ Ausserhalb des eingebetten Browsers werden die Benutzer unter Umständen
 ein anderes Verhalten erwarten. Um diesen Erwartungen zu entsprechen,
 verhält sich **Enroute Flight Navigation** folgendermaßen.
 
--  **Innerhalb des eingebetteten Browsers**: Ein Klick auf einen Link
-   wird als Autorisierung gewertet, die externe Seite sofort zu öffnen.
--  **Außerhalb des eingebetteten Browsers**: Die App fragt ausdrücklich
-   nach Berechtigung, bevor sie eine externe Seite oder App öffnet.
+- **Innerhalb des eingebetteten Browsers**: Ein Klick auf einen Link
+  wird als Autorisierung gewertet, die externe Seite sofort zu öffnen.
+- **Außerhalb des eingebetteten Browsers**: Die App fragt ausdrücklich
+  nach Berechtigung, bevor sie eine externe Seite oder App öffnet.
 
 Verantwortlich
 ~~~~~~~~~~~~~~
@@ -231,19 +230,18 @@ IP pour répondre.
 Le serveur stocke les éléments de données suivants dans ses fichiers
 journaux.
 
--  **Adresse IP pseudonymisée**: le dernier byte de votre adresse IP est
-   remplacé par un nombre aléatoire, garantissant ainsi qu'elle ne peut
-   pas vous identifier.
--  **Données d'accès**: date et heure d'accès, codes d'erreur et données
-   envoyées.
--  **Informations sur le logiciel**: le nom du navigateur Web ou du
-   logiciel utilisé si le logiciel du visiteur fournit ces informations
-   au serveur. **Enroute Flight Navigation** ne fournit pas ces
-   informations et envoie un texte standard (« Mozilla/5.0 ») à la
-   place.
--  **Système d'exploitation:** Le nom du système d'exploitation si le
-   logiciel du visiteur fournit ces informations au serveur. **Enroute
-   Flight Navigation** ne fournit pas ces informations.
+- **Adresse IP pseudonymisée**: le dernier byte de votre adresse IP est
+  remplacé par un nombre aléatoire, garantissant ainsi qu'elle ne peut
+  pas vous identifier.
+- **Données d'accès**: date et heure d'accès, codes d'erreur et données
+  envoyées.
+- **Informations sur le logiciel**: le nom du navigateur Web ou du
+  logiciel utilisé si le logiciel du visiteur fournit ces informations
+  au serveur. **Enroute Flight Navigation** ne fournit pas ces
+  informations et envoie un texte standard (« Mozilla/5.0 ») à la place.
+- **Système d'exploitation:** Le nom du système d'exploitation si le
+  logiciel du visiteur fournit ces informations au serveur. **Enroute
+  Flight Navigation** ne fournit pas ces informations.
 
 1.2. Communication: téléchargement de données
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -264,9 +262,9 @@ fournir cette fonctionnalité, des requêtes sont transmises au serveur
 données sont demandées. En plus de l'adresse IP de votre appareil, les
 éléments de données suivants seront envoyés.
 
--  Votre position actuelle
--  L'itinéraire actuellement prévu
--  Coordonnées du point de cheminement
+- Votre position actuelle
+- L'itinéraire actuellement prévu
+- Coordonnées du point de cheminement
 
 Le serveur transmet les demandes de NOTAM à un service Web de la Federal
 Aviation Administration, mais masque votre adresse IP afin que le
@@ -290,11 +288,11 @@ immédiatement les hyperliens, mais ne s'attendent pas nécessairement au
 même comportement ailleurs dans l'application. Pour répondre à ces
 attentes, la **Enroute Flight Navigation** fonctionne comme suit.
 
--  **Navigateur intégré Windows**: cliquer sur un lien hypertexte est
-   considéré comme une autorisation d'ouvrir le site externe.
--  **En dehors du navigateur intégré de Windows**: l'application
-   demandera l'autorisation explicite de l'utilisateur avant d'ouvrir un
-   site ou une application externe.
+- **Navigateur intégré Windows**: cliquer sur un lien hypertexte est
+  considéré comme une autorisation d'ouvrir le site externe.
+- **En dehors du navigateur intégré de Windows**: l'application
+  demandera l'autorisation explicite de l'utilisateur avant d'ouvrir un
+  site ou une application externe.
 
 Responsable
 ~~~~~~~~~~~
@@ -333,17 +331,17 @@ l'indirizzo IP per rispondere.
 
 Il server immagazzina i seguenti dati per proprio file log.
 
--  **Indirizzo IP pseudonimo**: L'ultimo byte del tuo IP è rimpiazzato
-   con un numero casuale, per garantire l'anonimato.
--  **Accesso ai Dati**: Data e ora dell'accesso, codici di errore e dati
-   inviati.
--  **Informazioni sul Software**: Il nome del browser web o del software
-   in uso se il software del visitatore fornisce queste informazioni al
-   server. **Enroute Flight Navigation** non fornisce queste
-   informazioni, invia invece un testo standart ('Mozilla/5.0').
--  **Operating System:**: Il nome del sistema operativo se il software
-   del visitatore fornisce questa informazione al server. **Enroute
-   Flight Navigation** non fornisce questa informazione.
+- **Indirizzo IP pseudonimo**: L'ultimo byte del tuo IP è rimpiazzato
+  con un numero casuale, per garantire l'anonimato.
+- **Accesso ai Dati**: Data e ora dell'accesso, codici di errore e dati
+  inviati.
+- **Informazioni sul Software**: Il nome del browser web o del software
+  in uso se il software del visitatore fornisce queste informazioni al
+  server. **Enroute Flight Navigation** non fornisce queste
+  informazioni, invia invece un testo standart ('Mozilla/5.0').
+- **Operating System:**: Il nome del sistema operativo se il software
+  del visitatore fornisce questa informazione al server. **Enroute
+  Flight Navigation** non fornisce questa informazione.
 
 1.2. Comunicazione: scaricamento di dati
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -363,9 +361,9 @@ server di **enroute-data** ad intervalli regolari o ogni volta che un
 nuovo dato viere richiesto. Oltre all'IP del dispositivo, vengono
 trasmessi i seguenti dati.
 
--  La tua posizione corrente
--  Il piano di volo corrente
--  Coordinate dei waypoints
+- La tua posizione corrente
+- Il piano di volo corrente
+- Coordinate dei waypoints
 
 il server inoltra la richiesta di NOTAM ai servizi web della Federal
 Aviation Administration ma nasconde il tuo IP,così il servizio non può
@@ -388,11 +386,11 @@ lo stesso comportamento non deve essere atteso in altre parti della app.
 Per giustificare queste aspettative, **Enroute Flight Navigation** opera
 come segue.
 
--  **Finestra del Browser integrato**: Cliccare su un link è considerato
-   come una autorizzazione ad aprire il sito esterno.
--  **Finestra di un browser integrato esterno**: La app chiederà
-   esplicitamente all'utente l'autorizzazione prima di aprire qualsiasi
-   sito esterno o app.
+- **Finestra del Browser integrato**: Cliccare su un link è considerato
+  come una autorizzazione ad aprire il sito esterno.
+- **Finestra di un browser integrato esterno**: La app chiederà
+  esplicitamente all'utente l'autorizzazione prima di aprire qualsiasi
+  sito esterno o app.
 
 Responsabile
 ~~~~~~~~~~~~
@@ -433,18 +431,18 @@ jest przesyłany do serwera. Serwer musi znać adres IP, aby odpowiedzieć.
 Serwer przechowuje następujące elementy danych w swoich plikach
 dziennika.
 
--  **Pseudonimizowany adres IP**: ostatni bajt adresu IP jest
-   zastępowany losową liczbą, dzięki czemu nie można go zidentyfikować.
--  **Dane dostępu**: data i godzina dostępu, kody błędów i przesłane
-   dane.
--  **Informacje o oprogramowaniu**: nazwa przeglądarki internetowej lub
-   używanego oprogramowania, jeśli oprogramowanie odwiedzającego
-   udostępnia te informacje serwerowi. **Enroute Flight Navigation** nie
-   dostarcza tych informacji i zamiast tego wysyła standardowy tekst
-   („Mozilla/5.0”).
--  **System operacyjny:** nazwa systemu operacyjnego, jeśli
-   oprogramowanie odwiedzającego udostępnia te informacje serwerowi.
-   **Enroute Flight Navigation** nie udostępnia tych informacji.
+- **Pseudonimizowany adres IP**: ostatni bajt adresu IP jest zastępowany
+  losową liczbą, dzięki czemu nie można go zidentyfikować.
+- **Dane dostępu**: data i godzina dostępu, kody błędów i przesłane
+  dane.
+- **Informacje o oprogramowaniu**: nazwa przeglądarki internetowej lub
+  używanego oprogramowania, jeśli oprogramowanie odwiedzającego
+  udostępnia te informacje serwerowi. **Enroute Flight Navigation** nie
+  dostarcza tych informacji i zamiast tego wysyła standardowy tekst
+  („Mozilla/5.0”).
+- **System operacyjny:** nazwa systemu operacyjnego, jeśli
+  oprogramowanie odwiedzającego udostępnia te informacje serwerowi.
+  **Enroute Flight Navigation** nie udostępnia tych informacji.
 
 1.2. Komunikacja: Pobieranie danych
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -464,9 +462,9 @@ serwera **dane-enroute-data** w regularnych odstępach czasu oraz za
 każdym razem, gdy wymagane są nowe dane. Oprócz adresu IP Twojego
 urządzenia przesłane zostaną następujące dane.
 
--  Twoja aktualna lokalizacja
--  Aktualnie planowana trasa
--  Współrzędne punktu trasy
+- Twoja aktualna lokalizacja
+- Aktualnie planowana trasa
+- Współrzędne punktu trasy
 
 Serwer przekazuje żądania NOTAM do usługi internetowej Federalnej
 Administracji Lotniczej, ale ukrywa Twój adres IP, więc usługa nigdy go
@@ -489,11 +487,11 @@ podążać za hiperłączami, ale nie mogą spodziewać się takiego samego
 zachowania w innych miejscach aplikacji. Aby uwzględnić te oczekiwania,
 **Enroute Flight Navigation** działa w następujący sposób.
 
--  **Okna wbudowanej przeglądarki**: kliknięcie hiperłącza jest uznawane
-   za autoryzację do otwarcia witryny zewnętrznej.
--  **Poza oknem wbudowanej przeglądarki**: aplikacja poprosi użytkownika
-   o wyraźną autoryzację przed otwarciem jakiejkolwiek zewnętrznej
-   witryny lub aplikacji.
+- **Okna wbudowanej przeglądarki**: kliknięcie hiperłącza jest uznawane
+  za autoryzację do otwarcia witryny zewnętrznej.
+- **Poza oknem wbudowanej przeglądarki**: aplikacja poprosi użytkownika
+  o wyraźną autoryzację przed otwarciem jakiejkolwiek zewnętrznej
+  witryny lub aplikacji.
 
 Odpowiedzialny
 ~~~~~~~~~~~~~~
@@ -534,18 +532,18 @@ dirección IP para responder.
 El servidor almacena los siguientes elementos de datos en sus archivos
 de registro.
 
--  **Dirección IP seudonimizada**: el último byte de su dirección IP se
-   reemplaza con un número aleatorio, lo que garantiza que no pueda
-   identificarlo.
--  **Datos de acceso**: Fecha y hora de acceso, códigos de error y datos
-   enviados.
--  **Información de software**: el nombre del navegador web o software
-   en uso si el software del visitante proporciona esta información al
-   servidor. **Enroute Flight Navigation** no proporciona esta
-   información y en su lugar envía un texto estándar ('Mozilla/5.0').
--  **Sistema operativo:** el nombre del sistema operativo si el software
-   del visitante proporciona esta información al servidor. **Enroute
-   Flight Navigation** no proporciona esta información.
+- **Dirección IP seudonimizada**: el último byte de su dirección IP se
+  reemplaza con un número aleatorio, lo que garantiza que no pueda
+  identificarlo.
+- **Datos de acceso**: Fecha y hora de acceso, códigos de error y datos
+  enviados.
+- **Información de software**: el nombre del navegador web o software en
+  uso si el software del visitante proporciona esta información al
+  servidor. **Enroute Flight Navigation** no proporciona esta
+  información y en su lugar envía un texto estándar ('Mozilla/5.0').
+- **Sistema operativo:** el nombre del sistema operativo si el software
+  del visitante proporciona esta información al servidor. **Enroute
+  Flight Navigation** no proporciona esta información.
 
 1.2. Comunicación: Descarga de datos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -566,9 +564,9 @@ funcionalidad, las solicitudes se transmiten al servidor
 nuevos datos. Además de la dirección IP de su dispositivo, se enviarán
 los siguientes elementos de datos.
 
--  Su ubicación actual
--  La ruta actualmente planificada
--  Coordenadas del punto de ruta
+- Su ubicación actual
+- La ruta actualmente planificada
+- Coordenadas del punto de ruta
 
 El servidor reenvía solicitudes de NOTAM a un servicio web de la
 Administración Federal de Aviación, pero oculta su dirección IP, por lo
@@ -591,11 +589,11 @@ inmediatamente, pero es posible que no tengan el mismo comportamiento en
 otras partes de la aplicación. Para tener en cuenta estas expectativas,
 **Enroute Flight Navigation** funciona de la siguiente manera.
 
--  **Navegador integrado de Windows**: hacer clic en un hipervínculo se
-   considera autorización para abrir el sitio externo.
--  **Windows externo del navegador integrado**: la aplicación solicitará
-   autorización explícita del usuario antes de abrir cualquier sitio o
-   aplicación externa.
+- **Navegador integrado de Windows**: hacer clic en un hipervínculo se
+  considera autorización para abrir el sitio externo.
+- **Windows externo del navegador integrado**: la aplicación solicitará
+  autorización explícita del usuario antes de abrir cualquier sitio o
+  aplicación externa.
 
 Responsable
 ~~~~~~~~~~~
