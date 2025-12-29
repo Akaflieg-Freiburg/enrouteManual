@@ -64,5 +64,5 @@ latex_elements = {
     'maketitle': r'\maketitle',
     'papersize': 'a4paper',
     'pointsize': '11pt',
-    'preamble': r'\input{../../latexPreamble.tex.txt}',
+    'preamble': r'\input{../../src/latexPreamble.tex.txt}',
 }

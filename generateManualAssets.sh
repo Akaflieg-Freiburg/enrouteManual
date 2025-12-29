@@ -8,7 +8,7 @@ export QT_QPA_PLATFORM=xcb
 # Build new binary
 #
 cd ../enroute
-#fastlane linuxBinary
+fastlane linuxBinary
 cd build/build-linux-release
 ninja attributions
 cd ../../../enrouteManual
