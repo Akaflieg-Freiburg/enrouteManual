@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 export LD_LIBRARY_PATH=$Qt6_DIR_LINUX/lib
 export QT_QPA_PLATFORM=xcb
 
@@ -8,7 +8,7 @@ export QT_QPA_PLATFORM=xcb
 # Build new binary
 #
 cd ../enroute
-fastlane linuxBinary
+#fastlane linuxBinary
 cd build/build-linux-release
 ninja attributions
 cd ../../../enrouteManual
@@ -24,7 +24,6 @@ mkdir -p build/manualAssets
 # Generate waypoint icons
 #
 echo "Generating waypoint icons..."
-mkdir waypointIcons
 rsvg-convert ../enroute/src/flightMap/sprites/AD.svg -o src/05-referencePages/AD.png -h 30 -w 30
 rsvg-convert ../enroute/src/flightMap/sprites/AD-GLD.svg -o src/05-referencePages/AD-GLD.png -h 30 -w 30
 rsvg-convert ../enroute/src/flightMap/sprites/AD-GRASS.svg -o src/05-referencePages/AD-GRASS.png -h 30 -w 30
@@ -76,33 +75,33 @@ echo "" >>src/08-appendix/03-privacy.rst
 echo "English" >>src/08-appendix/03-privacy.rst
 echo "-------" >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=EN ../../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
+LC_ALL=EN ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
 echo "Deutsche Übersetzung" >>src/08-appendix/03-privacy.rst
 echo "--------------------" >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=DE ../../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
+LC_ALL=DE ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
 echo "Traduction en français" >>src/08-appendix/03-privacy.rst
 echo "----------------------" >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=FR ../../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
+LC_ALL=FR ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
 echo "Traduzione italiana" >>src/08-appendix/03-privacy.rst
 echo "-------------------" >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=IT ../../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
+LC_ALL=IT ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
 echo "Polskie tłumaczenie" >>src/08-appendix/03-privacy.rst
 echo "-------------------" >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=PL ../../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
+LC_ALL=PL ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
 echo "Traducción al español" >>src/08-appendix/03-privacy.rst
 echo "---------------------" >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=ES ../../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
+LC_ALL=ES ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
 echo "" >>src/08-appendix/03-privacy.rst
 echo "Authors" >src/08-appendix/04-authors.rst
 echo "=======" >>src/08-appendix/04-authors.rst
-LC_ALL=EN ../../enroute/build/build-linux-release/src/enroute --string :text/authors.html | pandoc --from=HTML --write=rst >>src/08-appendix/04-authors.rst
+LC_ALL=EN ../enroute/build/build-linux-release/src/enroute --string :text/authors.html | pandoc --from=HTML --write=rst >>src/08-appendix/04-authors.rst
