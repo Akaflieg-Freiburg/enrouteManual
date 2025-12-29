@@ -1,4 +1,4 @@
-.. _InfoTrafficPage:
+.. _traffic_infopage:
 
 Information/Traffic Data Receiver
 =================================

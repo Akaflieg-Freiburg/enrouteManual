@@ -1,3 +1,5 @@
+.. _simulator_tutorial:
+
 Connect Your Flight Simulator
 =============================
 

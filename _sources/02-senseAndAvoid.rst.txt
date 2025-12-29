@@ -1,4 +1,4 @@
-.. _traffic:
+.. _senseandavoid:
 
 Sense and Avoid
 ###############
@@ -10,7 +10,7 @@ countries, it is clear that no responsible pilot will fly without such a system.
 and show nearby traffic in the moving map.
 
 To check the connection to your traffic data receiver anytime, open the main
-menu and choose :ref:`InfoTrafficPage`.
+menu and choose :ref:`traffic_infopage`.
 
 .. toctree::
    :maxdepth: 1

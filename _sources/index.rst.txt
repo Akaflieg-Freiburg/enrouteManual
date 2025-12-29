@@ -46,7 +46,7 @@ Consult the `homepage <https://akaflieg-freiburg.github.io/enroute>`_ of
    :caption: Tutorials
    :maxdepth: 1
 
-   02-tutorialBasic
+   03-tutorialBasic
    03-tutorialAdvanced
    04-additionalSoftware
 

@@ -53,7 +53,7 @@ segments corresponds to one minute.
    aircraft, so that traffic will not be shown on the moving map.  
    
    Once you are familiar with the app, please have a look at the Section
-   :ref:`traffic` of this manual.
+   :ref:`senseandavoid` of this manual.
 
 
 The Navigation Bar
@@ -93,11 +93,11 @@ vertical airspace boundaries because barometric altitude information is not
 available."
 
 We recommend ignoring the side view for now. The warning will go away once you
-follow the steps outlined in the subsequent section :ref:`traffic` to establish
-a data connection between **Enroute Flight Navigation** and your traffic data
-receiver. The section :ref:`sideView` in the reference part of this manual
-explains why barometric altitude information (=static pressure) is needed, and
-lists ways to provide the data.
+follow the steps outlined in the subsequent section :ref:`senseandavoid` to
+establish a data connection between **Enroute Flight Navigation** and your
+traffic data receiver. The section :ref:`sideView` in the reference part of this
+manual explains why barometric altitude information (=static pressure) is
+needed, and lists ways to provide the data.
 
 
 Interactive Controls
@@ -157,4 +157,4 @@ Go Flying!
 **Enroute Flight Navigation** is designed to be simple.  We think that you are
 now ready to take the app on its first flight.  There are of course many more
 things that you can do.  Play with the app and have a look at the next section
-:ref:`traffic`.
+:ref:`senseandavoid`.
