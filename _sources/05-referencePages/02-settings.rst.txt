@@ -1,6 +1,4 @@
-
-.. _Settings Page:
-.. _SettingsPage:
+.. _settings_page:
 
 Settings
 ========
