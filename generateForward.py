@@ -15,15 +15,67 @@ import json
 class AnchorExtractor(HTMLParser):
     """Extract anchors (id attributes) from HTML."""
     
+    # Common Sphinx/theme-generated anchors to ignore
+    IGNORE_ANCHORS = {
+        'rtd-search-form', 'searchbox', 'search-documentation',
+        'navigation', 'main-content', 'page-content', 'sidebar',
+        'site-navigation', 'breadcrumbs', 'page-navigation',
+        'mobile-nav', 'nav-menu', 'page-top', 'footer',
+        'header', 'searchresults', 'navbar', 'toc'
+    }
+    
+    # Prefixes for theme/UI-related anchors to ignore
+    IGNORE_PREFIXES = (
+        'rtd-', 'nav-', 'mobile-', 'sidebar-', 'header-',
+        'footer-', 'menu-', 'toggle-', 'search-'
+    )
+    
     def __init__(self):
         super().__init__()
         self.anchors: Set[str] = set()
+        self.in_section = False
+        self.current_tag = None
     
     def handle_starttag(self, tag, attrs):
-        """Extract id attributes from all tags."""
-        for attr, value in attrs:
-            if attr == 'id' and value:
-                self.anchors.add(value)
+        """Extract id attributes from content tags only."""
+        self.current_tag = tag
+        attrs_dict = dict(attrs)
+        anchor_id = attrs_dict.get('id', '')
+        
+        if not anchor_id:
+            return
+        
+        # Skip common UI/navigation anchors
+        if anchor_id in self.IGNORE_ANCHORS:
+            return
+        
+        # Skip anchors with ignored prefixes
+        if any(anchor_id.startswith(prefix) for prefix in self.IGNORE_PREFIXES):
+            return
+        
+        # Accept anchors from content elements:
+        # - Section tags (div.section is common in Sphinx)
+        # - Heading tags (h1-h6)
+        # - Definition lists (dl, dt)
+        # - Code blocks and literals (pre, code with ids)
+        # - Figures and tables
+        # - Explicit Sphinx reference targets (span with id)
+        
+        classes = attrs_dict.get('class', '').split()
+        
+        is_content_anchor = (
+            tag in ('section', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 
+                   'dt', 'dl', 'figure', 'table', 'span', 'div', 'p') and
+            ('section' in classes or 
+             tag.startswith('h') or 
+             tag in ('dt', 'figure', 'table') or
+             'target' in classes or
+             'std' in classes or
+             tag == 'span')  # Sphinx reference targets
+        )
+        
+        if is_content_anchor:
+            self.anchors.add(anchor_id)
 
 
 def scan_html_files(root_dir: str = '.') -> Dict[str, str]:
