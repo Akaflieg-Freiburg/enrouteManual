@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Forwarding</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .info {
+            background: #eef;
+            border: 1px solid #ccf;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Anchor Forwarding</h1>
+    <div id="message" class="info">
+        <p><strong>Loading...</strong></p>
+        <p>If you are not redirected automatically, please check the URL.</p>
+    </div>
+
+    <script>
+        // Anchor map embedded from Python script
+        const anchorMap = {
+  "sec-tutorialbasic": "02-tutorialBasic.html",
+  "index": "genindex.html",
+  "traffic": "02-senseAndAvoid.html",
+  "id1": "08-appendix/05-awards.html",
+  "edtftraffic": "02-senseAndAvoid/01-whatToExpect.html",
+  "vacimg": "03-tutorialAdvanced/04-vac.html",
+  "id2": "04-additionalSoftware/03-mapConversion.html",
+  "vac": "03-tutorialAdvanced/04-vac.html",
+  "importraster": "03-tutorialAdvanced/02-customMapsRaster.html",
+  "importdata": "06-referenceWorkflow/01-share.html",
+  "supportedfileformats": "06-referenceWorkflow/01-share.html",
+  "id7": "02-tutorialBasic/07-simulator.html",
+  "aeroflyimg1": "02-tutorialBasic/07-simulator.html",
+  "xmapsyv3": "02-tutorialBasic/07-simulator.html",
+  "xmapsyessential": "02-tutorialBasic/07-simulator.html",
+  "aeroflyimg2": "02-tutorialBasic/07-simulator.html",
+  "id6": "02-tutorialBasic/07-simulator.html",
+  "fs2ff-img": "02-tutorialBasic/07-simulator.html",
+  "id4": "05-referencePages/01-mainPage.html",
+  "id5": "05-referencePages/01-mainPage.html",
+  "id8": "02-tutorialBasic/07-simulator.html",
+  "planaflight": "02-tutorialBasic/05-plan.html",
+  "id3": "05-referencePages/01-mainPage.html",
+  "weatherdialog": "02-tutorialBasic/04-weather.html",
+  "weather": "02-tutorialBasic/04-weather.html",
+  "nearby": "02-tutorialBasic/03-nearby.html",
+  "gdl90problems": "07-referenceTechnology/01-trafficData.html",
+  "skyecho": "07-referenceTechnology/01-trafficData.html",
+  "pingusb": "07-referenceTechnology/01-trafficData.html",
+  "firstflightwaypointinfo": "01-gettingStarted/03-firstFlight.html",
+  "movingmapflight": "01-gettingStarted/03-firstFlight.html",
+  "wpinfo": "01-gettingStarted/03-firstFlight.html",
+  "flightvector": "01-gettingStarted/03-firstFlight.html",
+  "movingmapground": "01-gettingStarted/03-firstFlight.html",
+  "aircraft": "01-gettingStarted/02-installation.html",
+  "secinstallation": "01-gettingStarted/02-installation.html",
+  "setupsetaircraft": "01-gettingStarted/02-installation.html",
+  "sideviewimg": "05-referencePages/01-mainPage.html",
+  "movingmapownshipposition": "05-referencePages/01-mainPage.html",
+  "flightvector2": "05-referencePages/01-mainPage.html",
+  "wpinfo2": "05-referencePages/01-mainPage.html",
+  "edtftraffic2": "05-referencePages/01-mainPage.html",
+  "mainpage": "05-referencePages/01-mainPage.html",
+  "sideview": "05-referencePages/01-mainPage.html",
+  "movingmapflt": "05-referencePages/01-mainPage.html",
+  "settings-page": "05-referencePages/02-settings.html",
+  "settingsaalimit": "05-referencePages/02-settings.html",
+  "settingspage": "05-referencePages/02-settings.html",
+  "infotrafficpage": "05-referencePages/04-infoTraffic.html",
+  "infosensors": "05-referencePages/04-infoSensors.html",
+  "settingsdataconnectionspage": "05-referencePages/03-settingsDataConnections.html",
+  "settingsdataconnections-page": "05-referencePages/03-settingsDataConnections.html",
+  "infosatnav": "05-referencePages/04-infoSatNav.html",
+  "aircraftpage": "05-referencePages/01-aircraft.html",
+  "mapconversiontools": "04-additionalSoftware/03-mapConversion.html",
+  "qgis-img": "04-additionalSoftware/03-mapConversion.html",
+  "qgis-gen-img": "04-additionalSoftware/03-mapConversion.html",
+  "mappingtools": "04-additionalSoftware/02-mapping.html",
+  "trafficinformationtools": "04-additionalSoftware/04-trafficInformation.html",
+  "flightplanningtools": "04-additionalSoftware/01-flightPlanning.html",
+  "metar-taf-dialog": "05-referenceDialogs/metar_taf.html",
+  "metardialog": "05-referenceDialogs/metar_taf.html",
+  "aeromapdata": "08-appendix/01-dataSources.html",
+  "directionitem": "05-referenceItems/directionItem.html"
+};
+        
+        // Get the anchor from the URL
+        const hash = window.location.hash.substring(1); // Remove the '#'
+        
+        if (!hash) {
+            document.getElementById('message').innerHTML = `
+                <p><strong>No anchor specified</strong></p>
+                <p>Usage: <code>forward.html#anchorname</code></p>
+                <p>Found ${Object.keys(anchorMap).length} anchors in the documentation.</p>
+                <p>Redirecting to index.html...</p>
+            `;
+            setTimeout(() => { window.location.href = 'index.html'; }, 2000);
+        } else if (anchorMap[hash]) {
+            // Redirect to the file containing this anchor
+            const targetUrl = anchorMap[hash] + '#' + hash;
+            document.getElementById('message').innerHTML = `
+                <p>Redirecting to: <code>${targetUrl}</code></p>
+            `;
+            window.location.href = targetUrl;
+        } else {
+            // Anchor not found - redirect to index.html
+            document.getElementById('message').className = 'error';
+            document.getElementById('message').innerHTML = `
+                <p><strong>Anchor not found: <code>${hash}</code></strong></p>
+                <p>The anchor you're looking for does not exist in the documentation.</p>
+                <p>Redirecting to index.html...</p>
+            `;
+            setTimeout(() => { window.location.href = 'index.html'; }, 2000);
+        }
+    </script>
+</body>
+</html>
