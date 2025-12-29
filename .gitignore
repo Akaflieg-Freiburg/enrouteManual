@@ -2,7 +2,7 @@
 *~
 
 # build dirs
-_build/
+build
 build_manualAssets
 
 # Mac

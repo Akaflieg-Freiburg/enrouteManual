@@ -23,23 +23,23 @@ jobs:
     - name: Generate forwarding page
       run: |
         export PATH=~/.local/bin:$PATH
-        cd _build/html
+        cd build/html
         python ../../generateForward.py
     - name: Publish sphinx documentation
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
         branch: html
-        folder: _build/html
+        folder: build/html
     - name: Generate sphinx manual
       run: |
         export PATH=~/.local/bin:$PATH
         make epub
         make latexpdf
-        mv _build/latex/enrouteflightnavigation.pdf _build/html/manual.pdf
-        mv _build/epub/EnrouteFlightNavigation.epub _build/html/manual.epub
-        echo "" >_build/html/.nojekyll
+        mv build/latex/enrouteflightnavigation.pdf build/html/manual.pdf
+        mv build/epub/EnrouteFlightNavigation.epub build/html/manual.epub
+        echo "" >build/html/.nojekyll
     - name: Publish sphinx documentation
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
         branch: pages
-        folder: _build/html
+        folder: build/html
