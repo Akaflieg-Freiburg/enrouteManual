@@ -1,4 +1,4 @@
-.. _vac:
+.. _vac_tutorial:
 
 Import Visual Approach Charts
 =============================
