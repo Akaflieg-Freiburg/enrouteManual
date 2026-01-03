@@ -23,12 +23,17 @@ connection to obtain more detailed information.
 - Data connections are colored in red if **Enroute Flight Navigation** failed to
   open the connection.
 
+- Data connections are not colored if **Enroute Flight Navigation** has opened the
+  connection, but has not yet received any data from a traffic data receiver.
+
 The footer of the page contains two buttons.
 
 - The button "Reconnect" resets all configured connections and starts a new
   connection process for each. This can be useful in settings where a connection
   failed and where you do not want to wait until the next reconnection attempt
   starts automatically.
+
+  This button is visible only when no connection is alive.
 
 - If **Enroute Flight Navigation** cannot detect your traffic data receiver
   automatically, use the button "New Connection" to configure a connection. The
@@ -47,94 +52,8 @@ receiver automatically.  Depending on the communication channel, the following
 subsections describe how to configure a new data connection in that case.
 
 
-Bluetooth Classic
-^^^^^^^^^^^^^^^^^
-
-The **Enroute Flight Navigation** is able to communicate with your traffic data
-receiver via the "Bluetooth Classic" radio standard.  The radio standard 
-"Bluetooth Low Energy" is supported as a technology preview only and should not
-be used in production.
-
-.. note:: Due to limitations of the iOS platform, Bluetooth is not
-    supported on iPhone and iPad devices.
-
-To avoid any ambiguity, this manual refers to the device running **Enroute
-Flight Navigation** as the "phone", and to your Bluetooth-enabled traffic
-data receiver as the "Bluetooth Device".  To configure a new data connection
-between your phone to the Bluetooth device, proceed as follows.
-
-- Ensure that your Bluetooth device is switched on and in "discoverable" mode.
-
-- Note that "Bluetooth Classic" devices support only one data connection.  If
-  you use "Bluetooth Classic", the following steps will fail if another phone is
-  trying to connect to your Bluetooth device. Ensure that there are no other
-  phones around that could interfere with your phone.  Keep in mind that other
-  phones might be in someone else's bag, stowed away in a nearby car, or in the
-  office building next door.
-
-- Ensure that Bluetooth is switched "on" in your phone.
-
-- Depending on the precise version of your operating system, you may need to
-  pair your phone with the Bluetooth device.  Pairing never hurts, so we
-  recommend pairing if possible.  Note that some Bluetooth device cannot be
-  paired.
-
-- Open **Enroute Flight Navigation** on your phone, navigate to this page and
-  tap on "Add Data Connection" at the bottom of the page.  A device discovery
-  dialog will open.
-
-- The device discovery dialog shows a list of all nearby Bluetooth devices.
-  Please wait for a few minutes until all devices have been connected.  If
-  necessary, tap on the button "Scan for Devices" to re-start the device
-  discovery process.
-
-- Choose the relevant Bluetooth device from the list. A data connection to your
-  Bluetooth device has now been configured.
-
-- **Enroute Flight Navigation** will try to connect to your Bluetooth device.
-  Check the connectivity status by looking at the relevant entry in the list of
-  data connections.
-
-In the future, **Enroute Flight Navigation** will automatically detect and
-connect to your traffic receiver a few minutes after it becomes visible on
-Bluetooth radio.
-
-
-Serial Port
-^^^^^^^^^^^
-
-The **Enroute Flight Navigation** is able to communicate with your traffic data
-receiver via the serial port.  Serial port communication via USB is supported.
-
-.. note:: Due to limitations of the iOS platform, serial port communication is not
-    supported on iPhone and iPad devices.
-
-- Ensure that your traffic data receiver is switched on and connected to the
-  serial port/USB input of your device.
-
-- Open **Enroute Flight Navigation** on your phone, navigate to this page and
-  tap on "New Connection" at the bottom of the page and choose "Serial Port
-  Connection" from the menu.  A device discovery dialog will open.
-
-- The device discovery dialog shows a list of all nearby serial ports in your
-  device.  If necessary, tap on the button "Scan for Devices" to re-start the
-  device discovery process.
-
-- Choose the relevant serial port from the list. A data connection to that
-  serial port has now been configured.  Enroute will determine the necessary
-  parameter (such as bit rate) automatically.
-
-- **Enroute Flight Navigation** will try to connect to your traffic data
-  receiver via the serial port.  Check the connectivity status by looking at the
-  relevant entry in the list of data connections.
-
-In the future, **Enroute Flight Navigation** will automatically detect and
-connect to your traffic receiver a few minutes after it is connected to your
-device.
-
-
-TCP via Wi-Fi or LAN
-^^^^^^^^^^^^^^^^^^^^
+Network/TCP (via Wi-Fi or LAN)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The Transmission Control Protocol (TCP) is one of the main protocols of the
 internet.  Traffic data receivers based on FLARM typically use TCP to transmit
@@ -177,12 +96,12 @@ To configure a new TCP data connection, proceed as follows.
   the list of data connections.
 
 In the future, **Enroute Flight Navigation** will automatically detect and
-connect to your traffic receiver a few minutes after it becomes visible on
-Wi-Fi or LAN.
+connect to your traffic receiver a few minutes after it becomes visible on Wi-Fi
+or LAN.
 
 
-UDP via Wi-Fi or LAN
-^^^^^^^^^^^^^^^^^^^^
+Network/UDP (via Wi-Fi or LAN)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The User Datagram Protocol (UDP) is one of the main protocols of the internet.
 Flight simulators and traffic data receivers based on Garmin hardware typically
@@ -199,7 +118,7 @@ connection, you need the following data.
     uses a port not covered by the predefined connections, then please open the 
     main menu and use the entry "Bug Report" to let us know.
 
-To configure a new TCP data connection, proceed as follows.
+To configure a new UDP data connection, proceed as follows.
 
 - Read the manual of your traffic data receiver to find out what port number it
   uses.
@@ -220,8 +139,126 @@ To configure a new TCP data connection, proceed as follows.
   the list of data connections.
 
 In the future, **Enroute Flight Navigation** will automatically detect and
+connect to your traffic receiver a few minutes after it becomes visible on Wi-Fi
+or LAN.
+
+
+Bluetooth
+^^^^^^^^^
+
+The **Enroute Flight Navigation** is able to communicate with your traffic data
+receiver via the "Bluetooth Classic" radio standard.  The radio standard
+"Bluetooth Low Energy" is supported as a technology preview only and should not
+be used in production.
+
+.. note:: Due to limitations of the iOS platform, Bluetooth is not
+    supported on iPhone and iPad devices.
+
+To avoid any ambiguity, this manual refers to the device running **Enroute
+Flight Navigation** as the "phone", and to your Bluetooth-enabled traffic data
+receiver as the "Bluetooth Device".  To configure a new data connection between
+your phone to the Bluetooth device, proceed as follows.
+
+- Ensure that your Bluetooth device is switched on and in "discoverable" mode.
+
+- Note that "Bluetooth Classic" devices support only one data connection.  If
+  you use "Bluetooth Classic", the following steps will fail if another phone is
+  trying to connect to your Bluetooth device. Ensure that there are no other
+  phones around that could interfere with your phone.  Keep in mind that other
+  phones might be in someone else's bag, stowed away in a nearby car, or in the
+  office building next door.
+
+- Ensure that Bluetooth is switched "on" in your phone.
+
+- Depending on the precise version of your operating system, you may need to
+  pair your phone with the Bluetooth device.  Pairing never hurts, so we
+  recommend pairing if possible.  Note that some Bluetooth device cannot be
+  paired.
+
+- Open **Enroute Flight Navigation** on your phone, navigate to this page, tap
+  on "New Connection" at the bottom of the page and choose "Bluetooth" from the
+  menu.  A device discovery dialog will open.
+
+- The device discovery dialog shows a list of all nearby Bluetooth devices.
+  Please wait for a few minutes until all devices have been connected.  If
+  necessary, tap on the button "Scan for Devices" to re-start the device
+  discovery process.
+
+- Choose the relevant Bluetooth device from the list. A data connection to your
+  Bluetooth device has now been configured.
+
+- **Enroute Flight Navigation** will try to connect to your Bluetooth device.
+  Check the connectivity status by looking at the relevant entry in the list of
+  data connections.
+
+In the future, **Enroute Flight Navigation** will automatically detect and
 connect to your traffic receiver a few minutes after it becomes visible on
-Wi-Fi or LAN.
+Bluetooth radio.
+
+
+Serial Port or USB
+^^^^^^^^^^^^^^^^^^
+
+The **Enroute Flight Navigation** is able to communicate with your traffic data
+receiver via the serial port. This includes serial port devices connected via
+USB. 
+
+.. note:: Due to limitations of the iOS platform, serial port and USB communication
+    is not supported on iPhone and iPad devices.
+
+
+USB Connections on Android
+..........................
+
+USB communication on Android is particularly easy to set up, as Android
+automatically recognizes USB serial port devices.  To configure a new data
+connection between your phone to the USB device, proceed as follows.
+
+- Ensure that your traffic data receiver is switched on.
+
+- As soon as you connect the USB cable to your Android device, Android will show a
+  dialog asking whether you want to allow **Enroute Flight Navigation** to
+  access the USB device.  Choose "Always" to grant permanent access.
+
+- **Enroute Flight Navigation** will start and immediately connect to your
+  traffic data receiver.  Check the connectivity status by looking at the
+  relevant entry in the list of data connections.
+
+In the future, **Enroute Flight Navigation** will automatically detect and
+connect to your traffic receiver a few seconds after it is connected to your
+device.
+
+
+Other Serial Port Connections
+.............................
+
+If you are not using Android, or if your serial port device is not connected via USB,
+you need to configure the serial port connection manually.  To configure a new
+data connection between your phone to the serial port device, proceed as follows.
+
+- Ensure that your traffic data receiver is switched on and connected to the
+  serial port or USB input of your device.
+
+- Open **Enroute Flight Navigation** on your device, navigate to this page, tap
+  on "New Connection" at the bottom of the page and choose "Serial Port or USB"
+  from the menu.  A device discovery dialog will open.
+
+- The device discovery dialog shows a list of all nearby serial ports in your
+  device.  If necessary, tap on the button "Scan for Devices" to re-start the
+  device discovery process.
+
+- Choose the relevant serial port from the list. A data connection to that
+  serial port has now been configured.  Enroute attempts to guess the necessary
+  parameter (such as bit rate) automatically.
+
+- **Enroute Flight Navigation** will try to connect to your traffic data
+  receiver via the serial port.  Check the connectivity status by looking at the
+  relevant entry in the list of data connections.
+
+In the future, **Enroute Flight Navigation** will automatically detect and
+connect to your traffic receiver a few minutes after it is connected to your
+device.
+
 
 
 OGN glidernet.org Connection
