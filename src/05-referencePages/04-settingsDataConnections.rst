@@ -260,9 +260,8 @@ connect to your traffic receiver a few minutes after it is connected to your
 device.
 
 
-
-OGN glidernet.org Connection
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Open Glider Network Connection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `Open Glider Network <http://wiki.glidernet.org/about>`__ is a network of
 ground station and internet servers operated by volunteers. It collects FLARM
@@ -285,6 +284,15 @@ In the future, **Enroute Flight Navigation** will automatically connect to the
 "Open Glider Network".  For reasons of flight safety, **Enroute Flight
 Navigation** will always prefer connections to proper traffic data receivers and
 will switch connections as soon as a data receiver becomes available.
+
+
+View Connection Details and set Parameters
+------------------------------------------
+
+We recommended removing data connections that you will no longer use.  In order
+to remove a data connection, locate the data connection in the list, tap on the
+three-dot menu and choose the menu item "Remove".  Note that default data
+connections cannot be removed.
 
 
 Remove a Data Connection
