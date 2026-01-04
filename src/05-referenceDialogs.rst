@@ -7,4 +7,5 @@ Navigation** in full detail.
 .. toctree::
    :maxdepth: 1
 
-   05-referenceDialogs/01-metar
+   05-referenceDialogs/01-connectionInfo
+   05-referenceDialogs/02-metar

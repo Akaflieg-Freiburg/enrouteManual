@@ -14,17 +14,37 @@ data connections through a variety of communication channels.
 User Interface
 --------------
 
-The body of the page displays a list of configured connections. Tap on a
-connection to obtain more detailed information.
+Connection List
+^^^^^^^^^^^^^^^
+
+The body of the page displays a list of configured connections. The list entries
+are colored as follows.
+
+Green
+  **Enroute Flight Navigation** has successfully opened the connection
+  and is receiving heartbeat signals from a traffic data receiver via that
+  connection.
+
+Red
+  **Enroute Flight Navigation** failed to open the connection.
+
+White
+  **Enroute Flight Navigation** has opened the connection, but is not receiving
+  any data from a traffic data receiver.
+
+Tap on a connection to obtain more detailed information, check the data flow, or
+set connection parameters for serial port connection. The tap opens the
+"Connection Info" dialog, which is described in the section
+:ref:`connectionInfoDialog`.
  
-- Data connections are colored in green if **Enroute Flight Navigation**
-  receives heartbeat signals from a traffic data receiver via that connection.
+We recommended removing data connections that you will no longer use.  In order
+to remove a data connection, locate the data connection in the list, tap on the
+three-dot menu and choose the menu item "Remove".  Note that default data
+connections cannot be removed.
 
-- Data connections are colored in red if **Enroute Flight Navigation** failed to
-  open the connection.
 
-- Data connections are not colored if **Enroute Flight Navigation** has opened the
-  connection, but has not yet received any data from a traffic data receiver.
+Page Footer
+^^^^^^^^^^^
 
 The footer of the page contains two buttons.
 
@@ -203,8 +223,8 @@ The **Enroute Flight Navigation** is able to communicate with your traffic data
 receiver via the serial port. This includes serial port devices connected via
 USB. 
 
-.. note:: Due to limitations of the iOS platform, serial port and USB communication
-    is not supported on iPhone and iPad devices.
+.. note:: Due to limitations of the iOS platform, neither serial port nor USB 
+    communication is supported on iPhone and iPad devices.
 
 
 USB Connections on Android
@@ -284,21 +304,3 @@ In the future, **Enroute Flight Navigation** will automatically connect to the
 "Open Glider Network".  For reasons of flight safety, **Enroute Flight
 Navigation** will always prefer connections to proper traffic data receivers and
 will switch connections as soon as a data receiver becomes available.
-
-
-View Connection Details and set Parameters
-------------------------------------------
-
-We recommended removing data connections that you will no longer use.  In order
-to remove a data connection, locate the data connection in the list, tap on the
-three-dot menu and choose the menu item "Remove".  Note that default data
-connections cannot be removed.
-
-
-Remove a Data Connection
-------------------------
-
-We recommended removing data connections that you will no longer use.  In order
-to remove a data connection, locate the data connection in the list, tap on the
-three-dot menu and choose the menu item "Remove".  Note that default data
-connections cannot be removed.
