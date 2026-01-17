@@ -8,20 +8,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Settings: Data Connections &mdash; Enroute Flight Navigation  documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
 
   
     <link rel="shortcut icon" href="../_static/de.akaflieg_freiburg.enroute.png"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
       <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-      <script src="../_static/doctools.js?v=9bcbadda"></script>
-      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Information/SatNav Positioning" href="04-infoSatNav.html" />
-    <link rel="prev" title="Settings" href="02-settings.html" /> 
+    <link rel="next" title="Information/SatNav Positioning" href="05-infoSatNav.html" />
+    <link rel="prev" title="Settings" href="03-settings.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -57,25 +57,28 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../05-referencePages.html">User Interface: Pages</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="01-mainPage.html">Main Page and Moving Map</a></li>
-<li class="toctree-l2"><a class="reference internal" href="01-aircraft.html">Aircraft</a></li>
-<li class="toctree-l2"><a class="reference internal" href="02-settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02-aircraft.html">Aircraft</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03-settings.html">Settings</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Settings: Data Connections</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#user-interface">User Interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#user-interface">User Interface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#connection-list">Connection List</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#page-footer">Page Footer</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#configure-new-data-connections">Configure New Data Connections</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#bluetooth-classic">Bluetooth Classic</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#serial-port">Serial Port</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#tcp-via-wi-fi-or-lan">TCP via Wi-Fi or LAN</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#udp-via-wi-fi-or-lan">UDP via Wi-Fi or LAN</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ogn-glidernet-org-connection">OGN glidernet.org Connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#network-tcp-via-wi-fi-or-lan">Network/TCP (via Wi-Fi or LAN)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#network-udp-via-wi-fi-or-lan">Network/UDP (via Wi-Fi or LAN)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bluetooth">Bluetooth</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#serial-port-or-usb">Serial Port or USB</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#open-glider-network-connection">Open Glider Network Connection</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#remove-a-data-connection">Remove a Data Connection</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="04-infoSatNav.html">Information/SatNav Positioning</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04-infoTraffic.html">Information/Traffic Data Receiver</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04-infoSensors.html">Information/Device Sensors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04-about.html">Information/About</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05-infoSatNav.html">Information/SatNav Positioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-infoTraffic.html">Information/Traffic Data Receiver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07-infoSensors.html">Information/Device Sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08-about.html">Information/About</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../05-referenceDialogs.html">User Interface: Dialogs</a></li>
@@ -110,7 +113,7 @@
           <li class="breadcrumb-item"><a href="../05-referencePages.html">User Interface: Pages</a></li>
       <li class="breadcrumb-item active">Settings: Data Connections</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/05-referencePages/03-settingsDataConnections.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/05-referencePages/04-settingsDataConnections.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -127,24 +130,45 @@ cannot be automatically configured.  The page also allows configuring additional
 data connections through a variety of communication channels.</p>
 <section id="user-interface">
 <h2>User Interface<a class="headerlink" href="#user-interface" title="Link to this heading"></a></h2>
-<p>The body of the page displays a list of configured connections. Tap on a
-connection to obtain more detailed information.</p>
-<ul class="simple">
-<li><p>Data connections are colored in green if <strong>Enroute Flight Navigation</strong>
-receives heartbeat signals from a traffic data receiver via that connection.</p></li>
-<li><p>Data connections are colored in red if <strong>Enroute Flight Navigation</strong> failed to
-open the connection.</p></li>
-</ul>
+<section id="connection-list">
+<h3>Connection List<a class="headerlink" href="#connection-list" title="Link to this heading"></a></h3>
+<p>The body of the page displays a list of configured connections. The list entries
+are colored as follows.</p>
+<dl class="simple">
+<dt>Green</dt><dd><p><strong>Enroute Flight Navigation</strong> has successfully opened the connection
+and is receiving heartbeat signals from a traffic data receiver via that
+connection.</p>
+</dd>
+<dt>Red</dt><dd><p><strong>Enroute Flight Navigation</strong> failed to open the connection.</p>
+</dd>
+<dt>White</dt><dd><p><strong>Enroute Flight Navigation</strong> has opened the connection, but is not receiving
+any data from a traffic data receiver.</p>
+</dd>
+</dl>
+<p>Tap on a connection to obtain more detailed information, check the data flow, or
+set connection parameters for serial port connection. The tap opens the
+“Connection Info” dialog, which is described in the section
+<a class="reference internal" href="../05-referenceDialogs/01-connectionInfo.html#connectioninfodialog"><span class="std std-ref">Connection Info</span></a>.</p>
+<p>We recommended removing data connections that you will no longer use.  In order
+to remove a data connection, locate the data connection in the list, tap on the
+three-dot menu and choose the menu item “Remove”.  Note that default data
+connections cannot be removed.</p>
+</section>
+<section id="page-footer">
+<h3>Page Footer<a class="headerlink" href="#page-footer" title="Link to this heading"></a></h3>
 <p>The footer of the page contains two buttons.</p>
-<ul class="simple">
+<ul>
 <li><p>The button “Reconnect” resets all configured connections and starts a new
 connection process for each. This can be useful in settings where a connection
 failed and where you do not want to wait until the next reconnection attempt
-starts automatically.</p></li>
+starts automatically.</p>
+<p>This button is visible only when no connection is alive.</p>
+</li>
 <li><p>If <strong>Enroute Flight Navigation</strong> cannot detect your traffic data receiver
 automatically, use the button “New Connection” to configure a connection. The
 remainder of the present manual section explains how this is done.</p></li>
 </ul>
+</section>
 </section>
 <section id="configure-new-data-connections">
 <h2>Configure New Data Connections<a class="headerlink" href="#configure-new-data-connections" title="Link to this heading"></a></h2>
@@ -155,82 +179,8 @@ devices.  In that case, no user interaction is ever required.  There are however
 settings where <strong>Enroute Flight Navigation</strong> cannot detect your traffic data
 receiver automatically.  Depending on the communication channel, the following
 subsections describe how to configure a new data connection in that case.</p>
-<section id="bluetooth-classic">
-<h3>Bluetooth Classic<a class="headerlink" href="#bluetooth-classic" title="Link to this heading"></a></h3>
-<p>The <strong>Enroute Flight Navigation</strong> is able to communicate with your traffic data
-receiver via the “Bluetooth Classic” radio standard.  The radio standard
-“Bluetooth Low Energy” is supported as a technology preview only and should not
-be used in production.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Due to limitations of the iOS platform, Bluetooth is not
-supported on iPhone and iPad devices.</p>
-</div>
-<p>To avoid any ambiguity, this manual refers to the device running <strong>Enroute
-Flight Navigation</strong> as the “phone”, and to your Bluetooth-enabled traffic
-data receiver as the “Bluetooth Device”.  To configure a new data connection
-between your phone to the Bluetooth device, proceed as follows.</p>
-<ul class="simple">
-<li><p>Ensure that your Bluetooth device is switched on and in “discoverable” mode.</p></li>
-<li><p>Note that “Bluetooth Classic” devices support only one data connection.  If
-you use “Bluetooth Classic”, the following steps will fail if another phone is
-trying to connect to your Bluetooth device. Ensure that there are no other
-phones around that could interfere with your phone.  Keep in mind that other
-phones might be in someone else’s bag, stowed away in a nearby car, or in the
-office building next door.</p></li>
-<li><p>Ensure that Bluetooth is switched “on” in your phone.</p></li>
-<li><p>Depending on the precise version of your operating system, you may need to
-pair your phone with the Bluetooth device.  Pairing never hurts, so we
-recommend pairing if possible.  Note that some Bluetooth device cannot be
-paired.</p></li>
-<li><p>Open <strong>Enroute Flight Navigation</strong> on your phone, navigate to this page and
-tap on “Add Data Connection” at the bottom of the page.  A device discovery
-dialog will open.</p></li>
-<li><p>The device discovery dialog shows a list of all nearby Bluetooth devices.
-Please wait for a few minutes until all devices have been connected.  If
-necessary, tap on the button “Scan for Devices” to re-start the device
-discovery process.</p></li>
-<li><p>Choose the relevant Bluetooth device from the list. A data connection to your
-Bluetooth device has now been configured.</p></li>
-<li><p><strong>Enroute Flight Navigation</strong> will try to connect to your Bluetooth device.
-Check the connectivity status by looking at the relevant entry in the list of
-data connections.</p></li>
-</ul>
-<p>In the future, <strong>Enroute Flight Navigation</strong> will automatically detect and
-connect to your traffic receiver a few minutes after it becomes visible on
-Bluetooth radio.</p>
-</section>
-<section id="serial-port">
-<h3>Serial Port<a class="headerlink" href="#serial-port" title="Link to this heading"></a></h3>
-<p>The <strong>Enroute Flight Navigation</strong> is able to communicate with your traffic data
-receiver via the serial port.  Serial port communication via USB is supported.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Due to limitations of the iOS platform, serial port communication is not
-supported on iPhone and iPad devices.</p>
-</div>
-<ul class="simple">
-<li><p>Ensure that your traffic data receiver is switched on and connected to the
-serial port/USB input of your device.</p></li>
-<li><p>Open <strong>Enroute Flight Navigation</strong> on your phone, navigate to this page and
-tap on “New Connection” at the bottom of the page and choose “Serial Port
-Connection” from the menu.  A device discovery dialog will open.</p></li>
-<li><p>The device discovery dialog shows a list of all nearby serial ports in your
-device.  If necessary, tap on the button “Scan for Devices” to re-start the
-device discovery process.</p></li>
-<li><p>Choose the relevant serial port from the list. A data connection to that
-serial port has now been configured.  Enroute will determine the necessary
-parameter (such as bit rate) automatically.</p></li>
-<li><p><strong>Enroute Flight Navigation</strong> will try to connect to your traffic data
-receiver via the serial port.  Check the connectivity status by looking at the
-relevant entry in the list of data connections.</p></li>
-</ul>
-<p>In the future, <strong>Enroute Flight Navigation</strong> will automatically detect and
-connect to your traffic receiver a few minutes after it is connected to your
-device.</p>
-</section>
-<section id="tcp-via-wi-fi-or-lan">
-<h3>TCP via Wi-Fi or LAN<a class="headerlink" href="#tcp-via-wi-fi-or-lan" title="Link to this heading"></a></h3>
+<section id="network-tcp-via-wi-fi-or-lan">
+<h3>Network/TCP (via Wi-Fi or LAN)<a class="headerlink" href="#network-tcp-via-wi-fi-or-lan" title="Link to this heading"></a></h3>
 <p>The Transmission Control Protocol (TCP) is one of the main protocols of the
 internet.  Traffic data receivers based on FLARM typically use TCP to transmit
 traffic data via Wi-Fi and LAN networks.  To configure a TCP connection, you
@@ -268,11 +218,11 @@ receiver. Check the connectivity status by looking at the relevant entry in
 the list of data connections.</p></li>
 </ul>
 <p>In the future, <strong>Enroute Flight Navigation</strong> will automatically detect and
-connect to your traffic receiver a few minutes after it becomes visible on
-Wi-Fi or LAN.</p>
+connect to your traffic receiver a few minutes after it becomes visible on Wi-Fi
+or LAN.</p>
 </section>
-<section id="udp-via-wi-fi-or-lan">
-<h3>UDP via Wi-Fi or LAN<a class="headerlink" href="#udp-via-wi-fi-or-lan" title="Link to this heading"></a></h3>
+<section id="network-udp-via-wi-fi-or-lan">
+<h3>Network/UDP (via Wi-Fi or LAN)<a class="headerlink" href="#network-udp-via-wi-fi-or-lan" title="Link to this heading"></a></h3>
 <p>The User Datagram Protocol (UDP) is one of the main protocols of the internet.
 Flight simulators and traffic data receivers based on Garmin hardware typically
 use UDP to transmit traffic data via Wi-Fi and LAN networks.  To configure a UDP
@@ -290,7 +240,7 @@ connections should never be necessary.  If you are aware of hardware that
 uses a port not covered by the predefined connections, then please open the
 main menu and use the entry “Bug Report” to let us know.</p>
 </div>
-<p>To configure a new TCP data connection, proceed as follows.</p>
+<p>To configure a new UDP data connection, proceed as follows.</p>
 <ul class="simple">
 <li><p>Read the manual of your traffic data receiver to find out what port number it
 uses.</p></li>
@@ -306,11 +256,110 @@ receiver. Check the connectivity status by looking at the relevant entry in
 the list of data connections.</p></li>
 </ul>
 <p>In the future, <strong>Enroute Flight Navigation</strong> will automatically detect and
-connect to your traffic receiver a few minutes after it becomes visible on
-Wi-Fi or LAN.</p>
+connect to your traffic receiver a few minutes after it becomes visible on Wi-Fi
+or LAN.</p>
 </section>
-<section id="ogn-glidernet-org-connection">
-<h3>OGN glidernet.org Connection<a class="headerlink" href="#ogn-glidernet-org-connection" title="Link to this heading"></a></h3>
+<section id="bluetooth">
+<h3>Bluetooth<a class="headerlink" href="#bluetooth" title="Link to this heading"></a></h3>
+<p>The <strong>Enroute Flight Navigation</strong> is able to communicate with your traffic data
+receiver via the “Bluetooth Classic” radio standard.  The radio standard
+“Bluetooth Low Energy” is supported as a technology preview only and should not
+be used in production.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Due to limitations of the iOS platform, Bluetooth is not
+supported on iPhone and iPad devices.</p>
+</div>
+<p>To avoid any ambiguity, this manual refers to the device running <strong>Enroute
+Flight Navigation</strong> as the “phone”, and to your Bluetooth-enabled traffic data
+receiver as the “Bluetooth Device”.  To configure a new data connection between
+your phone to the Bluetooth device, proceed as follows.</p>
+<ul class="simple">
+<li><p>Ensure that your Bluetooth device is switched on and in “discoverable” mode.</p></li>
+<li><p>Note that “Bluetooth Classic” devices support only one data connection.  If
+you use “Bluetooth Classic”, the following steps will fail if another phone is
+trying to connect to your Bluetooth device. Ensure that there are no other
+phones around that could interfere with your phone.  Keep in mind that other
+phones might be in someone else’s bag, stowed away in a nearby car, or in the
+office building next door.</p></li>
+<li><p>Ensure that Bluetooth is switched “on” in your phone.</p></li>
+<li><p>Depending on the precise version of your operating system, you may need to
+pair your phone with the Bluetooth device.  Pairing never hurts, so we
+recommend pairing if possible.  Note that some Bluetooth device cannot be
+paired.</p></li>
+<li><p>Open <strong>Enroute Flight Navigation</strong> on your phone, navigate to this page, tap
+on “New Connection” at the bottom of the page and choose “Bluetooth” from the
+menu.  A device discovery dialog will open.</p></li>
+<li><p>The device discovery dialog shows a list of all nearby Bluetooth devices.
+Please wait for a few minutes until all devices have been connected.  If
+necessary, tap on the button “Scan for Devices” to re-start the device
+discovery process.</p></li>
+<li><p>Choose the relevant Bluetooth device from the list. A data connection to your
+Bluetooth device has now been configured.</p></li>
+<li><p><strong>Enroute Flight Navigation</strong> will try to connect to your Bluetooth device.
+Check the connectivity status by looking at the relevant entry in the list of
+data connections.</p></li>
+</ul>
+<p>In the future, <strong>Enroute Flight Navigation</strong> will automatically detect and
+connect to your traffic receiver a few minutes after it becomes visible on
+Bluetooth radio.</p>
+</section>
+<section id="serial-port-or-usb">
+<h3>Serial Port or USB<a class="headerlink" href="#serial-port-or-usb" title="Link to this heading"></a></h3>
+<p>The <strong>Enroute Flight Navigation</strong> is able to communicate with your traffic data
+receiver via the serial port. This includes serial port devices connected via
+USB.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Due to limitations of the iOS platform, neither serial port nor USB
+communication is supported on iPhone and iPad devices.</p>
+</div>
+<section id="usb-connections-on-android">
+<h4>USB Connections on Android<a class="headerlink" href="#usb-connections-on-android" title="Link to this heading"></a></h4>
+<p>USB communication on Android is particularly easy to set up, as Android
+automatically recognizes USB serial port devices.  To configure a new data
+connection between your phone to the USB device, proceed as follows.</p>
+<ul class="simple">
+<li><p>Ensure that your traffic data receiver is switched on.</p></li>
+<li><p>As soon as you connect the USB cable to your Android device, Android will show a
+dialog asking whether you want to allow <strong>Enroute Flight Navigation</strong> to
+access the USB device.  Choose “Always” to grant permanent access.</p></li>
+<li><p><strong>Enroute Flight Navigation</strong> will start and immediately connect to your
+traffic data receiver.  Check the connectivity status by looking at the
+relevant entry in the list of data connections.</p></li>
+</ul>
+<p>In the future, <strong>Enroute Flight Navigation</strong> will automatically detect and
+connect to your traffic receiver a few seconds after it is connected to your
+device.</p>
+</section>
+<section id="other-serial-port-connections">
+<h4>Other Serial Port Connections<a class="headerlink" href="#other-serial-port-connections" title="Link to this heading"></a></h4>
+<p>If you are not using Android, or if your serial port device is not connected via USB,
+you need to configure the serial port connection manually.  To configure a new
+data connection between your phone to the serial port device, proceed as follows.</p>
+<ul class="simple">
+<li><p>Ensure that your traffic data receiver is switched on and connected to the
+serial port or USB input of your device.</p></li>
+<li><p>Open <strong>Enroute Flight Navigation</strong> on your device, navigate to this page, tap
+on “New Connection” at the bottom of the page and choose “Serial Port or USB”
+from the menu.  A device discovery dialog will open.</p></li>
+<li><p>The device discovery dialog shows a list of all nearby serial ports in your
+device.  If necessary, tap on the button “Scan for Devices” to re-start the
+device discovery process.</p></li>
+<li><p>Choose the relevant serial port from the list. A data connection to that
+serial port has now been configured.  Enroute attempts to guess the necessary
+parameter (such as bit rate) automatically.</p></li>
+<li><p><strong>Enroute Flight Navigation</strong> will try to connect to your traffic data
+receiver via the serial port.  Check the connectivity status by looking at the
+relevant entry in the list of data connections.</p></li>
+</ul>
+<p>In the future, <strong>Enroute Flight Navigation</strong> will automatically detect and
+connect to your traffic receiver a few minutes after it is connected to your
+device.</p>
+</section>
+</section>
+<section id="open-glider-network-connection">
+<h3>Open Glider Network Connection<a class="headerlink" href="#open-glider-network-connection" title="Link to this heading"></a></h3>
 <p>The <a class="reference external" href="http://wiki.glidernet.org/about">Open Glider Network</a> is a network of
 ground station and internet servers operated by volunteers. It collects FLARM
 and ADS-B data and distributes this data in real time via internet service.</p>
@@ -332,21 +381,14 @@ Navigation</strong> will always prefer connections to proper traffic data receiv
 will switch connections as soon as a data receiver becomes available.</p>
 </section>
 </section>
-<section id="remove-a-data-connection">
-<h2>Remove a Data Connection<a class="headerlink" href="#remove-a-data-connection" title="Link to this heading"></a></h2>
-<p>We recommended removing data connections that you will no longer use.  In order
-to remove a data connection, locate the data connection in the list, tap on the
-three-dot menu and choose the menu item “Remove”.  Note that default data
-connections cannot be removed.</p>
-</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="02-settings.html" class="btn btn-neutral float-left" title="Settings" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="04-infoSatNav.html" class="btn btn-neutral float-right" title="Information/SatNav Positioning" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="03-settings.html" class="btn btn-neutral float-left" title="Settings" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="05-infoSatNav.html" class="btn btn-neutral float-right" title="Information/SatNav Positioning" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

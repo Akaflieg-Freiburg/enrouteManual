@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Import Custom Vector Maps &mdash; Enroute Flight Navigation  documentation</title>
+  <title>Information/About &mdash; Enroute Flight Navigation  documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
 
@@ -20,8 +20,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Import Custom Raster Maps" href="02-customMapsRaster.html" />
-    <link rel="prev" title="Advanced Use" href="../03-tutorialAdvanced.html" /> 
+    <link rel="next" title="User Interface: Dialogs" href="../05-referenceDialogs.html" />
+    <link rel="prev" title="Information/Device Sensors" href="07-infoSensors.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -48,25 +48,24 @@
 <li class="toctree-l1"><a class="reference internal" href="../02-senseAndAvoid.html">Sense and Avoid</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="current">
+<ul>
 <li class="toctree-l1"><a class="reference internal" href="../03-tutorialBasic.html">Basic Use</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../03-tutorialAdvanced.html">Advanced Use</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Import Custom Vector Maps</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#import-maps">Import Maps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mbtiles-map-data-sources">MBTILES Map Data Sources</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="02-customMapsRaster.html">Import Custom Raster Maps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="03-airspace.html">Import Airspace Data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04-vac.html">Import Visual Approach Charts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="05-OGN.html">Receive Traffic Data via the Internet</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../03-tutorialAdvanced.html">Advanced Use</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../04-additionalSoftware.html">Additional Software</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference Manual</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="../05-referencePages.html">User Interface: Pages</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../05-referencePages.html">User Interface: Pages</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01-mainPage.html">Main Page and Moving Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02-aircraft.html">Aircraft</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03-settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04-settingsDataConnections.html">Settings: Data Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05-infoSatNav.html">Information/SatNav Positioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-infoTraffic.html">Information/Traffic Data Receiver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07-infoSensors.html">Information/Device Sensors</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Information/About</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../05-referenceDialogs.html">User Interface: Dialogs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../05-referenceItems.html">User Interface: Other Elements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../06-referenceWorkflow.html">User Interface: Workflows</a></li>
@@ -96,10 +95,10 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="../03-tutorialAdvanced.html">Advanced Use</a></li>
-      <li class="breadcrumb-item active">Import Custom Vector Maps</li>
+          <li class="breadcrumb-item"><a href="../05-referencePages.html">User Interface: Pages</a></li>
+      <li class="breadcrumb-item active">Information/About</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/03-tutorialAdvanced/01-customMapsVector.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/05-referencePages/08-about.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -107,41 +106,25 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="import-custom-vector-maps">
-<h1>Import Custom Vector Maps<a class="headerlink" href="#import-custom-vector-maps" title="Link to this heading"></a></h1>
-<p><strong>Enroute Flight Navigation</strong> comes with a set of general-purpose base maps in
-vector format, which have been carefully optimized for memory consumption and
-display speed.  Still, there might be situations where a user might prefer
-different maps: If you fly a rescue helicopter, you might prefer high-detail
-vector maps for your particular region.</p>
-<p><strong>Enroute Flight Navigation</strong> is able to import MBTILES files containing vector
-data.  Vector data must follow the standard <a class="reference external" href="https://github.com/openmaptiles/openmaptiles">OpenMapTiles</a> schema.  Vector maps are
-rendered in the same style that <strong>Enroute Flight Navigation</strong> uses for its own
-maps.  It is possible to install vector maps along with the maps provided by
-<strong>Enroute Flight Navigation</strong>.</p>
-<section id="import-maps">
-<h2>Import Maps<a class="headerlink" href="#import-maps" title="Link to this heading"></a></h2>
-<p>Transfer the MBTILES file to your device and open the file on your device.  The
-Section <a class="reference internal" href="../06-referenceWorkflow/01-share.html#importdata"><span class="std std-ref">Import Data</span></a> explains the process in detail.</p>
-<p>To view and manage your maps, open the main menu and go to “Library/Maps and
-Data”.</p>
-</section>
-<section id="mbtiles-map-data-sources">
-<h2>MBTILES Map Data Sources<a class="headerlink" href="#mbtiles-map-data-sources" title="Link to this heading"></a></h2>
-<p>The website <a class="reference external" href="https://data.maptiler.com/downloads/planet/">maptiler data</a>
-provides excellent vector maps that can be installed alongside the base maps
-provided by <strong>Enroute Flight Navigation</strong>, in order to provide high-detail maps
-for specific regions of interest.</p>
-<p>Please let us know if you know of other map data sources!</p>
-</section>
+  <section id="information-about">
+<h1>Information/About<a class="headerlink" href="#information-about" title="Link to this heading"></a></h1>
+<p>The page <strong>About Enroute Flight Navigation</strong> shows basic information about the
+app and the system. To access the page, open the main menu and choose
+“Information/About Enroute Flight Navigation.”</p>
+<p>The page presents four tabs with information about the app, its authors, the
+software license, and the current system.</p>
+<p>System information can be helpful to the developers <strong>Enroute Flight
+Navigation</strong>. The button “Share Info” at the bottom of the “System” Tab can be
+used to share the information with other apps, such as your e-mail program, and
+forward it to the developers.</p>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../03-tutorialAdvanced.html" class="btn btn-neutral float-left" title="Advanced Use" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="02-customMapsRaster.html" class="btn btn-neutral float-right" title="Import Custom Raster Maps" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="07-infoSensors.html" class="btn btn-neutral float-left" title="Information/Device Sensors" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../05-referenceDialogs.html" class="btn btn-neutral float-right" title="User Interface: Dialogs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

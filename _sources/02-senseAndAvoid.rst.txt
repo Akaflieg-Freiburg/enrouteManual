@@ -18,6 +18,7 @@ menu and choose :ref:`traffic_infopage`.
    02-senseAndAvoid/01-whatToExpect
    02-senseAndAvoid/02-setup-wifi
    02-senseAndAvoid/03-setup-bluetooth
-   02-senseAndAvoid/03-setup-serialport
-   02-senseAndAvoid/05-compatibility
+   02-senseAndAvoid/04-setup-serialport
+   02-senseAndAvoid/05-setup-usb
+   02-senseAndAvoid/06-compatibility
 

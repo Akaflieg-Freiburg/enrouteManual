@@ -8,19 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Connect via the Serial Port &mdash; Enroute Flight Navigation  documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
 
   
     <link rel="shortcut icon" href="../_static/de.akaflieg_freiburg.enroute.png"/>
       <script src="../_static/jquery.js?v=5d32c60e"></script>
       <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
       <script src="../_static/documentation_options.js?v=5929fcd5"></script>
-      <script src="../_static/doctools.js?v=9bcbadda"></script>
-      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Compatibility List" href="05-compatibility.html" />
+    <link rel="next" title="Connect via USB" href="05-setup-usb.html" />
     <link rel="prev" title="Connect via Bluetooth" href="03-setup-bluetooth.html" /> 
 </head>
 
@@ -63,7 +63,8 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="05-compatibility.html">Compatibility List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05-setup-usb.html">Connect via USB</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-compatibility.html">Compatibility List</a></li>
 </ul>
 </li>
 </ul>
@@ -108,7 +109,7 @@
           <li class="breadcrumb-item"><a href="../02-senseAndAvoid.html">Sense and Avoid</a></li>
       <li class="breadcrumb-item active">Connect via the Serial Port</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/02-senseAndAvoid/03-setup-serialport.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/02-senseAndAvoid/04-setup-serialport.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -119,11 +120,11 @@
   <section id="connect-via-the-serial-port">
 <h1>Connect via the Serial Port<a class="headerlink" href="#connect-via-the-serial-port" title="Link to this heading"></a></h1>
 <p><strong>Enroute Flight Navigation</strong> is able to connect to your traffic data receiver
-using serial port connections. Connections via USB are also supported. Compared
-with Wi-Fi, serial port connections are equally reliable, but require manual
-configuration. By nature, serial ports support only point-to-point connections,
-so that only one single app can access traffic data at any given time.  Pilots
-and co-pilots must therefore decide who gets to see traffic data.</p>
+using serial port connections. Compared with Wi-Fi, serial port connections are
+equally reliable, but require manual configuration. By nature, serial ports
+support only point-to-point connections, so that only one single app can access
+traffic data at any given time.  Pilots and co-pilots must therefore decide who
+gets to see traffic data.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><strong>Enroute Flight Navigation</strong> expects a stream for FLARM/NMEA sentences
@@ -132,14 +133,7 @@ integrate into a CAN-Bus environment.</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Serial port devices are currently not supported on the Android
-platform. For that reason, serial port communication is not available at
-all on Android devices.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Serial port devices are not supported by the iOS platform. For that reason,
-serial port communication is not available at all on iPhone or iPad devices.</p>
+<p>Serial port communication is not available at all on iPhone or iPad devices.</p>
 </div>
 <section id="one-time-setup">
 <h2>One-time Setup<a class="headerlink" href="#one-time-setup" title="Link to this heading"></a></h2>
@@ -148,7 +142,8 @@ serial port communication is not available at all on iPhone or iPad devices.</p>
 <p>Before you try to connect this app to your traffic receiver, make sure that the
 following conditions are met.</p>
 <ul class="simple">
-<li><p>The hardware is set up.</p></li>
+<li><p>The hardware is set up. You know the communication parameters of your device,
+including the baud rate.</p></li>
 <li><p>Your traffic receiver is switched on and broadcasts FLARM/NMEA via its serial
 port.</p></li>
 <li><p>Your device is connected to the serial port and no other app uses the serial
@@ -157,7 +152,7 @@ port connection.</p></li>
 </section>
 <section id="step-1-configure-a-data-connection-to-the-serial-port-device">
 <h3>Step 1: Configure a Data Connection to the Serial Port Device<a class="headerlink" href="#step-1-configure-a-data-connection-to-the-serial-port-device" title="Link to this heading"></a></h3>
-<p>Follow the steps described in the Section <a class="reference internal" href="../05-referencePages/03-settingsDataConnections.html#settingsdataconnectionspage"><span class="std std-ref">Settings: Data Connections</span></a>.
+<p>Follow the steps described in the Section <a class="reference internal" href="../05-referencePages/04-settingsDataConnections.html#settingsdataconnectionspage"><span class="std std-ref">Settings: Data Connections</span></a>.
 You will need to know or guess the name of the serial port on your device.</p>
 </section>
 <section id="step-2-check-connectivity">
@@ -175,11 +170,11 @@ Failing that, you are out of luck.</p>
 </section>
 <section id="daily-operations">
 <h2>Daily Operations<a class="headerlink" href="#daily-operations" title="Link to this heading"></a></h2>
-<p>Once things are set up properly, your device should automatically detect the
-traffic receiver’s Bluetooth adaptor and connect to the traffic data stream
-whenever you go flying.  We recommend the following procedure.</p>
+<p>Once things are set up properly, your device should automatically connect to the
+traffic data stream whenever you go flying.  We recommend the following
+procedure.</p>
 <ul class="simple">
-<li><p>Connect your device to the serial port cable.</p></li>
+<li><p>Connect your device to the serial port cable if not connected already.</p></li>
 <li><p>After you power on the avionics and the traffic receiver has booted, start
 <strong>Enroute Flight Navigation</strong>.</p></li>
 <li><p><strong>Enroute Flight Navigation</strong> will connect to your traffic data receiver via
@@ -254,7 +249,7 @@ driver issues</p></li>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="03-setup-bluetooth.html" class="btn btn-neutral float-left" title="Connect via Bluetooth" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="05-compatibility.html" class="btn btn-neutral float-right" title="Compatibility List" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="05-setup-usb.html" class="btn btn-neutral float-right" title="Connect via USB" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
