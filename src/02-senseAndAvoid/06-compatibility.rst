@@ -6,8 +6,8 @@ traffic receivers that offer Wi-Fi or Bluetooth Classic connectivity.  If you ha
 experience with a device not listed here, then please let us know!
 
 
-Wi-Fi Enabled Devices
----------------------
+Wi-Fi Devices
+-------------
 
 The author has tested the following receivers.
 
@@ -33,8 +33,8 @@ Users reported success with the following traffic receiver hardware.
   :ref:`pingUSB` and :ref:`gdl90problems`
 
 
-Bluetooth Classic Enabled Devices
----------------------------------
+Bluetooth Devices
+-----------------
 
 The author has tested the following receivers.
 
@@ -51,8 +51,8 @@ Users reported success with the following traffic receiver hardware.
 - Classic FLARM and HC-06 Bluetooth Adaptor.
 
 
-Bluetooth LE Enabled Devices
-----------------------------
+Bluetooth LE Devices
+--------------------
 
 Users reported success with the following traffic receiver hardware.
 
