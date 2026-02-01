@@ -46,6 +46,30 @@ glidernet.org APRS-IS connection", then your connections has been configured
 successfully.
 
 
+Step 3: Filtering Out Your Own Aircraft (optional)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When receiving traffic data from the Open Glider Network, **Enroute Flight Navigation** 
+automatically filters out your own aircraft to avoid displaying it twice on the map 
+(once from your GPS position and once from OGN data).
+
+The app uses two methods to identify your aircraft:
+
+1. **Transponder Code**: If you have entered your ICAO 24-bit address or OGN source ID 
+   in the "Transponder Code" field on the Aircraft page, the app will filter out any 
+   traffic matching this identifier.
+
+2. **Aircraft Name**: If you have entered your aircraft registration or callsign in the 
+   "Name" field on the Aircraft page, the app will filter out traffic with a matching 
+   callsign.
+
+Both comparisons are case-insensitive. You can enter multiple transponder codes separated 
+by spaces if needed.
+
+.. note:: To configure your aircraft identifiers, open the main menu and navigate to 
+   "Aircraft". See :ref:`aircraftPage` for details.
+
+
 Daily Operations
 ----------------
 
