@@ -97,3 +97,31 @@ Fuel Consumption
 
 Enter a typical value for the aircraft's fuel consumption. This value is used to
 calculate a very rough estimate of the fuel required for your route.
+
+Transponder Code
+^^^^^^^^^^^^^^^^
+  Enter your aircraft's ICAO 24-bit address (e.g., "3D1C11") or OGN source ID 
+  (e.g., "ICA3D1C11", "FLR123456"). This identifier is used to filter out your 
+  own aircraft when receiving traffic data from the Open Glider Network, preventing 
+  it from being displayed twice on the map.
+  
+  You can enter multiple codes separated by spaces if your aircraft has multiple 
+  identifiers. The comparison is case-insensitive.
+  
+  .. note:: This field is primarily used for OGN traffic filtering. If you don't 
+     use OGN traffic data, you can leave this field empty.
+
+  **How to find your transponder code:**
+  
+  When your aircraft is visible in the traffic data (for example, when flying with 
+  OGN coverage), you can find your transponder code as follows:
+  
+  1. Open the main menu and navigate to "Information" → "Traffic Receiver"
+  2. Look at the list of received traffic
+  3. Find your own aircraft in the list (identified by position or callsign)
+  4. Note the ID shown for your aircraft
+  5. The last 6 characters of the ID are typically your transponder code
+  
+  For example, if the ID shows "ICA3D1C11", your transponder code is "3D1C11". 
+  You can enter either the full ID or just the 6-digit code.
+
