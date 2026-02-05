@@ -7,12 +7,13 @@ and display traffic data in the moving map as long as no proper traffic data
 receiver is available.
 
 .. warning::
-  While OGN data can be useful in certain scenarios, we recommend against using
-  traffic data from internet services in real flight.
+
+  While Open Glider Network data can be useful in certain scenarios, we
+  recommend against using traffic data from internet services in real flight.
 
   - Internet connectivity is not reliable in flight. Even when flying over
-    populated areas, expect the internet connection to fail for about half of the
-    time.
+    densely populated regions, expect the internet connection to fail for about
+    half of the time.
 
   - Experience shows that data is frequently laggy and often outdated.
 
@@ -49,25 +50,23 @@ successfully.
 Step 3: Filtering Out Your Own Aircraft (optional)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When receiving traffic data from the Open Glider Network, **Enroute Flight Navigation** 
-automatically filters out your own aircraft to avoid displaying it twice on the map 
-(once from your GPS position and once from OGN data).
+When receiving traffic data from the Open Glider Network, **Enroute Flight
+Navigation** automatically filters out your own aircraft to avoid displaying it
+twice on the map, once from your GPS position and once from Open Glider Network
+data.
 
-The app uses two methods to identify your aircraft:
+The app uses two methods to identify your aircraft. Both require that you have
+correctly entered the corresponding data on the page :ref:`aircraftPage`.
 
-1. **Transponder Code**: If you have entered your ICAO 24-bit address or OGN source ID 
-   in the "Transponder Code" field on the Aircraft page, the app will filter out any 
-   traffic matching this identifier.
+1. **Hex ID**: If you have entered the "ICAO 24-bit address" of your
+   transponder, the "FLARM Radio ID" of your FLARM device (e.g., "3EDE26") or
+   the "Open Glider Network Source ID" of your aircraft in the "Hex ID" field on
+   the page :ref:`aircraftPage`, the app will filter out any traffic matching
+   this identifier.
 
-2. **Aircraft Name**: If you have entered your aircraft registration or callsign in the 
-   "Name" field on the Aircraft page, the app will filter out traffic with a matching 
-   callsign.
-
-Both comparisons are case-insensitive. You can enter multiple transponder codes separated 
-by spaces if needed.
-
-.. note:: To configure your aircraft identifiers, open the main menu and navigate to 
-   "Aircraft". See :ref:`aircraftPage` for details.
+2. **Aircraft Name**: If you have entered your aircraft registration or callsign
+   in the "Name" field on the page :ref:`aircraftPage`, the app will filter out
+   traffic with a matching callsign.
 
 
 Daily Operations
