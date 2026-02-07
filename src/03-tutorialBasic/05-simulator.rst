@@ -133,7 +133,7 @@ Credits also go to the original author https://github.com/astenlund.
 
 .. _fs2ff-img:
 .. figure:: fs2ff.png
-   :scale: 75 %
+   :scale: 40 %
    :align: center
 
    fs2ff Settings
