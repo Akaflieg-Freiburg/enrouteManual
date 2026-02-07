@@ -100,7 +100,7 @@ In order to communicate with other programs, the MS Flight Simulator requires
 additional software.  Users reported that **Enroute Flight Navigation** works
 well with the following EFB-connector programs.
 
-- `fs2ff <https://github.com/astenlund/fs2ff>`__ (free, open source)
+- `fs2ff <https://github.com/jeffdamp-wave/fs2ff/releases>`__ (free, open source, provides barometric altitude data).
 - `XMapsy Essential <http://xmapsy.com/>`_ (commercial, inexpensive, does not
   provide barometric altitude data).
 - `XMapsy V3 <http://xmapsy.com/>`_ (commercial, more expensive, provides
@@ -121,14 +121,16 @@ lists additional EFB-connector programs that might also work.
 fs2ff
 .....
 
-The program `fs2ff <https://github.com/astenlund/fs2ff>`_ does not require any
-complicated installation or setup, just download and run.  The latest release of
-fs2ff can be downloaded `here
-<https://github.com/astenlund/fs2ff/releases/latest>`_. Detailed instruction are
+The program `fs2ff <https://github.com/jeffdamp-wave/fs2ff>`_ does not require any
+complicated installation or setup, just download and run.  
+The fork by jeffdamp-wave supports the GDL90 protocol to provide barometric altitude.
+The latest release of fs2ff can be downloaded `here
+<https://github.com/jeffdamp-wave/fs2ff/releases>`_. Detailed instruction can be
 found `here
-<https://github.com/astenlund/fs2ff#fs2ff-flight-simulator-to-foreflight>`__.
-The figure :ref:`fs2ff-img` shows extremely simple settings window.
-  
+<https://github.com/jeffdamp-wave/fs2ff#fs2ff-flight-simulator-to-foreflight>`__.
+Figure :ref:`fs2ff-img` shows the simple settings window.
+Credits also go to the original author https://github.com/astenlund.
+
 .. _fs2ff-img:
 .. figure:: fs2ff.png
    :scale: 75 %
