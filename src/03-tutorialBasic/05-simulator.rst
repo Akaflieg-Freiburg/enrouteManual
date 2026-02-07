@@ -105,10 +105,6 @@ well with the following EFB-connector programs.
   provide barometric altitude data).
 - `XMapsy V3 <http://xmapsy.com/>`_ (commercial, more expensive, provides
   barometric altitude data).
-
-The `web site of the commerical EFB program ForeFlight
-<https://foreflight.com/support/support-center/category/about-foreflight-mobile/204115275>`_
-lists additional EFB-connector programs that might also work.
   
 .. note:: In MSFS2020 cold and dark mode, traffic in the air will not been
     shown. You have to power on the avionics!
