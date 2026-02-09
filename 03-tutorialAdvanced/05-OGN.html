@@ -59,6 +59,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#one-time-setup">One-time Setup</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#step-1-configure-the-connection">Step 1: Configure the Connection</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#step-2-check-connectivity">Step 2: Check Connectivity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#step-3-filtering-out-your-own-aircraft-optional">Step 3: Filtering Out Your Own Aircraft (optional)</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#daily-operations">Daily Operations</a></li>
@@ -119,12 +120,12 @@ and display traffic data in the moving map as long as no proper traffic data
 receiver is available.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>While OGN data can be useful in certain scenarios, we recommend against using
-traffic data from internet services in real flight.</p>
+<p>While Open Glider Network data can be useful in certain scenarios, we
+recommend against using traffic data from internet services in real flight.</p>
 <ul class="simple">
 <li><p>Internet connectivity is not reliable in flight. Even when flying over
-populated areas, expect the internet connection to fail for about half of the
-time.</p></li>
+densely populated regions, expect the internet connection to fail for about
+half of the time.</p></li>
 <li><p>Experience shows that data is frequently laggy and often outdated.</p></li>
 <li><p>You will not be visible to others.</p></li>
 </ul>
@@ -147,6 +148,25 @@ entry “Traffic Receiver”. The page “Traffic Data Receiver” will open.</p
 Status”. If the text field is highlighted in yellow and starts with “OGN
 glidernet.org APRS-IS connection”, then your connections has been configured
 successfully.</p>
+</section>
+<section id="step-3-filtering-out-your-own-aircraft-optional">
+<h3>Step 3: Filtering Out Your Own Aircraft (optional)<a class="headerlink" href="#step-3-filtering-out-your-own-aircraft-optional" title="Link to this heading"></a></h3>
+<p>When receiving traffic data from the Open Glider Network, <strong>Enroute Flight
+Navigation</strong> automatically filters out your own aircraft to avoid displaying it
+twice on the map, once from your GPS position and once from Open Glider Network
+data.</p>
+<p>The app uses two methods to identify your aircraft. Both require that you have
+correctly entered the corresponding data on the page <a class="reference internal" href="../05-referencePages/02-aircraft.html#aircraftpage"><span class="std std-ref">Aircraft</span></a>.</p>
+<ol class="arabic simple">
+<li><p><strong>Hex ID</strong>: If you have entered the “ICAO 24-bit address” of your
+transponder, the “FLARM Radio ID” of your FLARM device (e.g., “3EDE26”) or
+the “Open Glider Network Source ID” of your aircraft in the “Hex ID” field on
+the page <a class="reference internal" href="../05-referencePages/02-aircraft.html#aircraftpage"><span class="std std-ref">Aircraft</span></a>, the app will filter out any traffic matching
+this identifier.</p></li>
+<li><p><strong>Aircraft Name</strong>: If you have entered your aircraft registration or callsign
+in the “Name” field on the page <a class="reference internal" href="../05-referencePages/02-aircraft.html#aircraftpage"><span class="std std-ref">Aircraft</span></a>, the app will filter out
+traffic with a matching callsign.</p></li>
+</ol>
 </section>
 </section>
 <section id="daily-operations">
