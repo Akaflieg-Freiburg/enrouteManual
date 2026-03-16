@@ -28,10 +28,8 @@ following formats.
 .. note:: GeoTIFF is a complex format that supports many use cases, ranging 
   from astronomy to high-precision land survey. **Enroute Flight Navigation**
   only supports a subset of the GeoTIFF standard. If you encounter a GeoTIFF 
-  file that **Enroute Flight Navigation** does not recognize, please 
-  `open an issue report 
-  <https://github.com/Akaflieg-Freiburg/enroute/issues/new/choose>`_.
-  We will be glad to help!
+  file that **Enroute Flight Navigation** does not recognize, see the 
+  section :ref:`geotiffConversionTools` for possible remedies.
 
 
 Obtain Approach Chart Files

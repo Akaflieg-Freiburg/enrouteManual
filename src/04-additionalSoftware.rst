@@ -11,4 +11,5 @@ other software what we should list here.
    04-additionalSoftware/01-flightPlanning
    04-additionalSoftware/02-mapping
    04-additionalSoftware/03-mapConversion
-   04-additionalSoftware/04-trafficInformation
+   04-additionalSoftware/04-geotiff
+   04-additionalSoftware/05-trafficInformation
