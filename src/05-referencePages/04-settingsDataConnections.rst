@@ -167,9 +167,7 @@ Bluetooth
 ^^^^^^^^^
 
 The **Enroute Flight Navigation** is able to communicate with your traffic data
-receiver via the "Bluetooth Classic" radio standard.  The radio standard
-"Bluetooth Low Energy" is supported as a technology preview only and should not
-be used in production.
+receiver via the "Bluetooth Classic" or "Bluetooth Low Energy" radio standard.
 
 .. note:: Due to limitations of the iOS platform, Bluetooth is not
     supported on iPhone and iPad devices.
@@ -181,12 +179,11 @@ your phone to the Bluetooth device, proceed as follows.
 
 - Ensure that your Bluetooth device is switched on and in "discoverable" mode.
 
-- Note that "Bluetooth Classic" devices support only one data connection.  If
-  you use "Bluetooth Classic", the following steps will fail if another phone is
-  trying to connect to your Bluetooth device. Ensure that there are no other
-  phones around that could interfere with your phone.  Keep in mind that other
-  phones might be in someone else's bag, stowed away in a nearby car, or in the
-  office building next door.
+- Note that Bluetooth devices support only one data connection.  The following
+  steps will fail if another phone is trying to connect to your Bluetooth
+  device. Ensure that there are no other phones around that could interfere with
+  your phone.  Keep in mind that other phones might be in someone else's bag,
+  stowed away in a nearby car, or in the office building next door.
 
 - Ensure that Bluetooth is switched "on" in your phone.
 
