@@ -318,6 +318,9 @@ addition, it highlights locations with active or future NOTAMs.
 Symbol                                      Function
 =========================================== ========
 .. image:: NOTAM.png                        Locations with active or future NOTAMs
+.. image:: NOTAM-PJE.png                    Locations with active or future NOTAMs -- Parachute jumping
+.. image:: NOTAM-OBST.png                   Locations with active or future NOTAMs -- Obstacle
+.. image:: NOTAM-UAS.png                    Locations with active or future NOTAMs -- Drone Flights
 .. image:: AD-GLD.png                       Glider flying site
 .. image:: AD-GRASS.png                     Aerodrome with grass runway
 .. image:: AD-INOP.png                      Closed aerodrome 
