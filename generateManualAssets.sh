@@ -46,6 +46,7 @@ rsvg-convert ../enroute/src/flightMap/sprites/VORTAC.svg -o src/05-referencePage
 rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-OBST.svg -o src/05-referencePages/NOTAM-OBST.png -w 30
 rsvg-convert ../enroute/src/flightMap/sprites/NOTAM.svg -o src/05-referencePages/NOTAM.png -w 30
 rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-PJE.svg -o src/05-referencePages/NOTAM-PJE.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-RA.svg -o src/05-referencePages/NOTAM-RA.png -w 30
 rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-UAS.svg -o src/05-referencePages/NOTAM-UAS.png -w 30
 
 rsvg-convert ../enroute/src/icons/waypoints/WP-map.svg -o src/05-referencePages/WP.png -w 10
