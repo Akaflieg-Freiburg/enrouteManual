@@ -320,6 +320,7 @@ Symbol                                      Function
 .. image:: NOTAM.png                        Locations with active or future NOTAMs
 .. image:: NOTAM-PJE.png                    Locations with active or future NOTAMs -- Parachute jumping
 .. image:: NOTAM-OBST.png                   Locations with active or future NOTAMs -- Obstacle
+.. image:: NOTAM-RA.png                     Locations with active or future NOTAMs -- Restricted Area
 .. image:: NOTAM-UAS.png                    Locations with active or future NOTAMs -- Drone Flights
 .. image:: AD-GLD.png                       Glider flying site
 .. image:: AD-GRASS.png                     Aerodrome with grass runway
