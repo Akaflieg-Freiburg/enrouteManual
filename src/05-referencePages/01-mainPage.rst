@@ -104,18 +104,19 @@ Interactive Controls
 The page body shows the following interactive control buttons that can be used
 together with the standard gestures to operate the app.
 
-========================================================== ========
-Symbol                                                     Function
-========================================================== ========
-.. image:: ../01-gettingStarted/ic_menu.png                Open the main menu.
-.. image:: ../01-gettingStarted/NorthArrow.png             Switch between modes **north up** and **track up**.
-.. image:: ../01-gettingStarted/ic_layers.png              Open the raster map menu. Only visible when raster maps are installed.
-.. image:: ../01-gettingStarted/ic_my_location.png         Set autopan mode to "on".
-.. image:: ../01-gettingStarted/ic_add.png                 Zoom in.
-.. image:: ../01-gettingStarted/ic_remove.png              Zoom out.
-.. image:: ../01-gettingStarted/ic_keyboard_arrow_up.png   Open airspace side view.
-.. image:: ../01-gettingStarted/ic_airplanemode_active.png Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver. 
-========================================================== ========
+=========================================================== ========
+Symbol                                                      Function
+=========================================================== ========
+.. image:: ../01-gettingStarted/ic_menu.png                 Open the main menu.
+.. image:: ../01-gettingStarted/NorthArrow.png              Switch between modes **north up** and **track up**.
+.. image:: ../01-gettingStarted/ic_layers.png               Open the raster map menu. Only visible when raster maps are installed.
+.. image:: ../01-gettingStarted/ic_my_location.png          Set autopan mode to "on".
+.. image:: ../01-gettingStarted/ic_add.png                  Zoom in.
+.. image:: ../01-gettingStarted/ic_remove.png               Zoom out.
+.. image:: ../01-gettingStarted/ic_keyboard_arrow_up.png    Open airspace side view.
+.. image:: ../01-gettingStarted/ic_airplanemode_active.png  Open the traffic receiver status page. Only visible when the app does not receive traffic information. 
+.. image:: ../01-gettingStarted/ic_airplanemode_outline.png Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver and receives data through the internet. 
+=========================================================== ========
 
 
 Main Menu
