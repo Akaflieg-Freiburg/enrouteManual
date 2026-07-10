@@ -13,15 +13,15 @@ True Altitudes
 ^^^^^^^^^^^^^^
 
 - **Geometric Altitude** or **True Altitude AMSL** is the vertical distance
-  between your aircraft and the main sea level.  To avoid confusion, geometric
+  between your aircraft and the mean sea level.  To avoid confusion, geometric
   altitudes are typically indicated in the form "T.ALT 6500 AMSL".
   
 - **Absolute Altitude** or **True Altitude AGL** is the vertical distance
   between your aircraft and the terrain. To avoid confusion, absolute altitudes
   are typically indicated in the form "T.ALT 6500 AGL".
   
-**Enroute Flight Navigation** computes the absolute altitude is computed using
-satellite navigation data and a terrain elevation database.
+**Enroute Flight Navigation** computes the absolute altitude using satellite
+navigation data and a terrain elevation database.
 
 
 Barometric Altitudes
@@ -38,7 +38,7 @@ Barometric Altitudes
   standard atmosphere experiences a static pressure equal to the pressure in the
   cabin of your aircraft. 
 
-Altitude and pressure altitude is used to define airspace boundaries and
+Altitude and pressure altitude are used to define airspace boundaries and
 vertical aircraft positions.
 
 .. warning:: In Central Europe, true altitudes and barometric altitudes typically 

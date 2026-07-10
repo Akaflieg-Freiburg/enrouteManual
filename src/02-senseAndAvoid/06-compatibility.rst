@@ -13,7 +13,7 @@ The author has tested the following receivers.
 
 - `AT-1 AIR Traffic <http://www.air-avionics.com/?page_id=253>`_ by `Air
   Avionics <http://www.air-avionics.com/>`__.
-- `PowerFLARM Fusison <https://flarm.com/flarm-product/powerflarm-fusion/>`_ by
+- `PowerFLARM Fusion <https://flarm.com/flarm-product/powerflarm-fusion/>`_ by
   `FLARM Technology Ltd <https://flarm.com/>`_, in Wi-Fi mode.
 - `Stratux devices <http://stratux.me/>`_
 - `PowerFLARM Core <https://flarm.com/flarm-product/powerflarm-core-pure/>`_ by
@@ -38,7 +38,7 @@ Bluetooth Devices
 
 The author has tested the following receivers.
 
-- `PowerFLARM Fusison <https://flarm.com/flarm-product/powerflarm-fusion/>`_ by
+- `PowerFLARM Fusion <https://flarm.com/flarm-product/powerflarm-fusion/>`_ by
   `FLARM Technology Ltd <https://flarm.com/>`_, in Bluetooth mode.
 - Classic FLARM and `XCVario <https://xcvario.de/>`_.
 - Classic FLARM and `SH-B23A(SH-B30) Bluetooth 2.0 to RS232 Serial Adaptor

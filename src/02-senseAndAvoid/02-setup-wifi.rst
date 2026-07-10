@@ -94,7 +94,8 @@ heartbeat.  Work through the following steps to identify the issue.
 
 Open the Wi-Fi settings of your device and confirm that your device is indeed
 connected to the traffic data receiver's network.  If not, then reconnect.  It
-might help move your device closer to the traffic data receiver's Wi-Fi antenna.
+might help to move your device closer to the traffic data receiver's Wi-Fi
+antenna.
 
 Some traffic data receivers offer a web-interface that can be accessed with your
 web browser.  In that case, check if you can access the web-interface with your
@@ -104,7 +105,7 @@ concurrently operate the web interface and transmit traffic data.
 **Step 2: Check Connection** 
 
 If you are sure that your device has connected to the correct Wi-Fi network,
-then return to **Enroute Flight Navigation** open the main menu and go to
+then return to **Enroute Flight Navigation**, open the main menu and go to
 "Settings/Data Connections".  Look at the connections of type "TCP" and "UDP".
 
 - If none of the TCP/UDP connections has status "Connected", then **Enroute
@@ -150,7 +151,7 @@ then return to **Enroute Flight Navigation** open the main menu and go to
 **Step 3: [Censored Profanity]** 
 
 If **Enroute Flight Navigation** has connected to your traffic data receiver via
-a TCP/UDP connection but does not receive heartbeat of traffic data, then you
+a TCP/UDP connection but does not receive heartbeat or traffic data, then you
 are out of luck. Please contact us, as we would like to hear about your case.
 Return to the main moving map screen of **Enroute Flight Navigation**, open the
 main menu and go to "Bug Report".  It might be worth checking if other apps
@@ -169,7 +170,7 @@ Some traffic receivers and some Wi-Fi adaptors cannot serve more than one client
 concurrently and abort connections at random if more than one device tries to
 access.
 
-- Make sure that there no second device connected to the traffic receiver's
+- Make sure that there is no second device connected to the traffic receiver's
   Wi-Fi network. The other device might well be in your friend's pocket!
 - Make sure that there is no other app trying to connect to the traffic
   receiver's data stream.

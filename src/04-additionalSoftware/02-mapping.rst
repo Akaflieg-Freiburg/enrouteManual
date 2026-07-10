@@ -31,10 +31,10 @@ follows.
 - Click on the button "Share". A dialog will open that allows choosing the
   data format.
 
-- Choose **Enroute Flight Navigation**. 
+- Choose **Enroute Flight Navigation**.
 
-- **Enroute Flight Navigation** will open with a waypoint description dialog for the 
-  location marked by Google Maps.  As usual, use this dialog to add the location 
+- **Enroute Flight Navigation** will open with a waypoint description dialog for the
+  location marked by Mapy.com.  As usual, use this dialog to add the location
   to your route or to the waypoint library.
 
 
@@ -50,10 +50,10 @@ proceed as follows.
 - Click on the button "Share". A dialog will open that allows choosing the
   data format.
 
-- Choose **Enroute Flight Navigation**. 
+- Choose **Enroute Flight Navigation**.
 
-- **Enroute Flight Navigation** will open with a waypoint description dialog for the 
-  location marked by Google Maps.  As usual, use this dialog to add the location 
+- **Enroute Flight Navigation** will open with a waypoint description dialog for the
+  location marked by Organic Maps.  As usual, use this dialog to add the location
   to your route or to the waypoint library.
 
 
@@ -67,8 +67,8 @@ proceed as follows.
 - Open the App "OsmAnd" and mark a location by tapping into the moving map. A 
   dialog with location information will open at the bottom of the screen.
 
-- Choose **Enroute Flight Navigation**. 
+- Choose **Enroute Flight Navigation**.
 
-- **Enroute Flight Navigation** will open with a waypoint description dialog for the 
-  location marked by Google Maps.  As usual, use this dialog to add the location 
+- **Enroute Flight Navigation** will open with a waypoint description dialog for the
+  location marked by OsmAnd.  As usual, use this dialog to add the location
   to your route or to the waypoint library.

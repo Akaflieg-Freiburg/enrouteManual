@@ -53,11 +53,11 @@ Hex ID
     The ICAO 24-bit address of your transponder is found in the aircraft
     documents. Many transponders show the ICAO 24-bit address on their display
     on startup.  If you have a FLARM device, the FLARM Radio ID is typically
-    found in the configuration files written to a connected SD card. If you
+    found in the configuration files written to a connected SD card. If your
     FLARM device can be configured via a web interface, you may also find the
     Radio ID there.
-    
-    Failing everything else, you can also find the ID the traffic data shown by
+
+    Failing everything else, you can also find the ID in the traffic data shown by
     **Enroute Flight Navigation** (for example, when flying in a region with
     Open Glider Network coverage and sufficient internet connectivity). Proceed
     as follows:
@@ -67,9 +67,9 @@ Hex ID
     3. Find your own aircraft in the list (identified by position or callsign)
     4. Note the ID shown for your aircraft
     5. The last 6 characters of the ID are typically your transponder code
-    
+
     For example, if the ID shows "ICA3D1C11", your transponder code is "3D1C11".
-    You can enter either the full ID or just the 6-digit code.
+    You can enter either the full ID or just the 6-character code.
 
   
 Use cabin pressure...
@@ -86,7 +86,7 @@ Use cabin pressure...
 
     Precise measurement of pressure altitude is safety critical. We strongly
     recommend connecting **Enroute Flight Navigation** to a proper traffic data
-    receiver.  While option "Use cabin pressure..." might have its use for
+    receiver.  While the option "Use cabin pressure..." might have its use for
     pilots flying balloons, paragliders or gyrocopters, think twice before using
     it in a motorized plane or glider. 
 
@@ -99,7 +99,7 @@ Use cabin pressure...
       necessarily agree, with an error depending on airspeed and on the
       configuration of the heating and ventilation systems.
     
-    - Do not enable this option unless you convinced yourself that the data
+    - Do not enable this option unless you have convinced yourself that the data
       provided by your sensor is good enough for the intended use.
     
     - Do not rely on data shown in this app.

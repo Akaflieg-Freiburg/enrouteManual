@@ -8,7 +8,7 @@ support only point-to-point connections, so that only one single app can access
 traffic data at any given time.  Pilots and co-pilots must therefore decide who
 gets to see traffic data.
 
-.. note:: **Enroute Flight Navigation** expects a stream for FLARM/NMEA sentences
+.. note:: **Enroute Flight Navigation** expects a stream of FLARM/NMEA sentences
     from the serial port device. **Enroute Flight Navigation** is not able to
     integrate into a CAN-Bus environment.
 

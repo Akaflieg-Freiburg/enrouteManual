@@ -17,7 +17,7 @@ primarily aimed at IFR flights, it is popular with VFR pilots because it offers
 convenient briefing packages, including NOTAM, weather, and airport plates. The
 autorouter website also offers comprehensive flight plan management, an
 interface to Eurocontrol services, and a messenger bot that can be used to
-manage flight plans and access up-to-date airspace information/
+manage flight plans and access up-to-date airspace information.
 
 The autorouter website is able to export flight routes in GPX format, which can
 be read by **Enroute Flight Navigation**.  

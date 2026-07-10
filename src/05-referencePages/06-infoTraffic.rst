@@ -31,7 +31,7 @@ field is invisible.
 Position
 --------
 
-If your traffic data receiver provides its own SatNavS position, this field
+If your traffic data receiver provides its own SatNav position, this field
 shows the position reported by the traffic data receiver. If no heartbeat
 messages are received, or if the traffic data receiver does not provide its own
 SatNav position, this field is invisible.
@@ -45,7 +45,7 @@ shows the true altitude reported by the traffic data receiver. Otherwise, this
 field is invisible.
 
 True altitude AGL or AMSL is the vertical distance from the aircraft to the
-terrain or to the main sea level, respectively.
+terrain or to the mean sea level, respectively.
 
 .. warning:: 
    True altitude is not the same as barometric altitude, which is the altitude
@@ -98,7 +98,7 @@ Reconnect
 ^^^^^^^^^
 
 This button is visible if no heartbeat is received from any traffic receiver.
-After a click on this button will disconnect all configured data connections and
+A click on this button will disconnect all configured data connections and
 attempt to reconnect.  This can be useful if **Enroute Flight Navigation** did
 not automatically connect, or if you do not wish to wait for the next automatic
 reconnection attempt.

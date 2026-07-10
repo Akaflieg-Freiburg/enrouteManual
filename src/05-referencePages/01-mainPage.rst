@@ -33,7 +33,7 @@ Bearing Mode
   
 Autopan Mode
   If the autopan mode is on, the map is automatically moved, so that the
-  position you aircraft is near the center of the map display. If the autopan
+  position of your aircraft is near the center of the map display. If the autopan
   mode is off, the map is not moved and the position of your aircraft might not
   be visible on the map.
 
@@ -59,7 +59,7 @@ ETA    Estimated Arrival Time at the waypoint, in UTC.
 
 - The units for the distance are chosen according to the settings on the
   Aircraft Page.
-- If the information cannot be computed (e.g. because the positions is unknown,
+- If the information cannot be computed (e.g. because the position is unknown,
   or because you are flying too far away from the route), the panel shows a
   brief error message. 
 - Close to the final destination, the panel shows the words "Near destination."
@@ -165,7 +165,7 @@ The moving map can be controlled by standard gestures.
 - **Mouse Wheel:** On desktop computers, the mouse wheel zooms in and out.
 - **Pinch Gesture:** On touch-screen devices, the pinch gesture zooms in and
   out.
-- **Pan Gesture:** On touch-screen devices, the pinch the pan gesture moves the
+- **Pan Gesture:** On touch-screen devices, the pan gesture moves the
   map and sets the autopan mode to "off".
 - **Tap-and-hold Gesture:** Tap-and-hold anywhere in the map to open the
   waypoint description dialogue. This is the quickest way to obtain information
@@ -255,7 +255,7 @@ Red    Alarm level 2 or higher. Collision predicted in less than 13 seconds.
 Traffic Factors
 ~~~~~~~~~~~~~~~
 
-The moving map display two kinds of traffic.
+The moving map displays two kinds of traffic.
 
 - Traffic whose precise position is unknown to the traffic receiver; this is
   often the case with traffic that has only a Mode-S transponder. This kind of
@@ -297,7 +297,7 @@ traffic, to the extent known.
 - The relative vertical distance, in the units for the distance chosen in the
   settings on the Aircraft Page.  A positive value indicates that the traffic is
   above you.
-- An arrow symbols pointing upwards, downwards or sideways indicates the
+- An arrow symbol pointing upwards, downwards or sideways indicates the
   vertical speed of the traffic.
 
 .. note:: Traffic callsigns are shown only if the "FLARM Database" has been 
@@ -308,7 +308,7 @@ Flight Route
 ^^^^^^^^^^^^
 
 If you have defined a flight route following the steps outlined in the section
-:ref:`planAFlight`, the route will be highlighted in magenta line. The direct
+:ref:`planAFlight`, the route will be highlighted as a magenta line. The direct
 path to the next waypoint is highlighted in dark red.  The image
 :ref:`movingMapFlt` shows how this will look.
 
@@ -316,7 +316,7 @@ path to the next waypoint is highlighted in dark red.  The image
 Waypoints and NOTAMs
 ^^^^^^^^^^^^^^^^^^^^
 
-The moving map show waypoints using the following standard ICAO symbols. In
+The moving map shows waypoints using the following standard ICAO symbols. In
 addition, it highlights locations with active or future NOTAMs.
 
 =========================================== ========
@@ -443,7 +443,7 @@ scenarios, vertical distances are greatly exaggerated.
 
 - In vertical direction, **Enroute Flight Navigation** chooses a scale to
   guarantee that the current position, the flight path for the next 7.5 minutes
-  and a height hand of 6,000ft are visible.
+  and a height band of 6,000 ft are visible.
 
 
 Side View Features

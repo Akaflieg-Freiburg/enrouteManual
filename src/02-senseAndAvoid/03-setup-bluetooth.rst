@@ -4,7 +4,7 @@ Connect via Bluetooth
 **Enroute Flight Navigation** is able to connect to your traffic data receiver
 using the Bluetooth Classic radio standard. Compared with Wi-Fi, Bluetooth
 connections are less reliable and require manual configuration. We found that
-many Bluetooth adaptors are build with cheap and unreliable hardware and
+many Bluetooth adapters are built with cheap and unreliable hardware and
 implement industry standards only partially, if at all.
 
 

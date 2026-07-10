@@ -4,7 +4,7 @@ Connect Your Flight Simulator
 =============================
 
 **Enroute Flight Navigation** can connect to flight simulator software.  When
-setup correctly, position and traffic information is sent from the flight
+set up correctly, position and traffic information is sent from the flight
 simulator via Wi-Fi to the device that runs **Enroute Flight Navigation**.
 
 The author has tested **Enroute Flight Navigation** with the following flight
@@ -41,11 +41,11 @@ following conditions are met.
 
 - The computer that runs the flight simulator and the device that runs **Enroute
   Flight Navigation** are connected to the same Wi-Fi network.  Some routers
-  deploy two networks, often called "main network" and a "guest network".
+  deploy two networks, often called a "main network" and a "guest network".
 
 - Make sure that the router allows data transfer between the devices in the
   Wi-Fi network.  Some routers have "security settings" that disallow data
-  transfer between the devices in the "guest network"
+  transfer between the devices in the "guest network".
 
 
 Set Up Your Flight Simulator
@@ -65,7 +65,7 @@ Aerofly FS
 Aerofly works well with **Enroute Flight Navigation** if the program is set to
 broadcast flight information via the network.  Open the menu "Miscellaneous
 settings", activate the option "Broadcast flight info to IP address" and enter
-the correct „Broadcast IP address“.  The figure :ref:`AeroflyImg2` and shows the
+the correct "Broadcast IP address".  The figure :ref:`AeroflyImg2` shows the
 settings that work for one of our users.
 
 .. _AeroflyImg1:
@@ -106,7 +106,7 @@ well with the following EFB-connector programs.
 - `XMapsy V3 <http://xmapsy.com/>`_ (commercial, more expensive, provides
   barometric altitude data).
   
-.. note:: In MSFS2020 cold and dark mode, traffic in the air will not been
+.. note:: In MSFS2020 cold and dark mode, traffic in the air will not be
     shown. You have to power on the avionics!
 
 .. note:: At the time of writing (04Aug21), the MS Flight Simulator reports only
@@ -121,7 +121,7 @@ The program `fs2ff <https://github.com/jeffdamp-wave/fs2ff>`_ does not require a
 complicated installation or setup, just download and run.  
 The fork by jeffdamp-wave supports the GDL90 protocol to provide barometric altitude.
 The latest release of fs2ff can be downloaded `here
-<https://github.com/jeffdamp-wave/fs2ff/releases>`_. Detailed instruction can be
+<https://github.com/jeffdamp-wave/fs2ff/releases>`_. Detailed instructions can be
 found `here
 <https://github.com/jeffdamp-wave/fs2ff#fs2ff-flight-simulator-to-foreflight>`__.
 Figure :ref:`fs2ff-img` shows the simple settings window.
@@ -138,8 +138,8 @@ Credits also go to the original author https://github.com/astenlund.
 XMapsy Essential
 ................
 
-If you use XMapsy Essential, you need not to set up anything. Just start XMapsy
-Essential and start MSFS2020. The broadcast address will be setup automatically.
+If you use XMapsy Essential, you need not set up anything. Just start XMapsy
+Essential and start MSFS2020. The broadcast address will be set up automatically.
 The figure :ref:`XMapsyEssential` shows the settings.
   
 .. _XMapsyEssential:
@@ -153,12 +153,12 @@ The figure :ref:`XMapsyEssential` shows the settings.
 XMapsy V3
 .........
 
-If you use XMapsy V3, set the “Message-Format” to “ADS-B/GDL90” and the
-“Preferred Technology” to "SIMCONNECT".  To receive the correct altitude, be
-sure to check the box “GDL90 ownship geometric altitudes based on MSL”.  The
+If you use XMapsy V3, set the "Message-Format" to "ADS-B/GDL90" and the
+"Preferred Technology" to "SIMCONNECT".  To receive the correct altitude, be
+sure to check the box "GDL90 ownship geometric altitudes based on MSL".  The
 figure :ref:`XMapsyV3` shows verified XMapsy V3 settings for proper work with
-MSFS2020. The Broadcast address will be determined by XMapsy and should not be
-touched except you have extended network configuration experience.
+MSFS2020. The broadcast address will be determined by XMapsy and should not be
+touched unless you have extended network configuration experience.
 
 .. _XMapsyV3:
 .. figure:: XMapsyV3.png

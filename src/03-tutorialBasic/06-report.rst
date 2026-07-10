@@ -10,9 +10,9 @@ follows.
 
 - Open the main menu and go to "Bug report". 
 - The page "Bug report" will open.
-- Choose the part of our software that your would like to report.
+- Choose the part of our software that you would like to report on.
 - At the end, you will be presented with contact information and a short
-  explanation how the error is best reported.
+  explanation of how the error is best reported.
 
 .. note:: Please keep in mind that **Enroute Flight Navigation** is developed 
    by a very small team of programmers in their spare time.  While we try to 

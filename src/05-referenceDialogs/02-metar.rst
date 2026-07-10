@@ -20,7 +20,7 @@ This section describes the dialog window in detail.
 
   The weather information shown by **Enroute Flight Navigation** might be
   outdated or otherwise wrong.  Always use officially approved sources of flight
-  weather information to assess of meteorological flight conditions.  
+  weather information to assess meteorological flight conditions.
 
 
 Title and Subtitle
@@ -101,8 +101,8 @@ Relative Humidity
 Warnings Concerning Aircraft Performance
 
   Warnings are shown if rule-of-thumb estimates suggest that density altitude
-  degrades performance of typical SEP aircraft to a point where takeoff-distance
-  increases by more than 25% or climb rates decreases by more than 25%, when
+  degrades performance of typical SEP aircraft to a point where takeoff distance
+  increases by more than 25% or climb rate decreases by more than 25%, when
   compared to standard conditions at sea level.
 
 Explanatory Text
@@ -114,7 +114,7 @@ Explanatory Text
   off. 
 
 **Enroute Flight Navigation** uses the standard rule-of-thumb estimate that the
-takeoff-distance increases by 15% and the climb rate decreases by 7.5% for every
+takeoff distance increases by 15% and the climb rate decreases by 7.5% for every
 1,000 ft of density altitude. While this might be a reasonable estimate for
 typical SEP aircraft, it might be conservative for aircraft with a turbocharged
 engine.

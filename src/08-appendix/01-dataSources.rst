@@ -10,7 +10,7 @@ Map Data
 Aeronautical Maps
 .................
 
-Our maps available for offline use, so that the app does not require any
+Our maps are available for offline use, so that the app does not require any
 internet connection in flight. The maps are updated once per day, provided that
 new data is available. Note, however, that we do not **guarantee** regular
 updates.
@@ -111,7 +111,7 @@ Europe              Portugal       Class 2
 Europe              Romania        Class 1
 Europe              Serbia         Class 2
 Europe              Slovakia       Class 1
-Europe              Slowenia       Class 1
+Europe              Slovenia       Class 1
 Europe              Spain          Class 2
 Europe              Sweden         Class 1
 Europe              Switzerland    Class 1

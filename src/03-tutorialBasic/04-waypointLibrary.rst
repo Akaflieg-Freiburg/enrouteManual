@@ -7,7 +7,7 @@ What to Expect
 
 **Enroute Flight Navigation** allows you to build a small library of waypoints
 that can be used in flight routes and shared with others. For the typical user,
-the library might contain a list of touristic landmarks ("Hohenzollern Castle"),
+the library might contain a list of tourist landmarks ("Hohenzollern Castle"),
 or perhaps a list of emergency landing fields. The waypoints from the library
 are shown in the moving map. 
 

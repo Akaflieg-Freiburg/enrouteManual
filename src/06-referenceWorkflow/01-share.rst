@@ -6,9 +6,9 @@ Import Data
 **Enroute Flight Navigation** offers a robust file import feature, allowing
 users to import data from various external sources. This document provides a
 step-by-step guide on how to utilize this functionality.  A list of supported
-file formats and text data items is found at the end of this section
+file formats and text data items is found at the end of this section.
 
-There are four ways to import files into **Enroute Flight Navigation**.
+There are five ways to import files into **Enroute Flight Navigation**.
 
 - Import Files and Text Data Shared by Other Apps
 - Import Files from Local or Remote Storage
@@ -33,7 +33,7 @@ and data.
 - Apps such as Google Maps share text data items. 
 - File management apps can open files stored on your device. 
 - Most file management apps also allow opening files stored on cloud services
-  connected to your devices. Some cloud service come with specialized apps.
+  connected to your devices. Some cloud services come with specialized apps.
 - Email apps can open files attached to your mail messages, instant messaging
   apps can open files attached to chat messages.
 - Both Android and iOS come with specialized apps that allow sharing files
@@ -45,7 +45,7 @@ scenario, do the following.
 1. Identify and open an app that is able to access the file. This could be a web
    browser for files from the internet, a file manager for files stored on your
    device, or an email app for files attached to your mail messages.
-2. Navigate to the file that you with to import. You might have to point your
+2. Navigate to the file that you wish to import. You might have to point your
    browser to the correct website, open the correct folder in your file manager,
    or open an email that has the relevant file attached.
 3. Open the file. In some scenarios, it suffices to click on the file name or
@@ -78,8 +78,8 @@ these settings, **Enroute Flight Navigation** offers an alternative mechanism to
 import files.
 
 1. Transfer the file to your device and save it in the local file storage.
-   Alternatively, save the file in cloud storage service that is connected to
-   your device. 
+   Alternatively, save the file in a cloud storage service that is connected to
+   your device.
 2. Open **Enroute Flight Navigation**. Use the main menu to navigate to one of
    the pages listed below.
 3. Open the three-dot-menu in the top right corner of the screen and choose the

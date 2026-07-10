@@ -43,7 +43,7 @@ entry "Traffic Receiver". The page "Traffic Data Receiver" will open.
 
 On the page "Traffic Data Receiver", look for the text field "Connection
 Status". If the text field is highlighted in yellow and starts with "OGN
-glidernet.org APRS-IS connection", then your connections has been configured
+glidernet.org APRS-IS connection", then your connection has been configured
 successfully.
 
 

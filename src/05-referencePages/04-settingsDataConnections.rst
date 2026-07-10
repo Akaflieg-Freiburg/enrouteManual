@@ -5,7 +5,7 @@ Settings: Data Connections
 ==========================
 
 This page lists all data connections that **Enroute Flight Navigation** uses to
-communicate with traffic data receivers.  It shows that status of each
+communicate with traffic data receivers.  It shows the status of each
 connection and allows adding/removing connections to Bluetooth devices that
 cannot be automatically configured.  The page also allows configuring additional
 data connections through a variety of communication channels.
@@ -33,11 +33,11 @@ White
   any data from a traffic data receiver.
 
 Tap on a connection to obtain more detailed information, check the data flow, or
-set connection parameters for serial port connection. The tap opens the
+set connection parameters for serial port connections. The tap opens the
 "Connection Info" dialog, which is described in the section
 :ref:`connectionInfoDialog`.
- 
-We recommended removing data connections that you will no longer use.  In order
+
+We recommend removing data connections that you will no longer use.  In order
 to remove a data connection, locate the data connection in the list, tap on the
 three-dot menu and choose the menu item "Remove".  Note that default data
 connections cannot be removed.
@@ -166,7 +166,7 @@ or LAN.
 Bluetooth
 ^^^^^^^^^
 
-The **Enroute Flight Navigation** is able to communicate with your traffic data
+**Enroute Flight Navigation** is able to communicate with your traffic data
 receiver via the "Bluetooth Classic" or "Bluetooth Low Energy" radio standard.
 
 .. note:: Due to limitations of the iOS platform, Bluetooth is not
@@ -175,7 +175,7 @@ receiver via the "Bluetooth Classic" or "Bluetooth Low Energy" radio standard.
 To avoid any ambiguity, this manual refers to the device running **Enroute
 Flight Navigation** as the "phone", and to your Bluetooth-enabled traffic data
 receiver as the "Bluetooth Device".  To configure a new data connection between
-your phone to the Bluetooth device, proceed as follows.
+your phone and the Bluetooth device, proceed as follows.
 
 - Ensure that your Bluetooth device is switched on and in "discoverable" mode.
 
@@ -189,7 +189,7 @@ your phone to the Bluetooth device, proceed as follows.
 
 - Depending on the precise version of your operating system, you may need to
   pair your phone with the Bluetooth device.  Pairing never hurts, so we
-  recommend pairing if possible.  Note that some Bluetooth device cannot be
+  recommend pairing if possible.  Note that some Bluetooth devices cannot be
   paired.
 
 - Open **Enroute Flight Navigation** on your phone, navigate to this page, tap
@@ -197,7 +197,7 @@ your phone to the Bluetooth device, proceed as follows.
   menu.  A device discovery dialog will open.
 
 - The device discovery dialog shows a list of all nearby Bluetooth devices.
-  Please wait for a few minutes until all devices have been connected.  If
+  Please wait for a few minutes until all devices have been discovered.  If
   necessary, tap on the button "Scan for Devices" to re-start the device
   discovery process.
 
@@ -216,9 +216,9 @@ Bluetooth radio.
 Serial Port or USB
 ^^^^^^^^^^^^^^^^^^
 
-The **Enroute Flight Navigation** is able to communicate with your traffic data
+**Enroute Flight Navigation** is able to communicate with your traffic data
 receiver via the serial port. This includes serial port devices connected via
-USB. 
+USB.
 
 .. note:: Due to limitations of the iOS platform, neither serial port nor USB 
     communication is supported on iPhone and iPad devices.
@@ -229,7 +229,7 @@ USB Connections on Android
 
 USB communication on Android is particularly easy to set up, as Android
 automatically recognizes USB serial port devices.  To configure a new data
-connection between your phone to the USB device, proceed as follows.
+connection between your phone and the USB device, proceed as follows.
 
 - Ensure that your traffic data receiver is switched on.
 
@@ -251,7 +251,7 @@ Other Serial Port Connections
 
 If you are not using Android, or if your serial port device is not connected via USB,
 you need to configure the serial port connection manually.  To configure a new
-data connection between your phone to the serial port device, proceed as follows.
+data connection between your phone and the serial port device, proceed as follows.
 
 - Ensure that your traffic data receiver is switched on and connected to the
   serial port or USB input of your device.
@@ -265,8 +265,8 @@ data connection between your phone to the serial port device, proceed as follows
   device discovery process.
 
 - Choose the relevant serial port from the list. A data connection to that
-  serial port has now been configured.  Enroute attempts to guess the necessary
-  parameter (such as bit rate) automatically.
+  serial port has now been configured.  **Enroute Flight Navigation** attempts
+  to guess the necessary parameters (such as bit rate) automatically.
 
 - **Enroute Flight Navigation** will try to connect to your traffic data
   receiver via the serial port.  Check the connectivity status by looking at the
@@ -281,8 +281,8 @@ Open Glider Network Connection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The `Open Glider Network <http://wiki.glidernet.org/about>`__ is a network of
-ground station and internet servers operated by volunteers. It collects FLARM
-and ADS-B data and distributes this data in real time via internet service.
+ground stations and internet servers operated by volunteers. It collects FLARM
+and ADS-B data and distributes this data in real time via an internet service.
 
 Starting with version 2.34.0, **Enroute Flight Navigation** is able to display
 traffic data from the Open Glider Network in its moving map. To configure a data
@@ -294,7 +294,7 @@ connection to the Open Glider Network, proceed as follows.
 
 - **Enroute Flight Navigation** will show two warning dialogs, pointing to
   technical restrictions of internet services in flight, aviation safety
-  concerns, and consequences for data privacy. Read these text with care and
+  concerns, and consequences for data privacy. Read these texts with care and
   click on "OK" only if you understand the implications.
 
 In the future, **Enroute Flight Navigation** will automatically connect to the

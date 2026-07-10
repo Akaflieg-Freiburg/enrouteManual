@@ -8,7 +8,7 @@ app and the system. To access the page, open the main menu and choose
 The page presents four tabs with information about the app, its authors, the
 software license, and the current system.
 
-System information can be helpful to the developers **Enroute Flight
-Navigation**. The button "Share Info" at the bottom of the "System" Tab can be
+System information can be helpful to the developers of **Enroute Flight
+Navigation**. The button "Share Info" at the bottom of the "System" tab can be
 used to share the information with other apps, such as your e-mail program, and
 forward it to the developers.

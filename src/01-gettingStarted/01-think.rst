@@ -38,7 +38,7 @@ comes with no guarantee and might contain bugs.
 Navigational Data and Aviation Data
 -----------------------------------
 
-Navigational-- and aviation data, including airspace and airfield information,
+Navigational and aviation data, including airspace and airfield information,
 are provided "as is" and without any guarantee, official validation,
 certification or warranty.  The data does not come from official sources.  It
 might be incomplete, outdated or otherwise incorrect.

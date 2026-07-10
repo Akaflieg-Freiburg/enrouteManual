@@ -25,7 +25,7 @@ MBTILES Map Data Sources
 ------------------------
 
 The website `open flightmaps
-<https://www.openflightmaps.org/https://www.openflightmaps.org>`_ provides
+<https://www.openflightmaps.org>`_ provides
 excellent aviation maps in raster format for a variety of European countries, as
 well as South Africa and Namibia.  We are aware of aviation authorities that
 offer ICAO raster maps in GeoTIFF format. The Section :ref:`mapconversiontools`

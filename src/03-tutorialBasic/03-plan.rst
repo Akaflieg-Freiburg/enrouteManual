@@ -144,8 +144,8 @@ Option 3: Load a Route From the Library
 .......................................
 
 Section `Save route for future use`_ will show how to save a route to the
-library for future use. If you have already saved a route to the library, go to
-the open the main menu and choose the item "Library/Routes." The route library
+library for future use. If you have already saved a route to the library, open
+the main menu and choose the item "Library/Routes." The route library
 page will open. Choose a route by tapping on the respective item in the list.
 
 

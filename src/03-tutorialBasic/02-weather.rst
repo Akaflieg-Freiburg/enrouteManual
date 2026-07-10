@@ -50,7 +50,7 @@ categories" typically used in the United States; see the section
 
 - White: No data
 
-Touch any item in the list to open dialog window with more details. The dialog
+Touch any item in the list to open a dialog window with more details. The dialog
 window will look like this.
 
 .. _weatherDialog:
@@ -83,4 +83,4 @@ The refresh button in the title bar at the top right of the page allows checking
 for updates of METAR and TAF data.  **Enroute Flight Navigation** checks for
 updates at regular intervals, so that there is no need to trigger an update
 manually.  The refresh button might however be useful to force an update in
-setting where the device had no internet connection for a while.
+settings where the device had no internet connection for a while.

@@ -27,7 +27,7 @@ True Altitude
 This field shows the true altitude reported by the satellite navigation system.
 
 True altitude AGL or AMSL is the vertical distance from the aircraft to the
-terrain or to the main sea level, respectively.
+terrain or to the mean sea level, respectively.
 
 .. warning:: 
    True altitude is not the same as barometric altitude, which is the altitude

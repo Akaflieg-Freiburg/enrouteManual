@@ -58,8 +58,8 @@ glad to list them here.
 Import Approach Chart Files
 ---------------------------
  
-Transfer the GeoTIFF of TripKit file to your device and open the file on your device.  The
-Section :ref:`importData` explains the process in detail.
+Transfer the GeoTIFF or TripKit file to your device and open the file on your
+device.  The Section :ref:`importData` explains the process in detail.
 
 .. note:: TripKits are ZIP files with specialized content. Trying to open a 
   TripKit file, some file management utilities will automatically unpack the ZIP 

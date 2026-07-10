@@ -22,7 +22,7 @@ If a device does not receive regular system updates, the certificates will
 expire after a while, and secure network connections are no longer possible. `As
 covered in the media
 <https://techcrunch.com/2021/09/21/lets-encrypt-root-expiry>`_, many users of
-systems running Android 7.1 (or below) started to experience problems on 30.
+systems running Android 7.1 (or below) started to experience problems on 30
 September 2021, when an important certificate expired.
 
 When certificates expire, some apps will stop working.  Other app authors prefer
@@ -36,7 +36,7 @@ to make an informed decision about the security of their systems.  **Enroute
 Flight Navigation** will tell the user of any network security errors.  Users
 can then decide to do one of the following.
 
-- Replace the device by a more recent model, preferably from one of the few
+- Replace the device with a more recent model, preferably from one of the few
   manufacturers who offer long-time support for their products.
 - Accept the risk of insecure communication and ignore network security errors
   in the future.
@@ -79,7 +79,7 @@ iOS
 Users may experience a degraded workflow when connecting to a traffic data
 receiver that requires a password, in addition to the password required to enter
 the Wi-Fi network. Privacy features of iOS prevent **Enroute Flight Navigation**
-from accessing the SSID of the Wi-Fi network, which makes in impossible to
+from accessing the SSID of the Wi-Fi network, which makes it impossible to
 identify networks and suggest correct passwords from the password storage.
 
 

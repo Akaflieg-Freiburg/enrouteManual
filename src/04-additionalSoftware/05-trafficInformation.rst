@@ -3,19 +3,19 @@
 Traffic Information Tools
 =========================
 
-There are several "traffic information" or "anti-collision" apps on the marked
+There are several "traffic information" or "anti-collision" apps on the market
 targeting general aviation pilots. These apps typically perform two functions.
 
 - They receive traffic data via the internet and broadcast the information to
-  apps like **Enroute Flight Navigation** which can then show traffic in the
-  moving map, and
+  apps like **Enroute Flight Navigation**, which can then show traffic in the
+  moving map.
 
-- The report the current position to servers on the internet, so other users of
+- They report the current position to servers on the internet, so other users of
   the system can be warned of your presence.
 
 **Enroute Flight Navigation** integrates well with these apps.  This section
 describes two of the more popular solutions, "CCAS VFR-Kollisionswarnsystem" and
-"SafeSky"
+"SafeSky".
 
 .. warning:: 
   While traffic information apps have valid use cases, for instance in flight
@@ -23,7 +23,7 @@ describes two of the more popular solutions, "CCAS VFR-Kollisionswarnsystem" and
   recommend against using traffic data from internet services in real flight.
 
   - Internet connectivity is not reliable in flight. Experiments in Germany have
-    shown that internet connection to fail for about half of the time, even when
+    shown the internet connection to fail for about half of the time, even when
     flying over densely populated areas. This problem will likely increase in the
     future, as modern 5G antennas have a stronger directional characteristic than
     traditional ones.
@@ -48,8 +48,8 @@ Flight Navigation**.
   **wrong barometric altitude readings in Enroute Flight Navigation**, and in 
   turn to **involuntary airspace violations**.  
   
-  Be aware that cabin pressure and static pressure disagree even in aircraft 
-  without pressurized cabin.
+  Be aware that cabin pressure and static pressure disagree even in aircraft
+  without a pressurized cabin.
 
 
 One-time Setup
@@ -98,7 +98,7 @@ to have a valid premium subscription.
 Step 1: Enable Traffic Sharing
 ..............................
 
-In the main menu of Safe Sky, choose the box "Traffic Sharing". The page
+In the main menu of SafeSky, choose the box "Traffic Sharing". The page
 "Traffic Sharing" will open. 
 
 - Choose the option "Enable traffic sharing"
@@ -107,12 +107,12 @@ In the main menu of Safe Sky, choose the box "Traffic Sharing". The page
   navigation apps. Choose "Enroute" from the list and touch the button "back" to
   close the list.
 
-- Touch the button "back" to close page "Traffic sharing". Leave the main menu
-  and return to the SafeSky main page.
+- Touch the button "back" to close the page "Traffic Sharing". Leave the main
+  menu and return to the SafeSky main page.
 
 That's it. As soon as you choose "TAKE OFF" in SafeSky to start a flight,
-SafeSky will start a background process that shares traffic data with Enroute
-Flight Navigation. 
+SafeSky will start a background process that shares traffic data with **Enroute
+Flight Navigation**.
 
 
 Step 2: Check Connectivity

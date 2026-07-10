@@ -10,15 +10,15 @@ and understands a variety of protocols.  By default, **Enroute Flight
 Navigation** watches the following data channels.  This should cover a large
 part of the devices presently on the market.
 
-- A TCP connection to port 2000 at the IP addresses 10.10.10.10, where the app
+- A TCP connection to port 2000 at the IP address 10.10.10.10, where the app
   expects a stream of FLARM/NMEA sentences.
-- A TCP connection to port 2000 at the IP addresses 192.168.1.1, where the app
+- A TCP connection to port 2000 at the IP address 192.168.1.1, where the app
   expects a stream of FLARM/NMEA sentences.
-- A TCP connection to port 2000 at the IP addresses 192.168.10.1, where the app
+- A TCP connection to port 2000 at the IP address 192.168.10.1, where the app
   expects a stream of FLARM/NMEA sentences.
-- A TCP connection to port 2000 at the IP addresses 192.168.4.1, where the app
+- A TCP connection to port 2000 at the IP address 192.168.4.1, where the app
   expects a stream of FLARM/NMEA sentences.
-- A TCP connection to port 2000 at the IP addresses 192.168.42.1, where the app
+- A TCP connection to port 2000 at the IP address 192.168.42.1, where the app
   expects a stream of FLARM/NMEA sentences.
 - A UDP connection to port 4000, where the app expects datagrams in GDL90 or
   XGPS format.
@@ -50,21 +50,21 @@ Data Formats
 Known Issues with GDL90
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The GDL90 protocol has a number of shortcomings, and we recommend to use
+The GDL90 protocol has a number of shortcomings, and we recommend using
 FLARM/NMEA whenever possible.  We are aware of the following issues.
 
 Altitude measurements
   According to the GDL90 Specification, the ownship geometric height is reported
   as height above WGS-84 ellipsoid.  There are however many devices on the
-  market that wrongly report height above main sea level.  Different apps have
+  market that wrongly report height above mean sea level.  Different apps have
   different strategies to deal with these shortcomings.
   
-  - **Enroute Flight Navigation** as well as the app Skydemon expect that
+  - **Enroute Flight Navigation** as well as the app SkyDemon expect that
     traffic receivers comply with the GDL90 Specification.
   - ForeFlight has extended the GDL90 Specification so that traffic receivers
     can indicate if they comply with the specification or not.
   - Many other apps expect wrong GDL90 implementations and interpret the
-    geometric height has height above main sea level.
+    geometric height as height above mean sea level.
 
 
 MODE-S traffic
@@ -76,7 +76,7 @@ MODE-S traffic
   
   - Stratux devices generate a ring of eight virtual targets around the own
     position.  These targets are named "Mode S".
-  - Air Avioncs devices do the same, but only with one target.
+  - Air Avionics devices do the same, but only with one target.
   - Other devices create a virtual target, either at the ownship position or at
     the North Pole and abuse the field "Navigation Accuracy Category for
     Position" to give the approximate position to the target.

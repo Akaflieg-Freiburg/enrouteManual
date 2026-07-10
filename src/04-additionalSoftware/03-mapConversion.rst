@@ -20,7 +20,7 @@ We are aware of websites that offer raster maps in GeoTIFF format. At present,
 **Enroute Flight Navigation** cannot handle GeoTIFF files, but there are tools
 that convert GeoTIFF to MBTILES.
 
-- Official ICAO maps for Denmark are available from the danish `AIM Naviair
+- Official ICAO maps for Denmark are available from the Danish `AIM Naviair
   <https://aim.naviair.dk/en/charts/>`_
 
 - Official ICAO maps for Spain are available from the Spanish `Insignia Servicio
@@ -55,7 +55,7 @@ kindly provided the following short tutorial.
 
 - Install QGIS on your desktop computer. On Fedora Linux, we found that the
   packages provided by the default software repository were outdated and lacked
-  the necessary functionality.  We followed the installations instructions on
+  the necessary functionality.  We followed the installation instructions on
   the `QGIS website <https://qgis.org/en/site/forusers/download.html>`_ to
   install a current and full-featured version of the program.
 
@@ -69,14 +69,14 @@ kindly provided the following short tutorial.
   EPSG:3857.
 
 - Use the menu items under "View/Panels/…" to ensure that the panels "Layer" and
-  "Layer Styling" are visible. Select the layer of your GeoTIFF file and in the
+  "Layer Styling" are visible. Select the layer of your GeoTIFF file in the
   "Layer" panel.  Then, go to the "Layer Styling" panel and set "Resampling" to
   "Bilinear" for better image render quality.
 
 - Use the menu items under "View/Panels/…" to ensure that the panel "Processing
   Toolbox" is visible. Inside the "Processing Toolbox", double-click on "Raster
   Tools→Generate XYZ Tiles (MBTILES)".  The dialog "Generate XYZ Tiles
-  (MBTILES)" will open. Fill the necessary parameters, as seen in the image
+  (MBTILES)" will open. Fill in the necessary parameters, as seen in the image
   below. We found the function "Draw on Map Canvas" useful to specify the map
   extent. Pay attention to the maximum zoom level, as the time and file size
   increase significantly after zoom level 12. Depending on the size of your

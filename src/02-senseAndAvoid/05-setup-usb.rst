@@ -8,8 +8,8 @@ only point-to-point connections, so that only one single app can access traffic
 data at any given time.  Pilots and co-pilots must therefore decide who gets to
 see traffic data.
 
-.. note:: **Enroute Flight Navigation** expects a stream for FLARM/NMEA sentences
-    from the USB.
+.. note:: **Enroute Flight Navigation** expects a stream of FLARM/NMEA sentences
+    from the USB port.
 
 .. note:: USB communication is not available on iPhone or iPad devices. 
 
