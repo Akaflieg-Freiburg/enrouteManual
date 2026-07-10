@@ -10,8 +10,6 @@ OsmAnd
 EDTF
 Flarmnet
 airspaces
-EDTF
-Flarmnet
 datagrams
 Datagrams
 ownship
