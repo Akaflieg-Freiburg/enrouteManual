@@ -5,6 +5,8 @@ Platform Notes
 Android
 -------
 
+.. _networkSecurity:
+
 Network Security Problems on Outdated Devices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

@@ -7,4 +7,4 @@ throughout **Enroute Flight Navigation**.
 .. toctree::
    :maxdepth: 1
 
-   05-referenceItems/directionItem
+   08-referenceItems/01-directionItem

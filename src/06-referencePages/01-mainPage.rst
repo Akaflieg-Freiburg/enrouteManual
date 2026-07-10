@@ -385,6 +385,8 @@ from the Navigation Bar at the bottom of the page.
    Side View of the Airspace while Approaching EDDS
 
 
+.. _staticPressure:
+
 Dependence on Static Pressure Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

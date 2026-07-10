@@ -24,39 +24,39 @@ mkdir -p build/manualAssets
 # Generate waypoint icons
 #
 echo "Generating waypoint icons..."
-rsvg-convert ../enroute/src/flightMap/sprites/AD.svg -o src/05-referencePages/AD.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-GLD.svg -o src/05-referencePages/AD-GLD.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-GRASS.svg -o src/05-referencePages/AD-GRASS.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-INOP.svg -o src/05-referencePages/AD-INOP.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-MIL.svg -o src/05-referencePages/AD-MIL.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-MIL-GRASS.svg -o src/05-referencePages/AD-MIL-GRASS.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-MIL-PAVED.svg -o src/05-referencePages/AD-MIL-PAVED.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-PAVED.svg -o src/05-referencePages/AD-PAVED.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-UL.svg -o src/05-referencePages/AD-UL.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/AD-WATER.svg -o src/05-referencePages/AD-WATER.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/MRP.svg -o src/05-referencePages/MRP.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/NDB.svg -o src/05-referencePages/NDB.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/RP.svg -o src/05-referencePages/RP.png -h 30 -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/VOR.svg -o src/05-referencePages/VOR.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/VOR.svg -o src/05-referencePages/DVOR.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/VORDME.svg -o src/05-referencePages/VOR-DME.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/VORDME.svg -o src/05-referencePages/DVOR-DME.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/VORTAC.svg -o src/05-referencePages/VORTAC.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/VORTAC.svg -o src/05-referencePages/DVORTAC.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-OBST.svg -o src/05-referencePages/NOTAM-OBST.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/NOTAM.svg -o src/05-referencePages/NOTAM.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-PJE.svg -o src/05-referencePages/NOTAM-PJE.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-RA.svg -o src/05-referencePages/NOTAM-RA.png -w 30
-rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-UAS.svg -o src/05-referencePages/NOTAM-UAS.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD.svg -o src/06-referencePages/AD.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-GLD.svg -o src/06-referencePages/AD-GLD.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-GRASS.svg -o src/06-referencePages/AD-GRASS.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-INOP.svg -o src/06-referencePages/AD-INOP.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-MIL.svg -o src/06-referencePages/AD-MIL.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-MIL-GRASS.svg -o src/06-referencePages/AD-MIL-GRASS.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-MIL-PAVED.svg -o src/06-referencePages/AD-MIL-PAVED.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-PAVED.svg -o src/06-referencePages/AD-PAVED.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-UL.svg -o src/06-referencePages/AD-UL.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/AD-WATER.svg -o src/06-referencePages/AD-WATER.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/MRP.svg -o src/06-referencePages/MRP.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/NDB.svg -o src/06-referencePages/NDB.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/RP.svg -o src/06-referencePages/RP.png -h 30 -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/VOR.svg -o src/06-referencePages/VOR.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/VOR.svg -o src/06-referencePages/DVOR.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/VORDME.svg -o src/06-referencePages/VOR-DME.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/VORDME.svg -o src/06-referencePages/DVOR-DME.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/VORTAC.svg -o src/06-referencePages/VORTAC.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/VORTAC.svg -o src/06-referencePages/DVORTAC.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-OBST.svg -o src/06-referencePages/NOTAM-OBST.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/NOTAM.svg -o src/06-referencePages/NOTAM.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-PJE.svg -o src/06-referencePages/NOTAM-PJE.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-RA.svg -o src/06-referencePages/NOTAM-RA.png -w 30
+rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-UAS.svg -o src/06-referencePages/NOTAM-UAS.png -w 30
 
-rsvg-convert ../enroute/src/icons/waypoints/WP-map.svg -o src/05-referencePages/WP.png -w 10
+rsvg-convert ../enroute/src/icons/waypoints/WP-map.svg -o src/06-referencePages/WP.png -w 10
 
 
 #
 #  License Overview
 #
 echo "Copy License Overview"
-cp ../enroute/generatedSources/licenses_overview.rst src/08-appendix/licenses_overview.rst
+cp ../enroute/generatedSources/licenses_overview.rst src/11-appendix/licenses_overview.rst
 
 
 #
@@ -66,47 +66,47 @@ echo "Generating Screenshot"
 LC_ALL=en_US ../enroute/build/build-linux-release/src/enroute --sm
 mv 01-*.png src/01-gettingStarted/autogenerated/
 mv 02-*.png src/03-tutorialBasic/autogenerated/
-mv 03-*.png src/03-tutorialAdvanced/autogenerated/
-mv 05-*.png src/05-referencePages/autogenerated/
+mv 03-*.png src/04-tutorialAdvanced/autogenerated/
+mv 05-*.png src/06-referencePages/autogenerated/
 
 
 #
 # Privacy policies
 #
 echo "Generating Privacy Policies Text"
-echo "Privacy Policies" >src/08-appendix/03-privacy.rst
-echo "================" >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-echo "English" >>src/08-appendix/03-privacy.rst
-echo "-------" >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=EN ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-echo "Deutsche Übersetzung" >>src/08-appendix/03-privacy.rst
-echo "--------------------" >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=DE ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-echo "Traduction en français" >>src/08-appendix/03-privacy.rst
-echo "----------------------" >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=FR ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-echo "Traduzione italiana" >>src/08-appendix/03-privacy.rst
-echo "-------------------" >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=IT ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-echo "Polskie tłumaczenie" >>src/08-appendix/03-privacy.rst
-echo "-------------------" >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=PL ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-echo "Traducción al español" >>src/08-appendix/03-privacy.rst
-echo "---------------------" >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-LC_ALL=ES ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/08-appendix/03-privacy.rst
-echo "" >>src/08-appendix/03-privacy.rst
-echo "Authors" >src/08-appendix/04-authors.rst
-echo "=======" >>src/08-appendix/04-authors.rst
-LC_ALL=EN ../enroute/build/build-linux-release/src/enroute --string :text/authors.html | pandoc --from=HTML --write=rst >>src/08-appendix/04-authors.rst
+echo "Privacy Policies" >src/11-appendix/04-privacy.rst
+echo "================" >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+echo "English" >>src/11-appendix/04-privacy.rst
+echo "-------" >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+LC_ALL=EN ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+echo "Deutsche Übersetzung" >>src/11-appendix/04-privacy.rst
+echo "--------------------" >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+LC_ALL=DE ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+echo "Traduction en français" >>src/11-appendix/04-privacy.rst
+echo "----------------------" >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+LC_ALL=FR ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+echo "Traduzione italiana" >>src/11-appendix/04-privacy.rst
+echo "-------------------" >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+LC_ALL=IT ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+echo "Polskie tłumaczenie" >>src/11-appendix/04-privacy.rst
+echo "-------------------" >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+LC_ALL=PL ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+echo "Traducción al español" >>src/11-appendix/04-privacy.rst
+echo "---------------------" >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+LC_ALL=ES ../enroute/build/build-linux-release/src/enroute --string :text/privacy.html | pandoc --from=HTML --write=rst >>src/11-appendix/04-privacy.rst
+echo "" >>src/11-appendix/04-privacy.rst
+echo "Authors" >src/11-appendix/05-authors.rst
+echo "=======" >>src/11-appendix/05-authors.rst
+LC_ALL=EN ../enroute/build/build-linux-release/src/enroute --string :text/authors.html | pandoc --from=HTML --write=rst >>src/11-appendix/05-authors.rst

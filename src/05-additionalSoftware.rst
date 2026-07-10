@@ -8,8 +8,8 @@ other software that we should list here.
 .. toctree::
    :maxdepth: 1
 
-   04-additionalSoftware/01-flightPlanning
-   04-additionalSoftware/02-mapping
-   04-additionalSoftware/03-mapConversion
-   04-additionalSoftware/04-geotiff
-   04-additionalSoftware/05-trafficInformation
+   05-additionalSoftware/01-flightPlanning
+   05-additionalSoftware/02-mapping
+   05-additionalSoftware/03-mapConversion
+   05-additionalSoftware/04-geotiff
+   05-additionalSoftware/05-trafficInformation
