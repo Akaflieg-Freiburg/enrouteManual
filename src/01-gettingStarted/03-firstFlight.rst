@@ -32,7 +32,7 @@ map to your liking.  The figures :ref:`movingMapGround` and
    :alt: Moving Map Display in Flight
 
    Moving Map Display in Flight
-   
+
 Initially, your own position is shown as a blue circle (or gray if the system
 has not yet acquired a valid position).  Once you are moving, your own position
 is shown as a blue arrow shape.  The flight path vector shows the projected
@@ -50,8 +50,8 @@ segments corresponds to one minute.
 .. note:: When you start the app for the first time, you will probably see a
    bright red aircraft symbol in the lower left corner of the map. This symbol
    indicates that the app is not connected to the traffic data receiver of your
-   aircraft, so that traffic will not be shown on the moving map.  
-   
+   aircraft, so that traffic will not be shown on the moving map.
+
    Once you are familiar with the app, please have a look at the Section
    :ref:`senseandavoid` of this manual.
 
@@ -64,16 +64,16 @@ The bottom of the display shows a little panel with the following information.
 ====== ==============
 Code   Meaning
 ====== ==============
-T.TALT True altitude (=geometric altitude) above sea level.
-FL     Flight level.
+T.ALT  True altitude (=geometric altitude) above sea level.
+P.ALT  Pressure altitude, in flight level format.
 GS     Ground speed.
 TT     True track.
 UTC    Current time.
 ====== ==============
 
-The flight level is only available if your device is connected to a traffic
+The pressure altitude is only available if your device is connected to a traffic
 receiver (such as a PowerFLARM device) that reports the pressure altitude.
-Flight level and current time are hidden if the display is not wide enough.
+Pressure altitude and current time are hidden if the display is not wide enough.
 
 .. warning:: Vertical airspace boundaries are defined by pressure altitudes
    (with respect to QNH or standard pressure).  Depending on temperature and air
@@ -116,8 +116,8 @@ Symbol                                                      Function
 .. image:: ../01-gettingStarted/ic_add.png                  Zoom in.
 .. image:: ../01-gettingStarted/ic_remove.png               Zoom out.
 .. image:: ../01-gettingStarted/ic_keyboard_arrow_up.png    Open airspace side view.
-.. image:: ../01-gettingStarted/ic_airplanemode_active.png  Open the traffic receiver status page. Only visible when the app does not receive traffic information. 
-.. image:: ../01-gettingStarted/ic_airplanemode_outline.png Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver and receives data through the internet. 
+.. image:: ../01-gettingStarted/ic_airplanemode_active.png  Open the traffic receiver status page. Only visible when the app does not receive traffic information.
+.. image:: ../01-gettingStarted/ic_airplanemode_outline.png Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver and receives data through the internet.
 =========================================================== ========
 
 .. _firstFlightWaypointInfo:
@@ -141,14 +141,14 @@ will be shown.  The figure :ref:`wpInfo` shows how this will typically look.
 The dialog uses the following abbreviations.
 
 ============= ================================
-Abbreviations 
+Abbreviations
 ============= ================================
 DIST          Distance to the waypoint
 QUJ           True track to the waypoint
-E             Minimal gliding ratio required to reach waypoint in 300 m AGL (disregarding terrain)
+E             Minimal gliding ratio required to reach waypoint at 300 m AGL (disregarding terrain)
 ============= ================================
 
-Click on the link 'full report' for a list of NOTAMs relevant for the EDFE
+Click on the link 'full report' for a list of NOTAMs relevant to the EDFE
 airfield.
 
 

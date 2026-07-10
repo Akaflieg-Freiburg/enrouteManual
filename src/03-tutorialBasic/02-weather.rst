@@ -7,13 +7,13 @@ that an internet connection is available.  To check weather, open the main menu
 and choose the item "Weather".  The weather information comes from the "Aviation
 Weather Center", a website of the US government.  When you open the page for the
 first time, **Enroute Flight Navigation** asks for your permission to access
-that site. 
+that site.
 
 .. warning::
 
    The weather information shown by **Enroute Flight Navigation** might be
    outdated or otherwise wrong.  Assessment of meteorological flight conditions
-   has to be done via an officially approved source of flight weather.  
+   has to be done via an officially approved source of flight weather.
 
 As soon as weather information has been downloaded, the page will look like
 this.
@@ -66,13 +66,13 @@ full weather forecast.  The section :ref:`metarDialog` describes the dialog in
 full detail.
 
 
-Page Footer 
+Page Footer
 -----------
 
 The footer of the page shows the following data.
 
 * QNH of the closest airfield, as well as location and time of the report
-* Time of next sunset or sunrise at current location 
+* Time of next sunset or sunrise at current location
 * Remaining time until sunset
 
 

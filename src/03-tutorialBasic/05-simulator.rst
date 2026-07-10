@@ -92,7 +92,7 @@ the simulated aircraft is moving.  Follow the instructions on `this website
 FlightGear. **Enroute Flight Navigation** will then work automatically, without
 any specific configuration.
 
-  
+
 MS Flight Simulator
 ^^^^^^^^^^^^^^^^^^^
 
@@ -105,7 +105,7 @@ well with the following EFB-connector programs.
   provide barometric altitude data).
 - `XMapsy V3 <http://xmapsy.com/>`_ (commercial, more expensive, provides
   barometric altitude data).
-  
+
 .. note:: In MSFS2020 cold and dark mode, traffic in the air will not be
     shown. You have to power on the avionics!
 
@@ -118,7 +118,7 @@ fs2ff
 .....
 
 The program `fs2ff <https://github.com/jeffdamp-wave/fs2ff>`_ does not require any
-complicated installation or setup, just download and run.  
+complicated installation or setup, just download and run.
 The fork by jeffdamp-wave supports the GDL90 protocol to provide barometric altitude.
 The latest release of fs2ff can be downloaded `here
 <https://github.com/jeffdamp-wave/fs2ff/releases>`_. Detailed instructions can be
@@ -141,7 +141,7 @@ XMapsy Essential
 If you use XMapsy Essential, you need not set up anything. Just start XMapsy
 Essential and start MSFS2020. The broadcast address will be set up automatically.
 The figure :ref:`XMapsyEssential` shows the settings.
-  
+
 .. _XMapsyEssential:
 .. figure:: XMapsyEssential.png
    :scale: 75 %

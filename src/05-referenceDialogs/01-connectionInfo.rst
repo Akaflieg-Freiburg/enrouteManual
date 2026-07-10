@@ -20,7 +20,7 @@ The dialog shows the following information.
 - Connection Status.
 - Data Format expected by the connection.
 - A monitor field showing incoming data. This field is updated in real time as
-  data arrives. The monitor field is only visible if Enroute Flight Navigation
+  data arrives. The monitor field is only visible if **Enroute Flight Navigation**
   receives data through the connection.
 - For Serial Port or USB Connections: A button to set the baud rate.
 - For Serial Port or USB Connections: A button to set the number of stop bits.

@@ -10,15 +10,15 @@ positioning data is available, every item prominently displays a brief direction
 summary with the following data.
 
 - **DIST:** Distance from your current position to the geographic point, shown
-  in the unit of measurement set in your aircraft preferences.  
+  in the unit of measurement set in your aircraft preferences.
 
-- **QUJ:** True course from your current position to the geographic point.
+- **QUJ:** True track from your current position to the geographic point.
 
 - **E:** Gliding ratio required to reach the geographic point from your current
   position by straight flight, arriving at 300 m AGL. If the gliding ratio is
   negative or extremely high, the symbol '∞' is shown.
 
 .. warning::
-  
+
   The gliding ratio is computed without regard for terrain. There might be a
-  mountain in your way!  
+  mountain in your way!

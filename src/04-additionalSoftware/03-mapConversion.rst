@@ -41,7 +41,7 @@ Conversion Tool: QGIS
 
 Users have successfully used the free tool `QGIS <https://qgis.org/en/site>`_ to
 convert GeoTIFF files to MBTILES, which can then be used with **Enroute Flight
-Navigation**. 
+Navigation**.
 
 .. _QGIS-img:
 .. figure:: QGIS-MainWindow.png

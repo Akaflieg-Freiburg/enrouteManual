@@ -4,7 +4,7 @@ Information/Device Sensors
 ==========================
 
 The page **Device Sensors** provides status information on the sensors built
-into your mobile device. 
+into your mobile device.
 
 
 Status
@@ -17,4 +17,4 @@ temperature sensor.
 Sensor Data
 -----------
 
-These fields report on current cabin pressure, cabin height and temperature.
+These fields report on current cabin pressure, cabin altitude and temperature.

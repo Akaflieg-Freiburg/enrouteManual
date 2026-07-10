@@ -10,7 +10,7 @@ from astronomy to high-precision land survey, **Enroute Flight Navigation** only
 supports a subset of the GeoTIFF standard.  If you encounter a GeoTIFF file that
 **Enroute Flight Navigation** does not recognize, please `open an issue report
 <https://github.com/Akaflieg-Freiburg/enroute/issues/new/choose>`_.  We will be
-glad to help! 
+glad to help!
 
 Alternatively, you can use the industry-standard `GDAL tools
 <https://gdal.org>`_ to convert any GeoTIFF into a format supported by **Enroute

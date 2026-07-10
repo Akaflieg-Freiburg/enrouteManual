@@ -11,9 +11,9 @@ flight, it relies on the device's built-in SatNav receiver as a primary source
 for position information.  If no SatNav receiver is available, **Enroute Flight
 Navigation** can use your aircraft's traffic data receiver as a fallback source.
 
-.. note:: 
+.. note::
   At the time of writing, Apple iPad devices contain a SatNav receiver only if a
-  cell phone modem is also installed.  Unless your aircraft is equipped with a 
+  cell phone modem is also installed.  Unless your aircraft is equipped with a
   traffic data receiver that broadcasts position information, iPad devices without
   SatNav receiver cannot be used for flight navigation.
 
@@ -26,13 +26,13 @@ Installation on Mobile Devices
   <https://play.google.com/store/apps/details?id=de.akaflieg_freiburg.enroute>`_
   and on the `App Store
   <https://apps.apple.com/us/app/enroute-flight-navigation/id6448892176>`_.
-  Binaries for Android are available for sideloading `here 
+  Binaries for Android are available for sideloading `here
   <https://github.com/Akaflieg-Freiburg/enroute/releases/latest>`_.
-  
+
 Installation on Mac Computers with Apple Silicon
   **Enroute Flight Navigation** is available for free on the `App Store
   <https://apps.apple.com/us/app/enroute-flight-navigation/id6448892176>`_.
-  
+
 Installation on Linux Desktop Machines
   **Enroute Flight Navigation** is available for free on `flathub.org
   <https://flathub.org/apps/details/de.akaflieg_freiburg.enroute>`_.  Depending
@@ -46,7 +46,7 @@ First Start
 After installation, start the app.  The app will walk you through the first
 setup steps. You will be asked to accept the privacy policy and terms and
 conditions. Depending on the platform, you might need to grant the necessary
-permissions for the app to run.  
+permissions for the app to run.
 
 **Enroute Flight Navigation** cannot be used without geographic maps. As the
 last step, the app will suggest downloading maps that are relevant for your

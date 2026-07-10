@@ -20,7 +20,7 @@ interface to Eurocontrol services, and a messenger bot that can be used to
 manage flight plans and access up-to-date airspace information.
 
 The autorouter website is able to export flight routes in GPX format, which can
-be read by **Enroute Flight Navigation**.  
+be read by **Enroute Flight Navigation**.
 
 - Open the website `autorouter.aero <autorouter.aero>`_ on the device that runs
   **Enroute Flight Navigation**.  Then log in.
@@ -60,7 +60,7 @@ FL95.de
 
 `FL95.de <fl95.de>`_ is a free online flight planning website popular in Germany
 and surrounding countries.  It is able to export flight routes in GPX format,
-which can be read by **Enroute Flight Navigation**.  
+which can be read by **Enroute Flight Navigation**.
 
 Since `FL95.de <fl95.de>`_ is not designed for the small screens of mobile
 devices, we recommend using it on a desktop or laptop computer.  Proceed as
@@ -73,7 +73,7 @@ follows.
 
 - Once done, open the tab "Laden Speichern Drucken"
 
-- At "GPS-Export", choose "Dateiformat: GPX" and click on "Datei erzeugen". 
+- At "GPS-Export", choose "Dateiformat: GPX" and click on "Datei erzeugen".
 
 - `FL95.de <fl95.de>`_ will generate a file (typically called
   "FL95_EDTF_nach_EDTF.gpx") that will be downloaded via your web browser.  Most

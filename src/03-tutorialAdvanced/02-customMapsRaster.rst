@@ -6,7 +6,7 @@ Import Custom Raster Maps
 **Enroute Flight Navigation** comes with a set of general-purpose base maps in
 vector format, which are shown together with the aviation data in a style that
 we consider suitable for most aviation purposes.  Still, there might be
-situations where a user would like to use their own base maps. 
+situations where a user would like to use their own base maps.
 
 - Where available, some users might prefer to use official ICAO charts of their
   countries.
@@ -15,9 +15,9 @@ situations where a user would like to use their own base maps.
 **Enroute Flight Navigation** is able to import MBTILES files containing raster
 data.
 
-.. note:: 
-  Even if you decide to use raster maps, we still recommend installing our 
-  regular maps, because **Enroute Flight Navigation** needs the data to provide 
+.. note::
+  Even if you decide to use raster maps, we still recommend installing our
+  regular maps, because **Enroute Flight Navigation** needs the data to provide
   airspace and waypoint information.
 
 
@@ -58,7 +58,7 @@ Menu, which shows all raster maps installed.  Tap on an entry to show the
 relevant map inside the moving map display.  Tap on the same entry again to hide
 it.
 
-.. note:: 
-  In order to avoid confusion, at most one raster map will be shown at any given 
+.. note::
+  In order to avoid confusion, at most one raster map will be shown at any given
   time.
 

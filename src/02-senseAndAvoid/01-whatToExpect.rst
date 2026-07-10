@@ -19,7 +19,7 @@ when traffic is detected.
 The figure shows two traffic factors.
 
 - There is one aircraft in the downwind section of the traffic circuit.  The
-  traffic has approximately the same altitude as the own aircraft and is
+  traffic has approximately the same altitude as your own aircraft and is
   descending.  The green color indicates "no alarm".
 - There is one aircraft nearby whose precise position is unknown to the traffic
   receiver; this is often the case with traffic that has only a Mode-S
@@ -31,7 +31,7 @@ The section :ref:`mainPage` covers the traffic display in detail.
 .. note:: To show only relevant traffic, **Enroute Flight Navigation** will
     display traffic factors only if the vertical distance is less than 1,500 m
     and the horizontal distance less than 20 nm. Aircraft on the ground will
-    not be shown at all, provided that your traffic data receiver reports the 
+    not be shown at all, provided that your traffic data receiver reports the
     flight status.
 
 
@@ -63,10 +63,10 @@ Platform Support
 ^^^^^^^^^^^^^^^^
 
 Access to Bluetooth radio is severely limited on iOS platforms. For that reason,
-Bluetooth communication is not supported at all on iPhone or iPad devices. 
+Bluetooth communication is not supported at all on iPhone or iPad devices.
 
 Applications are not allowed to read the Wi-Fi status on iOS platforms. For that
 reason, **Enroute Flight Navigation** cannot determine the ID of the traffic
 data receiver when connecting via Wi-Fi. As a result, traffic data receiver
-passwords cannot be stored when using iPhone or iPad devices. 
+passwords cannot be stored when using iPhone or iPad devices.
 

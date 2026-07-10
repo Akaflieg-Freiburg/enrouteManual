@@ -17,7 +17,7 @@ Graphic Errors
 A very small number of users reported broken graphic and flickering that
 rendered **Enroute Flight Navigation** unusable on their devices. The cause of
 the problem is unknown because the developers could not reproduce the issue on
-any of their devices. 
+any of their devices.
 
 We have obtained reports that deleting the cache of the app solves the issue.
 For that, open the Android Settings and navigate to "Apps / Enroute Flight

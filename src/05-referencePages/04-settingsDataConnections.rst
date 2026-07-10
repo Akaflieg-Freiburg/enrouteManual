@@ -132,10 +132,10 @@ connection, you need the following data.
   ports 4000 or 49002.
 
 .. note:: To simplify the setup process, **Enroute Flight Navigation** includes
-    a number of predefined UDP connections.  These suffice to connect to any 
-    traffic data receiver that we have seen.  Manual configuration of UDP 
-    connections should never be necessary.  If you are aware of hardware that 
-    uses a port not covered by the predefined connections, then please open the 
+    a number of predefined UDP connections.  These suffice to connect to any
+    traffic data receiver that we have seen.  Manual configuration of UDP
+    connections should never be necessary.  If you are aware of hardware that
+    uses a port not covered by the predefined connections, then please open the
     main menu and use the entry "Bug Report" to let us know.
 
 To configure a new UDP data connection, proceed as follows.
@@ -220,7 +220,7 @@ Serial Port or USB
 receiver via the serial port. This includes serial port devices connected via
 USB.
 
-.. note:: Due to limitations of the iOS platform, neither serial port nor USB 
+.. note:: Due to limitations of the iOS platform, neither serial port nor USB
     communication is supported on iPhone and iPad devices.
 
 

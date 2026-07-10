@@ -36,9 +36,9 @@ The following image shows a typical situation.
 
    Moving Map When Following a Flight Route
 
-.. note:: 
+.. note::
   **Enroute Flight Navigation** shows the info box only when airborne, closer
-  than three nautical miles to the intended route and further than three 
+  than three nautical miles to the intended route and further than three
   nautical miles from your destination.
 
 
@@ -114,10 +114,10 @@ Click on the field "Add Waypoint" again to enter more waypoints.
 Option 2: Select Waypoints in the Moving Map
 ............................................
 
-It is possible to add waypoints directly from the moving map. 
+It is possible to add waypoints directly from the moving map.
 
 - Double-tap or tap-and-hold on any point of the moving map. The waypoint
-  description dialog will open.  
+  description dialog will open.
 
 - Tap on the "Route" button to add the waypoint to the current route.  A menu
   will open.
@@ -154,7 +154,7 @@ Option 4: Import a File From Another Program
 
 To prepare your flight, you might want to use full-featured flight preparation
 software or online services.  The Section :ref:`flightPlanningTools` highlights
-a few tools typically used in our club.  
+a few tools typically used in our club.
 
 All programs known to us are able to export flight routes in GPX format, which
 is one of the formats that can be read by **Enroute Flight Navigation**.  A full

@@ -3,7 +3,7 @@ Information/About
 
 The page **About Enroute Flight Navigation** shows basic information about the
 app and the system. To access the page, open the main menu and choose
-"Information/About Enroute Flight Navigation." 
+"Information/About Enroute Flight Navigation."
 
 The page presents four tabs with information about the app, its authors, the
 software license, and the current system.

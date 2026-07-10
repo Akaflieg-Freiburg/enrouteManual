@@ -2,7 +2,7 @@ Advanced Use
 ############
 
 The following tutorials walk you through more advanced functionality of
-**Enroute Flight Navigation**.  
+**Enroute Flight Navigation**.
 
 .. toctree::
    :maxdepth: 1

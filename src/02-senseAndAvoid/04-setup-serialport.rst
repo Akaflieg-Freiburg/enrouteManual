@@ -12,7 +12,7 @@ gets to see traffic data.
     from the serial port device. **Enroute Flight Navigation** is not able to
     integrate into a CAN-Bus environment.
 
-.. note:: Serial port communication is not available at all on iPhone or iPad devices. 
+.. note:: Serial port communication is not available at all on iPhone or iPad devices.
 
 
 One-time Setup
@@ -27,7 +27,7 @@ following conditions are met.
 - The hardware is set up. You know the communication parameters of your device,
   including the baud rate.
 - Your traffic receiver is switched on and broadcasts FLARM/NMEA via its serial
-  port. 
+  port.
 - Your device is connected to the serial port and no other app uses the serial
   port connection.
 

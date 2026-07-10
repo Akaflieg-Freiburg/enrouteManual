@@ -6,7 +6,7 @@ Information/Traffic Data Receiver
 The page **Traffic Data Receiver** provides status information on the data
 connection between **Enroute Flight Navigation** and your traffic data receiver.
 To access the page, open the main menu and choose "Information/Traffic Data
-Receiver." 
+Receiver."
 
 
 Connection Status
@@ -47,7 +47,7 @@ field is invisible.
 True altitude AGL or AMSL is the vertical distance from the aircraft to the
 terrain or to the mean sea level, respectively.
 
-.. warning:: 
+.. warning::
    True altitude is not the same as barometric altitude, which is the altitude
    shown on your aircraft's altimeter. Depending on weather conditions, true
    altitude and barometric altitude may differ substantially. Never use true
@@ -65,7 +65,7 @@ Otherwise, this field is invisible.
 Pressure altitude is the altitude in the standard atmosphere at which the
 pressure is equal to the current atmospheric pressure. This is the altitude
 displayed on the aircraft's altimeter when set to the standard pressure of
-1013.2hPa. This is also the altitude shown on the transponder.
+1013.2 hPa. This is also the altitude shown on the transponder.
 
 
 Traffic
@@ -77,7 +77,7 @@ messages are received, this field is not shown.
 
 Traffic opponents are classified as "Relevant Traffic" and "Irrelevant Traffic".
 Traffic is considered relevant if the vertical distance to the traffic opponent
-is less than 1,500 m and the horizontal distance is less than 20 NM. Only
+is less than 1,500 m and the horizontal distance is less than 20 nm. Only
 relevant traffic is shown in the moving map.
 
 

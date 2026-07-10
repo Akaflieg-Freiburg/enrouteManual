@@ -25,10 +25,10 @@ following formats.
   <https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE.html>`_ can
   produce TripKits for Germany.
 
-.. note:: GeoTIFF is a complex format that supports many use cases, ranging 
+.. note:: GeoTIFF is a complex format that supports many use cases, ranging
   from astronomy to high-precision land survey. **Enroute Flight Navigation**
-  only supports a subset of the GeoTIFF standard. If you encounter a GeoTIFF 
-  file that **Enroute Flight Navigation** does not recognize, see the 
+  only supports a subset of the GeoTIFF standard. If you encounter a GeoTIFF
+  file that **Enroute Flight Navigation** does not recognize, see the
   section :ref:`geotiffConversionTools` for possible remedies.
 
 
@@ -41,15 +41,15 @@ Obtain Approach Chart Files
   from Germany's official `AIP <https://aip.dfs.de/basicAIP>`_, as provided by
   `DFS Deutsche Flugsicherung GmbH <https://www.dfs.de/homepage>`_.
 
-- `GeoRef Tool <https://georefsite.onrender.com/>`_ is a free, web-based 
-  application that allows users to upload an image (e.g., aerodrome charts, 
-  approach plates) and manually georeference it by assigning reference points. 
-  The tool then generates a GeoTIFF file that can be imported into Enroute or 
-  other flight navigation software. This enables pilots and navigators to 
-  integrate custom maps with accurate geographic positioning, enhancing 
-  situational awareness during flight planning and navigation.
+- `GeoRef Tool <https://georefsite.onrender.com/>`_ is a free, web-based
+  application that allows users to upload an image (e.g., aerodrome charts,
+  approach plates) and manually georeference it by assigning reference points.
+  The tool then generates a GeoTIFF file that can be imported into **Enroute
+  Flight Navigation** or other flight navigation software. This enables pilots
+  and navigators to integrate custom maps with accurate geographic positioning,
+  enhancing situational awareness during flight planning and navigation.
 
-  For more details, visit the `GeoRef Tool Website <https://georefsite.onrender.com/>`_ 
+  For more details, visit the `GeoRef Tool Website <https://georefsite.onrender.com/>`_.
 
 Please get in touch with us if you are aware of other data sources. We will be
 glad to list them here.
@@ -57,19 +57,19 @@ glad to list them here.
 
 Import Approach Chart Files
 ---------------------------
- 
+
 Transfer the GeoTIFF or TripKit file to your device and open the file on your
 device.  The Section :ref:`importData` explains the process in detail.
 
-.. note:: TripKits are ZIP files with specialized content. Trying to open a 
-  TripKit file, some file management utilities will automatically unpack the ZIP 
-  file rather than offering to open it in **Enroute Flight Navigation**.  Along 
+.. note:: TripKits are ZIP files with specialized content. Trying to open a
+  TripKit file, some file management utilities will automatically unpack the ZIP
+  file rather than offering to open it in **Enroute Flight Navigation**.  Along
   similar lines, GeoTIFF files are image files with specialized metadata and some
   file management utilities will launch an image viewing application rather than
   offering to open a GeoTIFF file in **Enroute Flight Navigation**.
-  
+
   If you encounter problems opening a TripKit or GeoTIFF file, look for an icon
-  or menu item labeled "Open with…".  Some utilities open an appropriate context 
+  or menu item labeled "Open with…".  Some utilities open an appropriate context
   menu after a tap-and-hold gesture.
 
 
@@ -100,5 +100,5 @@ In order to avoid surprises in flight, **Enroute Flight Navigation** will not
 open the approach chart page automatically.
 
 .. note:: The menu entry "Approach Charts" is only visible if approach
-  charts are installed on your device. If you cannot find the menu entry, 
+  charts are installed on your device. If you cannot find the menu entry,
   install some approach charts first.

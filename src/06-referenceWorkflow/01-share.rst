@@ -25,13 +25,13 @@ Import Files and Text Data Shared by Other Apps
 
 **Enroute Flight Navigation** is able to import files from all apps that allow
 file sharing.  On Android, **Enroute Flight Navigation** also accepts text data
-shared by other apps.  While the list of these apps is endless, we expect that 
+shared by other apps.  While the list of these apps is endless, we expect that
 most users employ one of the following programs to transfer and access files
 and data.
 
 - Web browsers allow downloading and opening files from the internet.
-- Apps such as Google Maps share text data items. 
-- File management apps can open files stored on your device. 
+- Apps such as Google Maps share text data items.
+- File management apps can open files stored on your device.
 - Most file management apps also allow opening files stored on cloud services
   connected to your devices. Some cloud services come with specialized apps.
 - Email apps can open files attached to your mail messages, instant messaging
@@ -56,16 +56,16 @@ scenario, do the following.
    Navigation** from this list.
 5. **Enroute Flight Navigation** will open and import the file.
 
-.. note:: TripKits are ZIP files with specialized content. Trying to open a 
-  TripKit file, some file management utilities will automatically unpack the ZIP 
-  file rather than offering to open it in **Enroute Flight Navigation**.  Along 
+.. note:: TripKits are ZIP files with specialized content. Trying to open a
+  TripKit file, some file management utilities will automatically unpack the ZIP
+  file rather than offering to open it in **Enroute Flight Navigation**.  Along
   similar lines, GeoTIFF files are image files with specialized metadata and some
   file management utilities will launch an image viewing application rather than
   offering to open a GeoTIFF file in **Enroute Flight Navigation**.
-  
+
   If you encounter problems opening a TripKit or GeoTIFF file, look for an icon
-  or menu item labeled "Open with…".  Some utilities open an appropriate context 
-  menu after a tap-and-hold gesture.  Alternatively, import the file from local 
+  or menu item labeled "Open with…".  Some utilities open an appropriate context
+  menu after a tap-and-hold gesture.  Alternatively, import the file from local
   or remote storage, as explained in the next section.
 
 
@@ -83,11 +83,11 @@ import files.
 2. Open **Enroute Flight Navigation**. Use the main menu to navigate to one of
    the pages listed below.
 3. Open the three-dot-menu in the top right corner of the screen and choose the
-   item "Import".  A file dialog will open.  
+   item "Import".  A file dialog will open.
 4. Select the file and click on the button "Import".
 
-.. note:: There are systems where the file dialog shows only files of one specific 
-   type. If you cannot see your file, look for a button or drop-down-menu in the 
+.. note:: There are systems where the file dialog shows only files of one specific
+   type. If you cannot see your file, look for a button or drop-down-menu in the
    file dialog that allows choosing the file types.
 
 
@@ -137,21 +137,21 @@ Supported File Formats
 
 **Enroute Flight Navigation** accepts data in the following formats.
 
-========================= =================================== 
+========================= ===================================
 Functionality             File Format
 ========================= ===================================
-Airspace Data             `OpenAir <https://pyopenair.readthedocs.io/en/latest/openair.html>`_ 
+Airspace Data             `OpenAir <https://pyopenair.readthedocs.io/en/latest/openair.html>`_
 Approach Charts           `GeoTIFF <https://trac.osgeo.org/geotiff>`_
 Approach Chart Collection `ZIP <https://en.wikipedia.org/wiki/ZIP_(file_format)>`_/`TripKit <https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE%20-%20Trip-Kit-Spezifikation.html>`_
 FLARM Test Data           Text file
 Flight Routes             Garmin FPL
-Flight Routes             `GPX <https://en.wikipedia.org/wiki/GPS_Exchange_Format>`_  
-Flight Routes             `GeoJSON <https://en.wikipedia.org/wiki/GeoJSON>`_          
-Flight Routes             `PLN <https://docs.flightsimulator.com/html/Content_Configuration/Flights_And_Missions/Flight_Plan_Definitions.htm>`_  
+Flight Routes             `GPX <https://en.wikipedia.org/wiki/GPS_Exchange_Format>`_
+Flight Routes             `GeoJSON <https://en.wikipedia.org/wiki/GeoJSON>`_
+Flight Routes             `PLN <https://docs.flightsimulator.com/html/Content_Configuration/Flights_And_Missions/Flight_Plan_Definitions.htm>`_
 Raster Maps               `MBTILES <https://docs.mapbox.com/help/glossary/mbtiles/>`_
 Vector Maps               `MBTILES <https://docs.mapbox.com/help/glossary/mbtiles/>`_
 Waypoint Collections      `GeoJSON <https://en.wikipedia.org/wiki/GeoJSON>`_
-Waypoints                 `CUP <https://downloads.naviter.com/docs/SeeYou_CUP_file_format.pdf>`_ 
+Waypoints                 `CUP <https://downloads.naviter.com/docs/SeeYou_CUP_file_format.pdf>`_
 ========================= ===================================
 
 

@@ -91,7 +91,7 @@ Density Altitude
   takes QNH, airfield elevation, temperature and humidity into account. The
   value presented might therefore differ from rule-of-thumb estimates taught in
   flight schools. For details concerning our algorithm, check the source code of
-  **Enroute Flight Navigation**, which is freely available on GitHub. 
+  **Enroute Flight Navigation**, which is freely available on GitHub.
 
 Relative Humidity
 
@@ -111,7 +111,7 @@ Explanatory Text
   brief explanatory text.  The text contains hyperlinks that can be used to hide
   the explanatory text, or hide all performance warnings altogether. Use the
   :ref:`settings_page` page to re-enable warnings after they have been switched
-  off. 
+  off.
 
 **Enroute Flight Navigation** uses the standard rule-of-thumb estimate that the
 takeoff distance increases by 15% and the climb rate decreases by 7.5% for every

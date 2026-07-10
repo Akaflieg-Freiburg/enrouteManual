@@ -16,9 +16,9 @@ in a typical flight situation.
    The Main Page of **Enroute Flight Navigation**
 
 - At the top of the screen, you see the `Route Information Bar`_ with
-  information about the remaining flight route. 
+  information about the remaining flight route.
 - The page body shows a moving map with your current position and a number of
-  interactive controls. 
+  interactive controls.
 - At the bottom, the `Navigation Bar`_ displays information about the current
   flight situation.
 
@@ -30,7 +30,7 @@ Bearing Mode
   map is rotated so that the north direction is up, as you would expect from a
   paper map.  In the mode "track up", the map is rotated according to your
   direction of movement, so that your flight direction is up.
-  
+
 Autopan Mode
   If the autopan mode is on, the map is automatically moved, so that the
   position of your aircraft is near the center of the map display. If the autopan
@@ -61,7 +61,7 @@ ETA    Estimated Arrival Time at the waypoint, in UTC.
   Aircraft Page.
 - If the information cannot be computed (e.g. because the position is unknown,
   or because you are flying too far away from the route), the panel shows a
-  brief error message. 
+  brief error message.
 - Close to the final destination, the panel shows the words "Near destination."
 
 
@@ -89,7 +89,7 @@ UTC    Current time.
   receiver (such as a PowerFLARM device) that reports the pressure altitude.
 - The units for the ground speed display are chosen according to the settings on
   the Aircraft Page.
-- Flight level and current time are hidden if the display is not wide enough.
+- Pressure altitude and current time are hidden if the display is not wide enough.
 
 .. warning:: Vertical airspace boundaries are defined by pressure altitudes
    (with respect to QNH or standard pressure).  Depending on temperature and air
@@ -114,8 +114,8 @@ Symbol                                                      Function
 .. image:: ../01-gettingStarted/ic_add.png                  Zoom in.
 .. image:: ../01-gettingStarted/ic_remove.png               Zoom out.
 .. image:: ../01-gettingStarted/ic_keyboard_arrow_up.png    Open airspace side view.
-.. image:: ../01-gettingStarted/ic_airplanemode_active.png  Open the traffic receiver status page. Only visible when the app does not receive traffic information. 
-.. image:: ../01-gettingStarted/ic_airplanemode_outline.png Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver and receives data through the internet. 
+.. image:: ../01-gettingStarted/ic_airplanemode_active.png  Open the traffic receiver status page. Only visible when the app does not receive traffic information.
+.. image:: ../01-gettingStarted/ic_airplanemode_outline.png Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver and receives data through the internet.
 =========================================================== ========
 
 
@@ -138,23 +138,23 @@ Moving Map
 
 The moving map shows a physical map with shaded terrain relief, overlaid with
 aviation data.  At low zoom values, the map looks similar to the standard
-1:50.000 ICAO maps. At higher zoom values, the map will also show traffic
+1:50,000 ICAO maps. At higher zoom values, the map will also show traffic
 circuits and control zone procedures, as you would expect from an approach
 chart.
 
-.. note:: Traffic circuits and control zone procedures are available for 
+.. note:: Traffic circuits and control zone procedures are available for
    select countries only.  See the section :ref:`aeroMapData` for more details.
 
-The moving map shows the following additional items
+The moving map shows the following additional items.
 
 - If you have set an :ref:`SettingsAALimit` on the :ref:`settings_page`, the map
   will show a little reminder at the top of the screen, with a text such as
-  "Airspaces up to 9500 ft".
+  "Airspaces up to 9,500 ft".
 - To give you a rough estimate for the horizontal distances, the map features a
   scale. Depending on screen orientation, the scale is shown at the bottom or at
   the left of the screen.
 - At the very bottom of the screen, there is a copyright notice. Click on the
-  notice to open a dialogue window with more detailed information.
+  notice to open a dialog window with more detailed information.
 
 
 Gesture Controls
@@ -168,7 +168,7 @@ The moving map can be controlled by standard gestures.
 - **Pan Gesture:** On touch-screen devices, the pan gesture moves the
   map and sets the autopan mode to "off".
 - **Tap-and-hold Gesture:** Tap-and-hold anywhere in the map to open the
-  waypoint description dialogue. This is the quickest way to obtain information
+  waypoint description dialog. This is the quickest way to obtain information
   about airfields, navaids, reporting points, terrain elevation and airspace.
   The figure :ref:`wpInfo2` shows how this will typically look.
 - **Double Tap Gesture:** The double tap gesture is equivalent to tap-and-hold.
@@ -266,7 +266,7 @@ The moving map displays two kinds of traffic.
   in the moving map are explained below. If the traffic is known to be moving,
   its projected flight path is indicated with a black-and-white flight vector,
   similar to the symbol shown in the Figure :ref:`flightVector2` for the ownship
-  flight vector.  
+  flight vector.
 
 ==================================== ========
 Symbol                               Function
@@ -274,7 +274,7 @@ Symbol                               Function
 .. image:: traffic-balloon.png       Balloon
 .. image:: traffic-drone.png         Drone
 .. image:: traffic-glider.png        Glider
-.. image:: traffic-hangGlider.png    Hangglider
+.. image:: traffic-hangGlider.png    Hang glider
 .. image:: traffic-copter.png        Helicopter or Gyrocopter
 .. image:: traffic-jet.png           Jet
 .. image:: traffic-aircraft.png      Motorized aircraft
@@ -284,10 +284,10 @@ Symbol                               Function
 ==================================== ========
 
 
-Traffic labelling
+Traffic labeling
 ~~~~~~~~~~~~~~~~~
 
-The traffic is labelled with the following pieces of information about the
+The traffic is labeled with the following pieces of information about the
 traffic, to the extent known.
 
 - Traffic type. This is one of "Aircraft", "Airship", "Balloon", "Copter",
@@ -300,7 +300,7 @@ traffic, to the extent known.
 - An arrow symbol pointing upwards, downwards or sideways indicates the
   vertical speed of the traffic.
 
-.. note:: Traffic callsigns are shown only if the "FLARM Database" has been 
+.. note:: Traffic callsigns are shown only if the "FLARM Database" has been
     installed in the page "Map and Data Library".
 
 
@@ -329,7 +329,7 @@ Symbol                                      Function
 .. image:: NOTAM-UAS.png                    Locations with active or future NOTAMs -- Drone Flights
 .. image:: AD-GLD.png                       Glider flying site
 .. image:: AD-GRASS.png                     Aerodrome with grass runway
-.. image:: AD-INOP.png                      Closed aerodrome 
+.. image:: AD-INOP.png                      Closed aerodrome
 .. image:: AD-MIL-GRASS.png                 Military aerodrome with grass runway
 .. image:: AD-MIL-PAVED.png                 Military aerodrome with paved runway
 .. image:: AD-MIL.png                       Military aerodrome
@@ -349,8 +349,8 @@ Symbol                                      Function
 .. image:: WP.png                           Generic waypoint (from flight route or waypoint library)
 =========================================== ========
 
-.. note:: **Enroute Flight Navigation** only displays NOTAMs located near your 
-  present position, along your flight route, and near locations for which 
+.. note:: **Enroute Flight Navigation** only displays NOTAMs located near your
+  present position, along your flight route, and near locations for which
   the waypoint dialog has been opened.
 
 
@@ -358,7 +358,7 @@ Procedures and Traffic Circuits
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Traffic circuits for motorized aircraft are shown as blue lines. Traffic circuits
-for gliders or Ultralight aircraft are shown as red lines. Entry and exit routes
+for gliders or ultralight aircraft are shown as red lines. Entry and exit routes
 to traffic pattern are indicated by open ends of the pattern. The traffic
 circuit will show the traffic circuit altitude when the information is
 available.
@@ -401,7 +401,7 @@ Why does **Enroute Flight Navigation** need static pressure for the airspace sid
   lower on cold winter days than they are in summer. In order to show your
   aircraft in relation to airspaces, **Enroute Flight Navigation** therefore
   needs to know the barometric altitudes of your aircraft, or equivalently, the
-  static pressure.  
+  static pressure.
 
 
 How can I provide static pressure data?
@@ -411,7 +411,7 @@ How can I provide static pressure data?
   data. Since ADS-B data uses barometric altitudes, any traffic data receiver
   that receives ADS-B will most likely be suitable. In particular, all
   PowerFLARM devices provide the necessary data.
-  
+
   If your mobile device is equipped with a high-precision pressure sensor
   **and** if you fly an aircraft where static pressure and cabin pressure agree,
   you use the option "Use cabin pressure..." on the page :ref:`aircraftPage` to
@@ -423,11 +423,11 @@ But other apps show side views without static pressure data!
 
   We do not know the internal workings of other apps.  However, we do not see
   how sufficiently reliable information can possibly be provided without static
-  pressure data. 
+  pressure data.
 
   We fly general aviation aircraft in Germany and Switzerland, where vertical
   separation between jet aircraft and airspace limits is sometimes no more than
-  500ft.  In view of the extremely severe consequences of airspace violations,
+  500 ft.  In view of the extremely severe consequences of airspace violations,
   we decided against showing questionable data.
 
 
@@ -439,7 +439,7 @@ uses different map scales for horizontal and vertical directions. In most
 scenarios, vertical distances are greatly exaggerated.
 
 - In horizontal direction, the scale of the Side View follows the scale used in
-  the moving map. 
+  the moving map.
 
 - In vertical direction, **Enroute Flight Navigation** chooses a scale to
   guarantee that the current position, the flight path for the next 7.5 minutes

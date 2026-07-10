@@ -36,14 +36,14 @@ Reporting Points                  open flightmaps
 List of maps
 ^^^^^^^^^^^^
 
-For simplicity, our maps are divided in "Class 1" and "Class 2".
+For simplicity, our maps are divided into "Class 1" and "Class 2".
 
 - Class 1 maps are compiled from `openAIP <http://openaip.net>`_ and `open
   flightmaps <https://www.openflightmaps.org/>`_ data. These maps contain
   information about airspaces, airfields, navaids, and reporting points. Some of
   our class 1 maps also show traffic circuits and flight procedures for control
   zones.
-  
+
 - Class 2 maps are compiled from `openAIP <http://openaip.net>`_ data only. They
   contain information about airspaces, airfields, navaids, and reporting points.
 
@@ -138,8 +138,8 @@ Raster Maps
 Base Maps
 .........
 
-Our base maps are generated from `Open Streetmap
-<https://www.openstreetmap.org>`_ data. 
+Our base maps are generated from `OpenStreetMap
+<https://www.openstreetmap.org>`_ data.
 
 
 Terrain maps
@@ -150,7 +150,7 @@ Our terrain maps are derived from the `Terrain Tiles Open Dataset on Amazon AWS
 are a mix of:
 
 - 3DEP (formerly NED and NED Topobathy) in the United States, 10 meters outside
-  of Alaska, 3 meter in select land and territorial water areas
+  of Alaska, 3 meters in select land and territorial water areas
 - ArcticDEM strips of 5 meter mosaics across all of the land north of 60°
   latitude, including Alaska, Canada, Greenland, Iceland, Norway, Russia, and
   Sweden

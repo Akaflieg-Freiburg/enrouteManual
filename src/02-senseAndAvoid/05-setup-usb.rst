@@ -11,7 +11,7 @@ see traffic data.
 .. note:: **Enroute Flight Navigation** expects a stream of FLARM/NMEA sentences
     from the USB port.
 
-.. note:: USB communication is not available on iPhone or iPad devices. 
+.. note:: USB communication is not available on iPhone or iPad devices.
 
 
 One-time Setup
@@ -26,7 +26,7 @@ following conditions are met.
 - The hardware is set up. You know the communication parameters of your device,
   depending on the hardware in use, this might be the baud rate.
 - Your traffic receiver is switched on and broadcasts FLARM/NMEA via its USB
-  connection. 
+  connection.
 - No other app on your device uses the USB connection.
 
 
@@ -47,7 +47,7 @@ green, then **Enroute Flight Navigation** has already found the traffic receiver
 and has connected to it. Congratulations, you are done!
 
 If the entry "Traffic Receiver" is not highlighted in green, then something has
-gone wrong.  
+gone wrong.
 
 
 Daily Operations

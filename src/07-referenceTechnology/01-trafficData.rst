@@ -26,7 +26,7 @@ part of the devices presently on the market.
   XGPS format.
 
 Users can configure additional data channels between **Enroute Flight
-Navigation** and traffic data receivers with Bluetooth Classic interfaces. 
+Navigation** and traffic data receivers with Bluetooth Classic interfaces.
 
 
 Data Formats
@@ -45,7 +45,7 @@ Data Formats
   `ForeFlight Web site <https://www.foreflight.com/support/network-gps/>`_.
 
 
-.. _gdl90problems:  
+.. _gdl90problems:
 
 Known Issues with GDL90
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,7 +58,7 @@ Altitude measurements
   as height above WGS-84 ellipsoid.  There are however many devices on the
   market that wrongly report height above mean sea level.  Different apps have
   different strategies to deal with these shortcomings.
-  
+
   - **Enroute Flight Navigation** as well as the app SkyDemon expect that
     traffic receivers comply with the GDL90 Specification.
   - ForeFlight has extended the GDL90 Specification so that traffic receivers
@@ -73,7 +73,7 @@ MODE-S traffic
   to obtain the precise traffic position.  Unlike FLARM/NMEA, the GDL90
   Specification does not support traffic factors whose position is unknown.
   Different devices implement different workarounds.
-  
+
   - Stratux devices generate a ring of eight virtual targets around the own
     position.  These targets are named "Mode S".
   - Air Avionics devices do the same, but only with one target.
@@ -91,14 +91,14 @@ ForeFlight Broadcast
 Following the standards established by the app ForeFlight, **Enroute Flight
 Navigation** broadcasts a UDP message on port 63093 every 5 seconds while the
 app is running in the foreground.  This message allows devices to discover
-Enroute's IP address, which can be used as the target of UDP unicast messages.
+the app's IP address, which can be used as the target of UDP unicast messages.
 This broadcast will be a JSON message, with at least these fields:
 
 .. code-block:: JSON
-		
-  { 
+
+  {
      "App":"Enroute Flight Navigation",
-     "GDL90":{ 
+     "GDL90":{
         "port":4000
      }
   }
@@ -119,7 +119,7 @@ Unidirectional FLARM
   device cannot be seen by other FLARM users.  The author of **Enroute Flight
   Navigation** is not convinced that unidirectional FLARM is a good idea.
 
-FLARM Output 
+FLARM Output
   uAvionix follows an unusual business model.  The FLARM/NMEA output of the
   SkyEcho is encrypted.  To read the FLARM data, all apps need to include
   commercial, closed-source decryption libraries that must be purchased by the
