@@ -16,9 +16,13 @@ to convert GeoTIFF to MBTILES format.
 Data Sources
 ------------
 
-We are aware of websites that offer raster maps in GeoTIFF format. At present,
-**Enroute Flight Navigation** cannot handle GeoTIFF files, but there are tools
-that convert GeoTIFF to MBTILES.
+We are aware of websites that offer raster maps in GeoTIFF format. **Enroute
+Flight Navigation** cannot use GeoTIFF files as raster maps, but there are
+tools that convert GeoTIFF to MBTILES.
+
+.. note:: GeoTIFF files *can* be used as visual approach charts, as described
+   in the Section :ref:`vac_tutorial`. The restriction described here applies
+   only to raster maps that replace the base map.
 
 - Official ICAO maps for Denmark are available from the Danish `AIM Naviair
   <https://aim.naviair.dk/en/charts/>`_

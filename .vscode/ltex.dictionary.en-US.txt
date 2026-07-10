@@ -15,10 +15,9 @@ Flarmnet
 datagrams
 Datagrams
 ownship
-Skydemon
+SkyDemon
 ForeFlight
 Stratux
-Avioncs
 unicast
 SkyEcho
 uAvionix
