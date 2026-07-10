@@ -113,6 +113,10 @@ Library/Waypoints     GeoJSON     Waypoint Collection
 Library/Waypoints     GPX         Waypoint Collection
 ===================== =========== ====================
 
+.. note:: Approach charts need not always be imported.  For some countries, we
+   distribute chart collections together with the country maps, as explained in
+   the section :ref:`vacDownload`.
+
 
 Drag-and-Drop (Linux Desktop Only)
 ----------------------------------

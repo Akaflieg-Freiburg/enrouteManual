@@ -200,6 +200,27 @@ Attributions
   courtesy of the U.S. Geological Survey.
 
 
+.. _vacData:
+
+Approach Charts
+...............
+
+For some countries, we distribute collections of visual approach charts together
+with the country maps, as described in the section :ref:`vacDownload`.  The
+charts are taken from the official publications of the national aeronautical
+information services.  The following collections are currently available.
+
+=================== =======================================================
+Region              Data Origin
+=================== =======================================================
+France              Service de l'Information Aéronautique (SIA)
+=================== =======================================================
+
+The agencies that provide the charts installed on your device are also named in
+the app: on the moving map, tap the copyright button and look for the section
+"Approach Charts".
+
+
 
 METAR/TAF
 ---------

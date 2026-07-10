@@ -1,3 +1,5 @@
+.. _licensePage:
+
 Software and Data Licenses
 ==========================
 
@@ -628,6 +630,12 @@ are downloaded at runtime.  They are compiled from the following sources.
 - The aviation maps contain data from `open flightmaps
   <https://www.openflightmaps.org/>`_, licensed under the `OFMA General Users´
   License <https://www.openflightmaps.org/live/downloads/20150306-LCN.pdf>`_.
+
+- The visual approach charts for France are published by the `Service de
+  l'Information Aéronautique (SIA)
+  <https://www.sia.aviation-civile.gouv.fr/>`_, licensed under Version 2.0 of
+  the `Licence Ouverte (Open Licence)
+  <https://www.etalab.gouv.fr/licence-ouverte-open-licence/>`_ of Etalab.
 
 
 
