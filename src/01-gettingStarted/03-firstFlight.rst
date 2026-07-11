@@ -87,7 +87,8 @@ Airspace Side View
 
 Starting with version 3.0.0, **Enroute Flight Navigation** is able to show a
 side view of the airspace and the terrain.  You can open the side view by
-swiping upwards from the Navigation Bar at the bottom of the page.  At present,
+swiping upwards from the Navigation Bar at the bottom of the page, and close it
+again with the close button in its top right corner.  At present,
 you will probably see a warning: "Unable to compute sufficiently precise
 vertical airspace boundaries because barometric altitude information is not
 available."
@@ -115,7 +116,8 @@ Symbol                                                      Function
 .. image:: ../01-gettingStarted/ic_my_location.png          Set autopan mode to "on".
 .. image:: ../01-gettingStarted/ic_add.png                  Zoom in.
 .. image:: ../01-gettingStarted/ic_remove.png               Zoom out.
-.. image:: ../01-gettingStarted/ic_keyboard_arrow_up.png    Open airspace side view.
+.. image:: ../01-gettingStarted/ic_keyboard_arrow_up.png    Open airspace side view. Only visible when the side view is closed.
+.. image:: ../01-gettingStarted/ic_keyboard_arrow_down.png  Close airspace side view. Only visible when the side view is open.
 .. image:: ../01-gettingStarted/ic_airplanemode_active.png  Open the traffic receiver status page. Only visible when the app does not receive traffic information.
 .. image:: ../01-gettingStarted/ic_airplanemode_outline.png Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver and receives data through the internet.
 =========================================================== ========
