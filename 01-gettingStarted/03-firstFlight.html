@@ -63,25 +63,25 @@
 <p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../03-tutorialBasic.html">Basic Use</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../03-tutorialAdvanced.html">Advanced Use</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../04-additionalSoftware.html">Additional Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04-tutorialAdvanced.html">Advanced Use</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../05-additionalSoftware.html">Additional Software</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Reference Manual</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../05-referencePages.html">User Interface: Pages</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../05-referenceDialogs.html">User Interface: Dialogs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../05-referenceItems.html">User Interface: Other Elements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../06-referenceWorkflow.html">User Interface: Workflows</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../07-referenceTechnology.html">Technology</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../06-referencePages.html">User Interface: Pages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../07-referenceDialogs.html">User Interface: Dialogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08-referenceItems.html">User Interface: Other Elements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-referenceWorkflow.html">User Interface: Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10-referenceTechnology.html">Technology</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Appendix</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../08-appendix/00-troubleshooting.html">Known Issues and Troubleshooting</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../08-appendix/01-dataSources.html">Data Sources</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../08-appendix/02-license.html">Software and Data Licenses</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../08-appendix/03-privacy.html">Privacy Policies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../08-appendix/04-authors.html">Authors</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../08-appendix/05-awards.html">Awards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/01-troubleshooting.html">Known Issues and Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/02-dataSources.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/03-license.html">Software and Data Licenses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/04-privacy.html">Privacy Policies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/05-authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/06-awards.html">Awards</a></li>
 </ul>
 
         </div>
@@ -116,13 +116,13 @@ now ready to use <strong>Enroute Flight Navigation</strong>.  The user interface
 to be as intuitive as we could make it.  Still, we recommend that you take a
 minute to make yourself familiar with the moving map display and with the basic
 controls before you take the app on its first flight.  The section
-<a class="reference internal" href="../05-referencePages/01-mainPage.html#mainpage"><span class="std std-ref">Main Page and Moving Map</span></a> covers the moving map in more detail.</p>
+<a class="reference internal" href="../06-referencePages/01-mainPage.html#mainpage"><span class="std std-ref">Main Page and Moving Map</span></a> covers the moving map in more detail.</p>
 <section id="the-moving-map">
 <h2>The Moving Map<a class="headerlink" href="#the-moving-map" title="Link to this heading"></a></h2>
 <p>After startup, the app will show a moving map, similar in style to the standard
 ICAO maps that most pilots know.  Use the standard gestures to zoom and pan the
 map to your liking.  The figures <a class="reference internal" href="#movingmapground"><span class="std std-ref">Moving Map Display on the Ground</span></a> and
-<a class="reference internal" href="#movingmapflight"><span class="std std-ref">Moving Map Display in Flight</span></a> shows how the map will typically look.</p>
+<a class="reference internal" href="#movingmapflight"><span class="std std-ref">Moving Map Display in Flight</span></a> show how the map will typically look.</p>
 <figure class="align-center" id="id1">
 <span id="movingmapground"></span><a class="reference internal image-reference" href="../_images/01-03-01-ground.png"><img alt="Moving Map Display on the Ground" height="360" src="../_images/01-03-01-ground.png" width="240" />
 </a>
@@ -169,11 +169,11 @@ aircraft, so that traffic will not be shown on the moving map.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>T.TALT</p></td>
+<tr class="row-even"><td><p>T.ALT</p></td>
 <td><p>True altitude (=geometric altitude) above sea level.</p></td>
 </tr>
-<tr class="row-odd"><td><p>FL</p></td>
-<td><p>Flight level.</p></td>
+<tr class="row-odd"><td><p>P.ALT</p></td>
+<td><p>Pressure altitude, in flight level format.</p></td>
 </tr>
 <tr class="row-even"><td><p>GS</p></td>
 <td><p>Ground speed.</p></td>
@@ -186,9 +186,9 @@ aircraft, so that traffic will not be shown on the moving map.</p>
 </tr>
 </tbody>
 </table>
-<p>The flight level is only available if your device is connected to a traffic
+<p>The pressure altitude is only available if your device is connected to a traffic
 receiver (such as a PowerFLARM device) that reports the pressure altitude.
-Flight level and current time are hidden if the display is not wide enough.</p>
+Pressure altitude and current time are hidden if the display is not wide enough.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Vertical airspace boundaries are defined by pressure altitudes
@@ -202,14 +202,15 @@ airspaces.</strong></p>
 <h2>Airspace Side View<a class="headerlink" href="#airspace-side-view" title="Link to this heading"></a></h2>
 <p>Starting with version 3.0.0, <strong>Enroute Flight Navigation</strong> is able to show a
 side view of the airspace and the terrain.  You can open the side view by
-swiping upwards from the Navigation Bar at the bottom of the page.  At present,
+swiping upwards from the Navigation Bar at the bottom of the page, and close it
+again with the close button in its top right corner.  At present,
 you will probably see a warning: “Unable to compute sufficiently precise
 vertical airspace boundaries because barometric altitude information is not
 available.”</p>
 <p>We recommend ignoring the side view for now. The warning will go away once you
 follow the steps outlined in the subsequent section <a class="reference internal" href="../02-senseAndAvoid.html#senseandavoid"><span class="std std-ref">Sense and Avoid</span></a> to
 establish a data connection between <strong>Enroute Flight Navigation</strong> and your
-traffic data receiver. The section <a class="reference internal" href="../05-referencePages/01-mainPage.html#sideview"><span class="std std-ref">Airspace Side View</span></a> in the reference part of this
+traffic data receiver. The section <a class="reference internal" href="../06-referencePages/01-mainPage.html#sideview"><span class="std std-ref">Airspace Side View</span></a> in the reference part of this
 manual explains why barometric altitude information (=static pressure) is
 needed, and lists ways to provide the data.</p>
 </section>
@@ -250,13 +251,17 @@ control the app.</p>
 </tr>
 <tr class="row-even"><td><img alt="../_images/ic_keyboard_arrow_up.png" src="../_images/ic_keyboard_arrow_up.png" />
 </td>
-<td><p>Open airspace side view.</p></td>
+<td><p>Open airspace side view. Only visible when the side view is closed.</p></td>
 </tr>
-<tr class="row-odd"><td><img alt="../_images/ic_airplanemode_active.png" src="../_images/ic_airplanemode_active.png" />
+<tr class="row-odd"><td><img alt="../_images/ic_keyboard_arrow_down.png" src="../_images/ic_keyboard_arrow_down.png" />
+</td>
+<td><p>Close airspace side view. Only visible when the side view is open.</p></td>
+</tr>
+<tr class="row-even"><td><img alt="../_images/ic_airplanemode_active.png" src="../_images/ic_airplanemode_active.png" />
 </td>
 <td><p>Open the traffic receiver status page. Only visible when the app does not receive traffic information.</p></td>
 </tr>
-<tr class="row-even"><td><img alt="../_images/ic_airplanemode_outline.png" src="../_images/ic_airplanemode_outline.png" />
+<tr class="row-odd"><td><img alt="../_images/ic_airplanemode_outline.png" src="../_images/ic_airplanemode_outline.png" />
 </td>
 <td><p>Open the traffic receiver status page. Only visible when the app is not connected to a traffic data receiver and receives data through the internet.</p></td>
 </tr>
@@ -291,11 +296,11 @@ will be shown.  The figure <a class="reference internal" href="#wpinfo"><span cl
 <td><p>True track to the waypoint</p></td>
 </tr>
 <tr class="row-even"><td><p>E</p></td>
-<td><p>Minimal gliding ratio required to reach waypoint in 300 m AGL (disregarding terrain)</p></td>
+<td><p>Minimal gliding ratio required to reach waypoint at 300 m AGL (disregarding terrain)</p></td>
 </tr>
 </tbody>
 </table>
-<p>Click on the link ‘full report’ for a list of NOTAMs relevant for the EDFE
+<p>Click on the link ‘full report’ for a list of NOTAMs relevant to the EDFE
 airfield.</p>
 </section>
 <section id="go-flying">
