@@ -4,7 +4,7 @@ Connect via Bluetooth
 **Enroute Flight Navigation** is able to connect to your traffic data receiver
 using the Bluetooth Classic radio standard. Compared with Wi-Fi, Bluetooth
 connections are less reliable and require manual configuration. We found that
-many Bluetooth adaptors are build with cheap and unreliable hardware and
+many Bluetooth adapters are built with cheap and unreliable hardware and
 implement industry standards only partially, if at all.
 
 
@@ -30,7 +30,7 @@ in the same frequency range.
   operation and flexible network topologies.
 
 .. note:: Access to Bluetooth radio is severely limited on iOS platforms. For that reason,
-    Bluetooth communication is not supported at all on iPhone or iPad devices. 
+    Bluetooth communication is not supported at all on iPhone or iPad devices.
 
 
 One-time Setup
@@ -43,7 +43,7 @@ Before you try to connect this app to your traffic receiver, make sure that the
 following conditions are met.
 
 - Your traffic receiver supports Bluetooth Classic or Bluetooth Low Energy
-  radio. 
+  radio.
 - You know the Bluetooth name of your traffic receiver.
 - Bluetooth is switched on in your phone.
 - Bluetooth is switched on in your traffic data receiver and set to
@@ -78,7 +78,7 @@ Daily Operations
 ----------------
 
 Once things are set up properly, your device should automatically detect the
-traffic receiver's Bluetooth adaptor and connect to the traffic data stream
+traffic receiver's Bluetooth adapter and connect to the traffic data stream
 whenever you go flying.  We recommend the following procedure.
 
 - Bluetooth can handle only one data connection. Before boarding, clarify which
@@ -87,7 +87,7 @@ whenever you go flying.  We recommend the following procedure.
   are no undetected devices (e.g. in someone's baggage) that could interfere
   with your data connection.
 - A few moments after you power on the avionics, the traffic receiver's
-  Bluetooth adaptor will become discoverable.  Start **Enroute Flight
+  Bluetooth adapter will become discoverable.  Start **Enroute Flight
   Navigation** while the traffic data receiver is discoverable.
 - **Enroute Flight Navigation** will connect to your traffic data receiver via the
   configured Bluetooth data connection and show traffic information in the moving map.

@@ -1,3 +1,5 @@
+.. _donate:
+
 Make a Donation
 ===============
 
