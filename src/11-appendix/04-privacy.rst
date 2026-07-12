@@ -175,15 +175,15 @@ Andere Server
 ~~~~~~~~~~~~~
 
 Auf Anforderung des Benutzers kann **Enroute Flight Navigation** externe
-Webseiten öffnen. Diese werden enteder in einem eingebetteten Browser
+Webseiten öffnen. Diese werden entweder in einem eingebetteten Browser
 angezeigt, oder das Betriebssystem wird eine externe App (wie z.B.
 Google Maps) öffnen. Diese externen Webseiten entziehen sich unserer
 Kontrolle und sammeln eventuell Daten.
 
-Benutzer erwarten, dass der eingebette Browser jeden Link sofort öffnet.
-Ausserhalb des eingebetten Browsers werden die Benutzer unter Umständen
-ein anderes Verhalten erwarten. Um diesen Erwartungen zu entsprechen,
-verhält sich **Enroute Flight Navigation** folgendermaßen.
+Benutzer erwarten, dass der eingebettete Browser jeden Link sofort
+öffnet. Außerhalb des eingebetteten Browsers werden die Benutzer unter
+Umständen ein anderes Verhalten erwarten. Um diesen Erwartungen zu
+entsprechen, verhält sich **Enroute Flight Navigation** folgendermaßen.
 
 - **Innerhalb des eingebetteten Browsers**: Ein Klick auf einen Link
   wird als Autorisierung gewertet, die externe Seite sofort zu öffnen.

@@ -19,15 +19,15 @@ Contributions
   big dream and now flies helicopters.
 - **Programming:** Christian Engelhardt implemented the OGN network
   connection, flight plan export and started the implementation of
-  density altitude calculation. Christian is a PPL pilot in southern
+  height density calculation. Christian is a PPL pilot in southern
   Germany, studied electrical engineering and works as an embedded
   software engineer.
-- **Programming:** Tom Linz completed density altitude calculation. He
+- **Programming:** Tom Linz completed height density calculation. He
   received his PPL license in late 2024. Tom works as a development
   engineer for safety systems.
 - **Programming:** Markus Marks helped to implement the side view. Based
-  in southern Germany, Markus is an enthusiastic glider pilot and a
-  software developer working in embedded systems.
+  in southern Germany, Markus is an enthusiastic glider pilot software
+  developer working in embedded systems.
 - **Programming:** Simon Schneider implemented the first working version
   of the side view.
 
