@@ -51,6 +51,8 @@ rsvg-convert ../enroute/src/flightMap/sprites/NOTAM-UAS.svg -o src/06-referenceP
 
 rsvg-convert ../enroute/src/icons/waypoints/WP-map.svg -o src/06-referencePages/WP.png -w 10
 
+rsvg-convert ../enroute/3rdParty/material-design-icons/editor/svg/production/ic_drag_handle_24px.svg -o src/06-referencePages/ic_drag_handle.png -h 30 -w 30
+
 
 #
 #  License Overview
