@@ -11,4 +11,6 @@ software license, and the current system.
 System information can be helpful to the developers of **Enroute Flight
 Navigation**. The button "Share Info" at the bottom of the "System" tab can be
 used to share the information with other apps, such as your e-mail program, and
-forward it to the developers.
+forward it to the developers. On Android, the additional button "Save Info"
+saves the information to a text file; a system dialog opens, where you can
+choose the location and the file name.

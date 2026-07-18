@@ -37,6 +37,12 @@ Share… / Export…
   Share or export the current route as a GeoJSON or a GPX file. The entry is
   labeled "Share…" on Android and iOS and "Export…" on desktop systems.
 
+Save…
+  Save the current route as a GeoJSON or a GPX file. A system dialog opens,
+  where you can choose the location and the file name. This entry exists on
+  Android only. On desktop systems, the entry "Export…" saves the route to a
+  file; on iOS, the share dialog offers the option "Save to Files".
+
 Open in Other App…
   Hand the current route, in GeoJSON or GPX format, to another application on
   your device. This entry is not available on iOS.
