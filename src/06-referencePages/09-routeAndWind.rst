@@ -34,18 +34,22 @@ Import…
   supported file formats is found in the Section :ref:`supportedFileFormats`.
 
 Share… / Export…
-  Share or export the current route as a GeoJSON or a GPX file. The entry is
-  labeled "Share…" on Android and iOS and "Export…" on desktop systems.
+  Share or export the current route as a GeoJSON, GPX, Garmin FPL, or MSFS PLN
+  file. The entry is labeled "Share…" on Android and iOS and "Export…" on
+  desktop systems. The Garmin FPL format is useful for transferring the route
+  to Garmin avionics, such as the G3X; the MSFS PLN format is understood by
+  flight simulators.
 
 Save…
-  Save the current route as a GeoJSON or a GPX file. A system dialog opens,
-  where you can choose the location and the file name. This entry exists on
-  Android only. On desktop systems, the entry "Export…" saves the route to a
-  file; on iOS, the share dialog offers the option "Save to Files".
+  Save the current route as a GeoJSON, GPX, Garmin FPL, or MSFS PLN file. A
+  system dialog opens, where you can choose the location and the file name.
+  This entry exists on Android only. On desktop systems, the entry "Export…"
+  saves the route to a file; on iOS, the share dialog offers the option "Save
+  to Files".
 
 Open in Other App…
-  Hand the current route, in GeoJSON or GPX format, to another application on
-  your device. This entry is not available on iOS.
+  Hand the current route, in GeoJSON, GPX, Garmin FPL, or MSFS PLN format, to
+  another application on your device. This entry is not available on iOS.
 
 Copy as Flight Plan
   Copy the route to the clipboard as a simple textual flight plan of the form
