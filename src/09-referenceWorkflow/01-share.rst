@@ -107,6 +107,7 @@ Library/Route         GeoJSON     Flight Route (added to library)
 Library/Route         GPX         Flight Route (added to library)
 Library/Maps and Data MBTILES     Raster Maps
 Library/Maps and Data MBTILES     Vector Maps
+Library/Maps and Data CUB         Airspace Data
 Library/Maps and Data OpenAir     Airspace Data
 Library/Maps and Data GeoTIFF     Approach Chart
 Library/Maps and Data ZIP/TripKit Approach Chart Collection
@@ -146,6 +147,7 @@ Supported File Formats
 ========================= ===================================
 Functionality             File Format
 ========================= ===================================
+Airspace Data             `CUB <https://github.com/naviter/seeyou_file_formats>`_
 Airspace Data             `OpenAir <https://pyopenair.readthedocs.io/en/latest/openair.html>`_
 Approach Charts           `GeoTIFF <https://trac.osgeo.org/geotiff>`_
 Approach Chart Collection `ZIP <https://en.wikipedia.org/wiki/ZIP_(file_format)>`_/`TripKit <https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE%20-%20Trip-Kit-Spezifikation.html>`_
