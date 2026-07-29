@@ -4,6 +4,7 @@
 # build dirs
 build
 build_manualAssets
+src/__pycache__
 
 # Mac
 .DS_Store

@@ -66,3 +66,58 @@ latex_elements = {
     'pointsize': '11pt',
     'preamble': r'\input{../../src/latexPreamble.tex.txt}',
 }
+
+
+#
+# WebP conversion of content images (HTML builder only)
+#
+# The manual ships inside the enroute app package, where size matters. Sphinx
+# writes all content images (figure::/image::) to _images/ as PNG; after the
+# HTML build we transcode them to WebP (~88% smaller, measured) and rewrite the
+# <img> references. The manual is shown in a native WebView on every platform,
+# all of which decode WebP, so the app side needs no change. LaTeX/PDF output is
+# untouched -- the hook is guarded on the html builder.
+
+import os
+import subprocess
+
+
+def _pngs_to_webp(app, exception):
+    if exception is not None or app.builder.name != 'html':
+        return
+    images_dir = os.path.join(app.outdir, '_images')
+    if not os.path.isdir(images_dir):
+        return
+    renamed = {}
+    for name in sorted(os.listdir(images_dir)):
+        if not name.lower().endswith('.png'):
+            continue
+        png = os.path.join(images_dir, name)
+        webp_name = name[:-4] + '.webp'
+        subprocess.run(
+            ['cwebp', '-quiet', '-q', '80', '-m', '6', '-sharp_yuv',
+             png, '-o', os.path.join(images_dir, webp_name)],
+            check=True,
+        )
+        os.remove(png)
+        renamed[name] = webp_name
+    # Rewrite _images/<name>.png -> _images/<name>.webp in the generated HTML.
+    # Only the _images/NAME.png tail is replaced, so any '../' prefix from
+    # sub-pages is preserved.
+    for root, _dirs, files in os.walk(app.outdir):
+        for f in files:
+            if not f.endswith('.html'):
+                continue
+            path = os.path.join(root, f)
+            with open(path, encoding='utf-8') as fh:
+                html = fh.read()
+            new = html
+            for png_name, webp_name in renamed.items():
+                new = new.replace('_images/' + png_name, '_images/' + webp_name)
+            if new != html:
+                with open(path, 'w', encoding='utf-8') as fh:
+                    fh.write(new)
+
+
+def setup(app):
+    app.connect('build-finished', _pngs_to_webp)
