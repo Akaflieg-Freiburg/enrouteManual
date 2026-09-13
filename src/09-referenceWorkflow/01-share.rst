@@ -130,6 +130,16 @@ in the **Enroute Flight Navigation** window.  You can import text data items by
 dragging the text into the **Enroute Flight Navigation** window.
 
 
+Copy-and-Paste (Linux Desktop Only)
+-----------------------------------
+
+If you are running **Enroute Flight Navigation** on a Linux desktop computer,
+you can import text data items, such as the links listed in the section
+`Supported Text Data Items`_ below, by copying the text to the clipboard and
+pasting it into the **Enroute Flight Navigation** window with the keyboard
+shortcut Ctrl+V.
+
+
 Command Line (Linux Desktop Only)
 ---------------------------------
 

@@ -17,6 +17,11 @@ Navigation** can use your aircraft's traffic data receiver as a fallback source.
   traffic data receiver that broadcasts position information, iPad devices without
   SatNav receiver cannot be used for flight navigation.
 
+  Along similar lines, some Android tablets are sold without a SatNav receiver.
+  These devices can install **Enroute Flight Navigation** from Google Play, but
+  they can only be used for flight navigation if the aircraft is equipped with a
+  traffic data receiver that broadcasts position information.
+
 
 App Installation
 ----------------

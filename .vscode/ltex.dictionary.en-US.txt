@@ -73,3 +73,5 @@ Etalab
 Licence
 Ouverte
 SIA
+unrecognised
+GSEC

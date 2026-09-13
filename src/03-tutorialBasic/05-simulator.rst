@@ -47,6 +47,17 @@ following conditions are met.
   Wi-Fi network.  Some routers have "security settings" that disallow data
   transfer between the devices in the "guest network".
 
+.. note:: Flight simulators transmit the position of the simulated aircraft,
+    but not all of them transmit its barometric altitude.  If **Enroute Flight
+    Navigation** obtains pressure altitude from another source in this
+    situation, for instance from the pressure sensor of your device via the
+    option "Use cabin pressure..." on the page :ref:`aircraftPage`, then the
+    pressure altitude measured on the ground will not match the altitude of
+    the simulated aircraft.  The app will show the warning "Inconsistent
+    altitude data" and disable the airspace side view.  Disable the option
+    "Use cabin pressure..." while using a flight simulator, and prefer
+    simulator connections that provide barometric altitude data.
+
 
 Set Up Your Flight Simulator
 ----------------------------
@@ -109,7 +120,7 @@ well with the following EFB-connector programs.
 .. note:: In MSFS2020 cold and dark mode, traffic in the air will not be
     shown. You have to power on the avionics!
 
-.. note:: At the time of writing (04Aug21), the MS Flight Simulator reports only
+.. note:: Users have reported that the MS Flight Simulator transmits only
     traffic that has a tail number.  This is likely due to a bug in the MS
     Flight Simulator software.
 
