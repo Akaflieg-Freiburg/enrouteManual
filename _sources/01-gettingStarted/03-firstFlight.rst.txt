@@ -151,7 +151,8 @@ E             Minimal gliding ratio required to reach waypoint at 300 m AGL (dis
 ============= ================================
 
 Click on the link 'full report' for a list of NOTAMs relevant to the EDFE
-airfield.
+airfield.  If the list is long, use the text field "Filter by Name" at the top
+of the list to show only the NOTAMs that contain a given word.
 
 
 Go Flying!

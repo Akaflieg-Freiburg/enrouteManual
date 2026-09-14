@@ -159,6 +159,19 @@ deploy two networks, often called a “main network” and a “guest network”
 Wi-Fi network.  Some routers have “security settings” that disallow data
 transfer between the devices in the “guest network”.</p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Flight simulators transmit the position of the simulated aircraft,
+but not all of them transmit its barometric altitude.  If <strong>Enroute Flight
+Navigation</strong> obtains pressure altitude from another source in this
+situation, for instance from the pressure sensor of your device via the
+option “Use cabin pressure…” on the page <a class="reference internal" href="../06-referencePages/02-aircraft.html#aircraftpage"><span class="std std-ref">Aircraft</span></a>, then the
+pressure altitude measured on the ground will not match the altitude of
+the simulated aircraft.  The app will show the warning “Inconsistent
+altitude data” and disable the airspace side view.  Disable the option
+“Use cabin pressure…” while using a flight simulator, and prefer
+simulator connections that provide barometric altitude data.</p>
+</div>
 </section>
 <section id="set-up-your-flight-simulator">
 <h2>Set Up Your Flight Simulator<a class="headerlink" href="#set-up-your-flight-simulator" title="Link to this heading"></a></h2>
@@ -176,14 +189,14 @@ settings”, activate the option “Broadcast flight info to IP address” and e
 the correct “Broadcast IP address”.  The figure <a class="reference internal" href="#aeroflyimg2"><span class="std std-ref">Aerofly Miscellaneous settings</span></a> shows the
 settings that work for one of our users.</p>
 <figure class="align-center" id="id4">
-<span id="aeroflyimg1"></span><a class="reference internal image-reference" href="../_images/Aerofly-1.png"><img alt="../_images/Aerofly-1.png" height="392" src="../_images/Aerofly-1.png" width="691" />
+<span id="aeroflyimg1"></span><a class="reference internal image-reference" href="../_images/Aerofly-1.webp"><img alt="../_images/Aerofly-1.webp" height="392" src="../_images/Aerofly-1.webp" width="691" />
 </a>
 <figcaption>
 <p><span class="caption-text">Aerofly settings</span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 <figure class="align-center" id="id5">
-<span id="aeroflyimg2"></span><a class="reference internal image-reference" href="../_images/Aerofly-2.png"><img alt="../_images/Aerofly-2.png" height="391" src="../_images/Aerofly-2.png" width="691" />
+<span id="aeroflyimg2"></span><a class="reference internal image-reference" href="../_images/Aerofly-2.webp"><img alt="../_images/Aerofly-2.webp" height="391" src="../_images/Aerofly-2.webp" width="691" />
 </a>
 <figcaption>
 <p><span class="caption-text">Aerofly Miscellaneous settings</span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
@@ -216,7 +229,7 @@ shown. You have to power on the avionics!</p>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>At the time of writing (04Aug21), the MS Flight Simulator reports only
+<p>Users have reported that the MS Flight Simulator transmits only
 traffic that has a tail number.  This is likely due to a bug in the MS
 Flight Simulator software.</p>
 </div>
@@ -230,7 +243,7 @@ found <a class="reference external" href="https://github.com/jeffdamp-wave/fs2ff
 Figure <a class="reference internal" href="#fs2ff-img"><span class="std std-ref">fs2ff Settings</span></a> shows the simple settings window.
 Credits also go to the original author <a class="reference external" href="https://github.com/astenlund">https://github.com/astenlund</a>.</p>
 <figure class="align-center" id="id6">
-<span id="fs2ff-img"></span><a class="reference internal image-reference" href="../_images/fs2ff.png"><img alt="../_images/fs2ff.png" height="356" src="../_images/fs2ff.png" width="914" />
+<span id="fs2ff-img"></span><a class="reference internal image-reference" href="../_images/fs2ff.webp"><img alt="../_images/fs2ff.webp" height="356" src="../_images/fs2ff.webp" width="914" />
 </a>
 <figcaption>
 <p><span class="caption-text">fs2ff Settings</span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
@@ -243,7 +256,7 @@ Credits also go to the original author <a class="reference external" href="https
 Essential and start MSFS2020. The broadcast address will be set up automatically.
 The figure <a class="reference internal" href="#xmapsyessential"><span class="std std-ref">XMapsy Essential Settings</span></a> shows the settings.</p>
 <figure class="align-center" id="id7">
-<span id="xmapsyessential"></span><a class="reference internal image-reference" href="../_images/XMapsyEssential.png"><img alt="../_images/XMapsyEssential.png" height="668" src="../_images/XMapsyEssential.png" width="760" />
+<span id="xmapsyessential"></span><a class="reference internal image-reference" href="../_images/XMapsyEssential.webp"><img alt="../_images/XMapsyEssential.webp" height="668" src="../_images/XMapsyEssential.webp" width="760" />
 </a>
 <figcaption>
 <p><span class="caption-text">XMapsy Essential Settings</span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
@@ -259,7 +272,7 @@ figure <a class="reference internal" href="#xmapsyv3"><span class="std std-ref">
 MSFS2020. The broadcast address will be determined by XMapsy and should not be
 touched unless you have extended network configuration experience.</p>
 <figure class="align-center" id="id8">
-<span id="xmapsyv3"></span><a class="reference internal image-reference" href="../_images/XMapsyV3.png"><img alt="../_images/XMapsyV3.png" height="602" src="../_images/XMapsyV3.png" width="764" />
+<span id="xmapsyv3"></span><a class="reference internal image-reference" href="../_images/XMapsyV3.webp"><img alt="../_images/XMapsyV3.webp" height="602" src="../_images/XMapsyV3.webp" width="764" />
 </a>
 <figcaption>
 <p><span class="caption-text">XMapsy V3 Settings</span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
@@ -273,7 +286,7 @@ touched unless you have extended network configuration experience.</p>
 group “This machine’s role” on the right-hand side of the tab. Open the section
 “iPhone, iPad, and external apps” and select the item “Broadcast to all mapping
 apps on the network” under the headline “other mapping apps”.</p>
-<img alt="../_images/X-Plane-11.png" src="../_images/X-Plane-11.png" />
+<img alt="../_images/X-Plane-11.webp" src="../_images/X-Plane-11.webp" />
 </section>
 <section id="other-programs">
 <h3>Other Programs<a class="headerlink" href="#other-programs" title="Link to this heading"></a></h3>

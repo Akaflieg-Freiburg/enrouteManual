@@ -395,7 +395,9 @@ Dependence on Static Pressure Information
 
 The side view is only available if **Enroute Flight Navigation** has access to
 static pressure information.  If static pressure information is not available,
-**Enroute Flight Navigation** will show a prominent warning.
+**Enroute Flight Navigation** will show a prominent warning.  The side view is
+also unavailable while the app considers the static pressure information
+implausible, as explained below.
 
 
 Why does **Enroute Flight Navigation** need static pressure for the airspace side view?
@@ -434,6 +436,25 @@ But other apps show side views without static pressure data!
   separation between jet aircraft and airspace limits is sometimes no more than
   500 ft.  In view of the extremely severe consequences of airspace violations,
   we decided against showing questionable data.
+
+
+Why does **Enroute Flight Navigation** report "Inconsistent altitude data"?
+
+  **Enroute Flight Navigation** continuously compares the pressure altitude
+  with the geometric altitude reported by the satellite navigation system.  If
+  the two differ by more than 5,000 ft for about half a minute, the app shows
+  the warning "Inconsistent altitude data" and stops drawing airspaces in the
+  side view, because vertical airspace boundaries can no longer be computed
+  reliably.  The warning goes away once the difference has dropped below
+  3,000 ft.
+
+  Differences of this size mean that the pressure data does not reflect the
+  static pressure outside the aircraft.  This typically happens when the option
+  "Use cabin pressure..." is enabled in a pressurized cabin, or when a flight
+  simulator provides the position while the pressure altitude is measured by a
+  sensor or traffic data receiver on the ground.  Check where the pressure data
+  comes from.  In a pressurized aircraft, disable the option "Use cabin
+  pressure..." on the page :ref:`aircraftPage`.
 
 
 Scale

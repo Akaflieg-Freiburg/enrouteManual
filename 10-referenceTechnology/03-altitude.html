@@ -161,6 +161,13 @@ signals will report static pressure, as static pressure is required to
 interpret ADS-B data. In particular, all PowerFLARM devices use and
 report static pressure.</p>
 </div>
+<p><strong>Enroute Flight Navigation</strong> checks the pressure altitude for plausibility by
+comparing it with the geometric altitude.  If the two differ by more than
+5,000 ft for about half a minute, the app shows the warning “Inconsistent
+altitude data” and treats barometric altitude data and vertical airspace
+boundaries as unreliable.  In particular, the airspace side view no longer
+shows airspaces.  The section <a class="reference internal" href="../06-referencePages/01-mainPage.html#staticpressure"><span class="std std-ref">Dependence on Static Pressure Information</span></a> explains the typical
+causes.</p>
 </section>
 <section id="density-altitude">
 <h3>Density Altitude<a class="headerlink" href="#density-altitude" title="Link to this heading"></a></h3>

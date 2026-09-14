@@ -49,20 +49,14 @@ flying a glider, the gliding sectors are probably not relevant. Hiding the
 gliding sectors might improve the readability of the moving map.
 
 
-Navigation Bar
---------------
-
-These settings apply to the Navigation Bar, shown at the bottom of the moving
-map screen.
-
-
 User Interface
 --------------
 
-Large Fonts
-^^^^^^^^^^^
+Font Size
+^^^^^^^^^
 
-Use this option to enlarge fonts for improved readability.
+Use this option to adjust the font size for optimal readability.  Choose between
+"Normal" and "Huge".
 
 
 Night Mode

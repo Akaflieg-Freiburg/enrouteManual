@@ -90,13 +90,20 @@ Linux Desktop
 
 The following command line options are supported.
 
-============== =====================
-Option         Description
-============== =====================
--h, --help     Displays help on commandline options.
---help-all     Displays help including Qt specific options.
--v, --version  Displays version information.
---sg           Run simulator and generate screenshots for Google Play
---sm           Run simulator and generate screenshots for the manual
-============== =====================
+================ =====================
+Option           Description
+================ =====================
+-h, --help       Displays help on commandline options.
+--help-all       Displays help including Qt specific options.
+-v, --version    Displays version information.
+--sg             Run simulator and generate screenshots for Google Play
+--si             Run simulator and generate screenshots for iOS
+--sm             Run simulator and generate screenshots for the manual
+--smac           Run simulator and generate screenshots for macOS
+--smoke-test     Open every page and dialog once, then quit. This option is used for automated testing and leaves the user data untouched.
+--string <name>  Look up the text resource <name> and print it to standard output
+================ =====================
+
+In addition, a file name can be passed as an argument.  The file is then
+imported on startup, as described in the Section :ref:`importData`.
 
