@@ -3,6 +3,9 @@
 Plan a Flight
 =============
 
+.. |drag| image:: ../06-referencePages/ic_drag_handle.png
+   :height: 1.7ex
+
 What to Expect
 --------------
 
@@ -182,10 +185,22 @@ route or deleting it entirely.
 Waypoint-Specific Functions
 ...........................
 
-The three-dot-menu to the right of each waypoint allows one to delete a specific
-waypoint or move it up and down in the list. You can edit waypoints that do not
-refer to pre-set airfields, navaids, or reporting points. Tap on the pencil
-symbol to open a dialog that allows you to set a name and edit the coordinates.
+To change the order of the waypoints, press the drag handle |drag| to the right
+of a waypoint and drag the entry up or down to its new position. The other
+waypoints move aside, and the route is updated as soon as you release. When you
+drag close to the top or bottom of the list, the list scrolls automatically, so
+you can move a waypoint across a route that is longer than the screen. This is
+the most convenient way to insert a freshly added waypoint into the middle of a
+long route.
+
+You can edit waypoints that do not refer to pre-set airfields, navaids, or
+reporting points. Tap on the pencil symbol to open a dialog that allows you to
+set a name and edit the coordinates.
+
+The three-dot-menu to the right of each waypoint offers further functions: it
+allows you to move the waypoint up or down by one position, to delete it, or to
+add it to the waypoint library. A detailed description of the page is found in
+the Section :ref:`routeAndWindPage`.
 
 
 Save Route for Future Use

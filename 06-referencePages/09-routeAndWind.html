@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Route and Wind &mdash; Enroute Flight Navigation  documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+
+  
+    <link rel="shortcut icon" href="../_static/de.akaflieg_freiburg.enroute.png"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Aircraft" href="02-aircraft.html" />
+    <link rel="prev" title="Main Page and Moving Map" href="01-mainPage.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Enroute Flight Navigation
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../01-gettingStarted.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../02-senseAndAvoid.html">Sense and Avoid</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../03-tutorialBasic.html">Basic Use</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../04-tutorialAdvanced.html">Advanced Use</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../05-additionalSoftware.html">Additional Software</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference Manual</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../06-referencePages.html">User Interface: Pages</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01-mainPage.html">Main Page and Moving Map</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Route and Wind</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#page-header">Page Header</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#page-body-route-tab">Page Body: Route Tab</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#reordering-waypoints">Reordering Waypoints</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#page-body-wind-tab">Page Body: Wind Tab</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="02-aircraft.html">Aircraft</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03-settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="04-settingsDataConnections.html">Settings: Data Connections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05-infoSatNav.html">Information/SatNav Positioning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-infoTraffic.html">Information/Traffic Data Receiver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07-infoSensors.html">Information/Device Sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08-about.html">Information/About</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../07-referenceDialogs.html">User Interface: Dialogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../08-referenceItems.html">User Interface: Other Elements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../09-referenceWorkflow.html">User Interface: Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../10-referenceTechnology.html">Technology</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Appendix</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/01-troubleshooting.html">Known Issues and Troubleshooting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/02-dataSources.html">Data Sources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/03-license.html">Software and Data Licenses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/04-privacy.html">Privacy Policies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/05-authors.html">Authors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../11-appendix/06-awards.html">Awards</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Enroute Flight Navigation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../06-referencePages.html">User Interface: Pages</a></li>
+      <li class="breadcrumb-item active">Route and Wind</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/06-referencePages/09-routeAndWind.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="route-and-wind">
+<span id="routeandwindpage"></span><h1>Route and Wind<a class="headerlink" href="#route-and-wind" title="Link to this heading"></a></h1>
+<p>The Route and Wind Page is used to assemble a flight route, to reorder and edit
+its waypoints, and to review the distance, time, and fuel estimates that
+<strong>Enroute Flight Navigation</strong> computes for the route. The page also lets you
+specify the wind that is used for these estimates.</p>
+<p>The page is divided into two tabs, “Route” and “Wind,” which are selected with
+the tab bar below the page header.</p>
+<section id="page-header">
+<h2>Page Header<a class="headerlink" href="#page-header" title="Link to this heading"></a></h2>
+<p>The three-dot-menu in the top right corner of the page header opens a menu with
+the following functions. Except for “View Library…,” all entries are disabled
+while the route is empty or while the “Wind” tab is selected.</p>
+<dl class="simple">
+<dt>View Library…</dt><dd><p>Open the Route Library Page, where you can select a route that you have saved
+earlier.</p>
+</dd>
+<dt>Save to library…</dt><dd><p>Save the current route to the route library for future use.</p>
+</dd>
+<dt>Import…</dt><dd><p>Import a route from a file that was written by another program. A list of
+supported file formats is found in the Section <a class="reference internal" href="../09-referenceWorkflow/01-share.html#supportedfileformats"><span class="std std-ref">Supported File Formats</span></a>.</p>
+</dd>
+<dt>Share… / Export…</dt><dd><p>Share or export the current route as a GeoJSON, GPX, Garmin FPL, or MSFS PLN
+file. The entry is labeled “Share…” on Android and iOS and “Export…” on
+desktop systems. The Garmin FPL format is useful for transferring the route
+to Garmin avionics, such as the G3X; the MSFS PLN format is understood by
+flight simulators.</p>
+</dd>
+<dt>Save…</dt><dd><p>Save the current route as a GeoJSON, GPX, Garmin FPL, or MSFS PLN file. A
+system dialog opens, where you can choose the location and the file name.
+This entry exists on Android only. On desktop systems, the entry “Export…”
+saves the route to a file; on iOS, the share dialog offers the option “Save
+to Files”.</p>
+</dd>
+<dt>Open in Other App…</dt><dd><p>Hand the current route, in GeoJSON, GPX, Garmin FPL, or MSFS PLN format, to
+another application on your device. This entry is not available on iOS.</p>
+</dd>
+<dt>Copy as Flight Plan</dt><dd><p>Copy the route to the clipboard as a simple textual flight plan of the form
+<code class="docutils literal notranslate"><span class="pre">EDTF</span> <span class="pre">DCT</span> <span class="pre">KRH</span> <span class="pre">DCT</span> <span class="pre">EDFW</span></code>, which is convenient for filing a flight plan in
+another program.</p>
+</dd>
+<dt>Clear</dt><dd><p>Delete every waypoint in the current route.</p>
+</dd>
+<dt>Reverse</dt><dd><p>Reverse the order of the waypoints, so that the route runs from its present
+destination back to its present departure point.</p>
+</dd>
+</dl>
+</section>
+<section id="page-body-route-tab">
+<h2>Page Body: Route Tab<a class="headerlink" href="#page-body-route-tab" title="Link to this heading"></a></h2>
+<p>The “Route” tab shows the waypoints of your route, together with the flight legs
+that connect them.</p>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="../_images/05-09-01-Route.webp"><img alt="Route and Wind Page, Route Tab" height="360" src="../_images/05-09-01-Route.webp" width="240" />
+</a>
+<figcaption>
+<p><span class="caption-text">Route and Wind Page, Route Tab</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>If the route is empty, the tab shows a short text that explains how to add a
+first waypoint. Otherwise, the tab lists the waypoints from departure to
+destination. Each waypoint is shown with its icon, its name, and the distance
+and true course from the previous position. If weather information is available
+for the waypoint, a METAR summary is appended and the row is tinted according to
+the current flight category. Between two waypoints, a leg entry shows the leg
+distance, the estimated time en route, the true course, and the true heading.</p>
+<p>Every waypoint carries a set of controls on its right-hand side.</p>
+<dl>
+<dt>Edit</dt><dd><p>For waypoints that do not refer to pre-set airfields, navaids, or reporting
+points, a pencil symbol opens a dialog where you can change the name and edit
+the coordinates. The symbol is hidden for all other waypoints.</p>
+</dd>
+<dt>Drag handle <a class="reference internal" href="../_images/ic_drag_handle.webp"><img alt="drag" src="../_images/ic_drag_handle.webp" style="height: 1.7ex;" /></a></dt><dd><p>Press the drag handle and move the waypoint up or down to reorder it, as
+described in the Section <a class="reference internal" href="#reordering-waypoints">Reordering Waypoints</a> below.</p>
+</dd>
+<dt>Three-dot-menu</dt><dd><p>Opens a menu with the following entries:</p>
+<dl class="simple">
+<dt>Move Up / Move Down</dt><dd><p>Move the waypoint by one position towards the departure or the destination.</p>
+</dd>
+<dt>Remove</dt><dd><p>Delete the waypoint from the route.</p>
+</dd>
+<dt>Add to waypoint library</dt><dd><p>Add the waypoint to the waypoint library. This entry is only available for
+user-defined waypoints that are not yet contained in the library.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>At the bottom of the tab, a summary line shows the total distance, the estimated
+time en route, and the estimated fuel consumption for the whole route. The
+estimates depend on the aircraft data and on the wind; if either is incomplete,
+the summary explains what is missing. The button “Add Waypoint” opens a dialog
+that lets you append a further waypoint to the route.</p>
+<section id="reordering-waypoints">
+<h3>Reordering Waypoints<a class="headerlink" href="#reordering-waypoints" title="Link to this heading"></a></h3>
+<p>To change the order of the waypoints, press the drag handle <a class="reference internal" href="../_images/ic_drag_handle.webp"><img alt="drag" src="../_images/ic_drag_handle.webp" style="height: 1.7ex;" /></a> of a waypoint
+and drag the row up or down. The remaining waypoints move aside to open a gap at
+the new position, and the route is updated as soon as you release the row. When
+you drag close to the upper or lower edge of the list, the list scrolls
+automatically, so that a waypoint can be moved across a route that is longer than
+the screen.</p>
+<p>Dragging is the quickest way to insert a freshly added waypoint into the middle
+of a long route: append the waypoint with the “Add Waypoint” button, then drag it
+from the end of the list to its intended position.</p>
+</section>
+</section>
+<section id="page-body-wind-tab">
+<h2>Page Body: Wind Tab<a class="headerlink" href="#page-body-wind-tab" title="Link to this heading"></a></h2>
+<p>The “Wind” tab lets you enter the wind that <strong>Enroute Flight Navigation</strong> uses to
+compute the estimated time en route and the fuel consumption for your route.</p>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../_images/05-09-02-Wind.webp"><img alt="Route and Wind Page, Wind Tab" height="360" src="../_images/05-09-02-Wind.webp" width="240" />
+</a>
+<figcaption>
+<p><span class="caption-text">Route and Wind Page, Wind Tab</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<dl class="simple">
+<dt>Direction from</dt><dd><p>Enter the direction, in degrees, from which the wind is blowing.</p>
+</dd>
+<dt>Speed</dt><dd><p>Enter the wind speed. The unit (knots, km/h, or mph) follows the horizontal
+distance unit configured on the Aircraft Page.</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The wind entered here is a single, constant value for the whole route. It is
+used only for the flight planning estimates and does not affect any other part
+of <strong>Enroute Flight Navigation</strong>.</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="01-mainPage.html" class="btn btn-neutral float-left" title="Main Page and Moving Map" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="02-aircraft.html" class="btn btn-neutral float-right" title="Aircraft" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Stefan Kebekus.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

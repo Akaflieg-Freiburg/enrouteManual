@@ -118,7 +118,7 @@
 <p><strong>Enroute Flight Navigation</strong> can display visual approach charts on the moving
 map.  The figure <a class="reference internal" href="#vacimg"><span class="std std-ref">Moving map display with embedded approach chart</span></a> shows how this will typically look.</p>
 <figure class="align-center" id="id2">
-<span id="vacimg"></span><a class="reference internal image-reference" href="../_images/03-03-VAC.png"><img alt="Moving map display with approach chart" height="360" src="../_images/03-03-VAC.png" width="240" />
+<span id="vacimg"></span><a class="reference internal image-reference" href="../_images/03-03-VAC.webp"><img alt="Moving map display with approach chart" height="360" src="../_images/03-03-VAC.webp" width="240" />
 </a>
 <figcaption>
 <p><span class="caption-text">Moving map display with embedded approach chart</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
@@ -218,6 +218,10 @@ all approach charts installed on your device, whether downloaded or imported.
 The charts are grouped by origin: charts that came with a country map appear
 under the name of their collection, while charts that you imported yourself
 appear under the heading “Manually Imported”.</p>
+<p>The text field “Filter by Name” at the top of the tab narrows the list down to
+charts whose name contains the text that you enter.  You can enter several
+words; the list then shows only charts that match all of them.  The “Maps” tab
+of the same page offers a similar filter for the list of maps.</p>
 <p>Use the context menus to retrieve basic information about a chart.  The context
 menu entries “Rename” and “Uninstall” are available only for charts that you
 imported yourself.  Charts that came with a country map are removed together
@@ -225,6 +229,14 @@ with that map, on the “Maps” tab of the same page.</p>
 <p>The three-dot menu at the top right of the screen allows clearing your approach
 chart library.  This removes the charts that you imported yourself; charts that
 came with a country map are not affected.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If <strong>Enroute Flight Navigation</strong> finds a file in its chart directory
+that it cannot read, for instance a damaged GeoTIFF file, it moves the file
+to a subfolder named “unrecognised” instead of deleting it.  On Linux desktop
+computers, the chart directory is the folder “VAC” in the data directory of
+the app, typically “~/.local/share/Akaflieg Freiburg/Enroute/VAC”.</p>
+</div>
 </section>
 <section id="use-approach-charts">
 <h2>Use Approach Charts<a class="headerlink" href="#use-approach-charts" title="Link to this heading"></a></h2>

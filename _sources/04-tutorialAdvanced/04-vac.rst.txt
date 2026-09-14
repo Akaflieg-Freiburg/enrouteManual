@@ -124,6 +124,11 @@ The charts are grouped by origin: charts that came with a country map appear
 under the name of their collection, while charts that you imported yourself
 appear under the heading "Manually Imported".
 
+The text field "Filter by Name" at the top of the tab narrows the list down to
+charts whose name contains the text that you enter.  You can enter several
+words; the list then shows only charts that match all of them.  The "Maps" tab
+of the same page offers a similar filter for the list of maps.
+
 Use the context menus to retrieve basic information about a chart.  The context
 menu entries "Rename" and "Uninstall" are available only for charts that you
 imported yourself.  Charts that came with a country map are removed together
@@ -132,6 +137,12 @@ with that map, on the "Maps" tab of the same page.
 The three-dot menu at the top right of the screen allows clearing your approach
 chart library.  This removes the charts that you imported yourself; charts that
 came with a country map are not affected.
+
+.. note:: If **Enroute Flight Navigation** finds a file in its chart directory
+  that it cannot read, for instance a damaged GeoTIFF file, it moves the file
+  to a subfolder named "unrecognised" instead of deleting it.  On Linux desktop
+  computers, the chart directory is the folder "VAC" in the data directory of
+  the app, typically "~/.local/share/Akaflieg Freiburg/Enroute/VAC".
 
 
 Use Approach Charts

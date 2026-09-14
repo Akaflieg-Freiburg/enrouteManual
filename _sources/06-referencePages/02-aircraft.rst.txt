@@ -99,6 +99,12 @@ Use cabin pressure...
       necessarily agree, with an error depending on airspeed and on the
       configuration of the heating and ventilation systems.
 
+    - In a pressurized cabin, the cabin pressure is unrelated to the static
+      pressure outside the aircraft.  **Enroute Flight Navigation** detects
+      gross mismatches between pressure altitude and satellite altitude, shows
+      the warning "Inconsistent altitude data" and disables the airspace side
+      view, but it cannot detect smaller errors.
+
     - Do not enable this option unless you have convinced yourself that the data
       provided by your sensor is good enough for the intended use.
 
@@ -111,7 +117,14 @@ Units
 ^^^^^
 
 Select the units you want to use for horizontal and vertical distances, and fuel
-volume.
+volume.  Horizontal distances can be shown in nautical miles, kilometers or
+statute miles, vertical distances in feet or meters, and fuel volumes in liters
+or U.S. gallons (1 U.S. gallon = 3.785 l).
+
+.. note:: Versions of **Enroute Flight Navigation** before 4.0.0 converted
+  gallons with the factor of the imperial gallon (4.546 l).  If you entered the
+  fuel consumption of your aircraft in gallons per hour with an earlier version,
+  please re-check the value shown on this page.
 
 
 True airspeed

@@ -66,6 +66,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#drag-and-drop-linux-desktop-only">Drag-and-Drop (Linux Desktop Only)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#copy-and-paste-linux-desktop-only">Copy-and-Paste (Linux Desktop Only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#command-line-linux-desktop-only">Command Line (Linux Desktop Only)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#supported-file-formats">Supported File Formats</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#supported-text-data-items">Supported Text Data Items</a></li>
@@ -209,11 +210,19 @@ file dialog that allows choosing the file types.</p>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>Route</p></td>
-<td><p>GeoJSON</p></td>
+<td><p>Garmin FPL</p></td>
 <td><p>Flight Route (replaces current flight route)</p></td>
 </tr>
 <tr class="row-odd"><td><p>Route</p></td>
+<td><p>GeoJSON</p></td>
+<td><p>Flight Route (replaces current flight route)</p></td>
+</tr>
+<tr class="row-even"><td><p>Route</p></td>
 <td><p>GPX</p></td>
+<td><p>Flight Route (replaces current flight route)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Route</p></td>
+<td><p>MSFS PLN</p></td>
 <td><p>Flight Route (replaces current flight route)</p></td>
 </tr>
 <tr class="row-even"><td><p>Library/Route</p></td>
@@ -233,26 +242,30 @@ file dialog that allows choosing the file types.</p>
 <td><p>Vector Maps</p></td>
 </tr>
 <tr class="row-even"><td><p>Library/Maps and Data</p></td>
-<td><p>OpenAir</p></td>
+<td><p>CUB</p></td>
 <td><p>Airspace Data</p></td>
 </tr>
 <tr class="row-odd"><td><p>Library/Maps and Data</p></td>
+<td><p>OpenAir</p></td>
+<td><p>Airspace Data</p></td>
+</tr>
+<tr class="row-even"><td><p>Library/Maps and Data</p></td>
 <td><p>GeoTIFF</p></td>
 <td><p>Approach Chart</p></td>
 </tr>
-<tr class="row-even"><td><p>Library/Maps and Data</p></td>
+<tr class="row-odd"><td><p>Library/Maps and Data</p></td>
 <td><p>ZIP/TripKit</p></td>
 <td><p>Approach Chart Collection</p></td>
 </tr>
-<tr class="row-odd"><td><p>Library/Waypoints</p></td>
+<tr class="row-even"><td><p>Library/Waypoints</p></td>
 <td><p>CUP</p></td>
 <td><p>Waypoint Collection</p></td>
 </tr>
-<tr class="row-even"><td><p>Library/Waypoints</p></td>
+<tr class="row-odd"><td><p>Library/Waypoints</p></td>
 <td><p>GeoJSON</p></td>
 <td><p>Waypoint Collection</p></td>
 </tr>
-<tr class="row-odd"><td><p>Library/Waypoints</p></td>
+<tr class="row-even"><td><p>Library/Waypoints</p></td>
 <td><p>GPX</p></td>
 <td><p>Waypoint Collection</p></td>
 </tr>
@@ -273,6 +286,14 @@ you can import a file by dragging its icon from the desktop and drop it anywhere
 in the <strong>Enroute Flight Navigation</strong> window.  You can import text data items by
 dragging the text into the <strong>Enroute Flight Navigation</strong> window.</p>
 </section>
+<section id="copy-and-paste-linux-desktop-only">
+<h2>Copy-and-Paste (Linux Desktop Only)<a class="headerlink" href="#copy-and-paste-linux-desktop-only" title="Link to this heading"></a></h2>
+<p>If you are running <strong>Enroute Flight Navigation</strong> on a Linux desktop computer,
+you can import text data items, such as the links listed in the section
+<a class="reference internal" href="#supported-text-data-items">Supported Text Data Items</a> below, by copying the text to the clipboard and
+pasting it into the <strong>Enroute Flight Navigation</strong> window with the keyboard
+shortcut Ctrl+V.</p>
+</section>
 <section id="command-line-linux-desktop-only">
 <h2>Command Line (Linux Desktop Only)<a class="headerlink" href="#command-line-linux-desktop-only" title="Link to this heading"></a></h2>
 <p>When starting <strong>Enroute Flight Navigation</strong> from the Unix command line, it is
@@ -289,39 +310,42 @@ possible to pass file names as command line arguments.</p>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>Airspace Data</p></td>
+<td><p><a class="reference external" href="https://github.com/naviter/seeyou_file_formats">CUB</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Airspace Data</p></td>
 <td><p><a class="reference external" href="https://pyopenair.readthedocs.io/en/latest/openair.html">OpenAir</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Approach Charts</p></td>
+<tr class="row-even"><td><p>Approach Charts</p></td>
 <td><p><a class="reference external" href="https://trac.osgeo.org/geotiff">GeoTIFF</a></p></td>
 </tr>
-<tr class="row-even"><td><p>Approach Chart Collection</p></td>
+<tr class="row-odd"><td><p>Approach Chart Collection</p></td>
 <td><p><a class="reference external" href="https://en.wikipedia.org/wiki/ZIP_(file_format)">ZIP</a>/<a class="reference external" href="https://mpmediasoft.de/products/AIPBrowserDE/help/AIPBrowserDE%20-%20Trip-Kit-Spezifikation.html">TripKit</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>FLARM Test Data</p></td>
+<tr class="row-even"><td><p>FLARM Test Data</p></td>
 <td><p>Text file</p></td>
 </tr>
-<tr class="row-even"><td><p>Flight Routes</p></td>
-<td><p>Garmin FPL</p></td>
-</tr>
 <tr class="row-odd"><td><p>Flight Routes</p></td>
+<td><p><a class="reference external" href="https://www8.garmin.com/xmlschemas/FlightPlanv1.xsd">Garmin FPL</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Flight Routes</p></td>
 <td><p><a class="reference external" href="https://en.wikipedia.org/wiki/GPS_Exchange_Format">GPX</a></p></td>
 </tr>
-<tr class="row-even"><td><p>Flight Routes</p></td>
-<td><p><a class="reference external" href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a></p></td>
-</tr>
 <tr class="row-odd"><td><p>Flight Routes</p></td>
-<td><p><a class="reference external" href="https://docs.flightsimulator.com/html/Content_Configuration/Flights_And_Missions/Flight_Plan_Definitions.htm">PLN</a></p></td>
-</tr>
-<tr class="row-even"><td><p>Raster Maps</p></td>
-<td><p><a class="reference external" href="https://docs.mapbox.com/help/glossary/mbtiles/">MBTILES</a></p></td>
-</tr>
-<tr class="row-odd"><td><p>Vector Maps</p></td>
-<td><p><a class="reference external" href="https://docs.mapbox.com/help/glossary/mbtiles/">MBTILES</a></p></td>
-</tr>
-<tr class="row-even"><td><p>Waypoint Collections</p></td>
 <td><p><a class="reference external" href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a></p></td>
 </tr>
-<tr class="row-odd"><td><p>Waypoints</p></td>
+<tr class="row-even"><td><p>Flight Routes</p></td>
+<td><p><a class="reference external" href="https://docs.flightsimulator.com/html/Content_Configuration/Flights_And_Missions/Flight_Plan_Definitions.htm">MSFS PLN</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Raster Maps</p></td>
+<td><p><a class="reference external" href="https://docs.mapbox.com/help/glossary/mbtiles/">MBTILES</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Vector Maps</p></td>
+<td><p><a class="reference external" href="https://docs.mapbox.com/help/glossary/mbtiles/">MBTILES</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Waypoint Collections</p></td>
+<td><p><a class="reference external" href="https://en.wikipedia.org/wiki/GeoJSON">GeoJSON</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Waypoints</p></td>
 <td><p><a class="reference external" href="https://downloads.naviter.com/docs/SeeYou_CUP_file_format.pdf">CUP</a></p></td>
 </tr>
 </tbody>

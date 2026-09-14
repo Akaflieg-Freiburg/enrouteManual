@@ -8,6 +8,7 @@ section describes the most relevant pages in full detail.
    :maxdepth: 1
 
    06-referencePages/01-mainPage
+   06-referencePages/09-routeAndWind
    06-referencePages/02-aircraft
    06-referencePages/03-settings
    06-referencePages/04-settingsDataConnections

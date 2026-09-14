@@ -58,6 +58,14 @@ mobile device.
   interpret ADS-B data. In particular, all PowerFLARM devices use and
   report static pressure.
 
+**Enroute Flight Navigation** checks the pressure altitude for plausibility by
+comparing it with the geometric altitude.  If the two differ by more than
+5,000 ft for about half a minute, the app shows the warning "Inconsistent
+altitude data" and treats barometric altitude data and vertical airspace
+boundaries as unreliable.  In particular, the airspace side view no longer
+shows airspaces.  The section :ref:`staticPressure` explains the typical
+causes.
+
 
 Density Altitude
 ^^^^^^^^^^^^^^^^

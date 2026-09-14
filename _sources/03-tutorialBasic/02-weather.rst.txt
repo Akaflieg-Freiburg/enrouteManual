@@ -66,6 +66,16 @@ full weather forecast.  The section :ref:`metarDialog` describes the dialog in
 full detail.
 
 
+Filter
+------
+
+The text field "Filter by Name" at the top of the page narrows the list down to
+stations whose name or ICAO code contains the text that you enter.  You can
+enter several words; the list then shows only stations that match all of them.
+Press the Return key to open the detailed weather dialog for the first station
+in the filtered list.
+
+
 Page Footer
 -----------
 

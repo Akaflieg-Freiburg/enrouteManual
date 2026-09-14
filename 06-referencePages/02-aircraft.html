@@ -21,7 +21,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Settings" href="03-settings.html" />
-    <link rel="prev" title="Main Page and Moving Map" href="01-mainPage.html" /> 
+    <link rel="prev" title="Route and Wind" href="09-routeAndWind.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -57,6 +57,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../06-referencePages.html">User Interface: Pages</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="01-mainPage.html">Main Page and Moving Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="09-routeAndWind.html">Route and Wind</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Aircraft</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#page-header">Page Header</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#page-body">Page Body</a><ul>
@@ -197,6 +198,11 @@ aviation.</p></li>
 <li><p>In typical GA aircraft, static pressure and cabin pressure do not
 necessarily agree, with an error depending on airspeed and on the
 configuration of the heating and ventilation systems.</p></li>
+<li><p>In a pressurized cabin, the cabin pressure is unrelated to the static
+pressure outside the aircraft.  <strong>Enroute Flight Navigation</strong> detects
+gross mismatches between pressure altitude and satellite altitude, shows
+the warning “Inconsistent altitude data” and disables the airspace side
+view, but it cannot detect smaller errors.</p></li>
 <li><p>Do not enable this option unless you have convinced yourself that the data
 provided by your sensor is good enough for the intended use.</p></li>
 <li><p>Do not rely on data shown in this app.</p></li>
@@ -209,7 +215,16 @@ provided by your sensor is good enough for the intended use.</p></li>
 <section id="units">
 <h3>Units<a class="headerlink" href="#units" title="Link to this heading"></a></h3>
 <p>Select the units you want to use for horizontal and vertical distances, and fuel
-volume.</p>
+volume.  Horizontal distances can be shown in nautical miles, kilometers or
+statute miles, vertical distances in feet or meters, and fuel volumes in liters
+or U.S. gallons (1 U.S. gallon = 3.785 l).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Versions of <strong>Enroute Flight Navigation</strong> before 4.0.0 converted
+gallons with the factor of the imperial gallon (4.546 l).  If you entered the
+fuel consumption of your aircraft in gallons per hour with an earlier version,
+please re-check the value shown on this page.</p>
+</div>
 </section>
 <section id="true-airspeed">
 <h3>True airspeed<a class="headerlink" href="#true-airspeed" title="Link to this heading"></a></h3>
@@ -237,7 +252,7 @@ calculate a very rough estimate of the fuel required for your route.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="01-mainPage.html" class="btn btn-neutral float-left" title="Main Page and Moving Map" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="09-routeAndWind.html" class="btn btn-neutral float-left" title="Route and Wind" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="03-settings.html" class="btn btn-neutral float-right" title="Settings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
