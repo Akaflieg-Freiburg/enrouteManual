@@ -75,3 +75,6 @@ Ouverte
 SIA
 unrecognised
 GSEC
+flightmaps
+swisstopo
+AIRAC
