@@ -125,14 +125,50 @@ South America       Falkland Is.   Class 2
 =================== ============== =======
 
 
+.. _rasterData:
+
 Raster Maps
 ...........
 
+For many countries, we offer raster charts for download, as described in the
+section :ref:`rasterDownload`.  The following charts are currently available.
+
+VFR charts by `open flightmaps <https://www.openflightmaps.org>`_, updated
+with every AIRAC cycle:
+
+- Austria
+- Belgium
+- Bulgaria
+- Croatia
+- Czech Republic
+- Denmark
+- Finland
+- France
+- Germany
+- Greece
+- Hungary
+- Italy
+- Netherlands
+- Poland
+- Romania
+- Slovakia
+- Slovenia
+- Sweden
+- Switzerland
+
+Official charts by national agencies:
+
+- France, ICAO chart 1:500,000 provided by the `Service de l'Information
+  Aéronautique (SIA) <https://www.sia.aviation-civile.gouv.fr/>`__
 - Switzerland, Digital Glider Map provided by the `Federal Office of Topography
   swisstopo <https://www.swisstopo.admin.ch/en/digital-glider-map>`__
 - Switzerland, Digital Aeronautical Chart ICAO provided by the `Federal Office
   of Topography swisstopo
   <https://www.swisstopo.admin.ch/en/digital-aeronautical-chart-icao>`__
+
+The provider of a chart installed on your device is also named in the app: open
+the main menu, go to "Library/Maps and Data", tap on the chart and choose
+"Info".
 
 
 Base Maps

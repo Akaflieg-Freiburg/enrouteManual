@@ -129,9 +129,10 @@ Use this menu to access all other pages, access settings and exit the app.
 Raster Map Menu
 ^^^^^^^^^^^^^^^
 
-This menu is visible when raster maps are installed. It shows all raster maps
-installed, and allows choosing one of them for display.  See the section
-:ref:`importRaster` for more details.
+This menu is visible when raster maps are installed, whether downloaded from
+our server or imported by you. It shows all raster maps installed, and allows
+choosing one of them for display.  See the section :ref:`rasterMaps` for more
+details.
 
 
 Moving Map

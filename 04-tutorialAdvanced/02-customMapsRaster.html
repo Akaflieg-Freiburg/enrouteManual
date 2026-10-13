@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Import Custom Raster Maps &mdash; Enroute Flight Navigation  documentation</title>
+  <title>Raster Maps &mdash; Enroute Flight Navigation  documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
 
@@ -52,11 +52,15 @@
 <li class="toctree-l1"><a class="reference internal" href="../03-tutorialBasic.html">Basic Use</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../04-tutorialAdvanced.html">Advanced Use</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="01-customMapsVector.html">Import Custom Vector Maps</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Import Custom Raster Maps</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#mbtiles-map-data-sources">MBTILES Map Data Sources</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#import-raster-maps">Import Raster Maps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#manage-imported-raster-maps">Manage Imported Raster Maps</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#use-imported-raster-maps">Use Imported Raster Maps</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Raster Maps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#download-raster-charts">Download Raster Charts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#import-custom-raster-maps">Import Custom Raster Maps</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#mbtiles-map-data-sources">MBTILES Map Data Sources</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#import-raster-maps">Import Raster Maps</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#manage-raster-maps">Manage Raster Maps</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#use-raster-maps">Use Raster Maps</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="03-airspace.html">Import Airspace Data</a></li>
@@ -99,7 +103,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../04-tutorialAdvanced.html">Advanced Use</a></li>
-      <li class="breadcrumb-item active">Import Custom Raster Maps</li>
+      <li class="breadcrumb-item active">Raster Maps</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/04-tutorialAdvanced/02-customMapsRaster.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -109,46 +113,88 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="import-custom-raster-maps">
-<span id="importraster"></span><h1>Import Custom Raster Maps<a class="headerlink" href="#import-custom-raster-maps" title="Link to this heading"></a></h1>
+  <section id="raster-maps">
+<span id="rastermaps"></span><h1>Raster Maps<a class="headerlink" href="#raster-maps" title="Link to this heading"></a></h1>
 <p><strong>Enroute Flight Navigation</strong> comes with a set of general-purpose base maps in
 vector format, which are shown together with the aviation data in a style that
 we consider suitable for most aviation purposes.  Still, there might be
-situations where a user would like to use their own base maps.</p>
+situations where a user would like to see a different map.</p>
 <ul class="simple">
-<li><p>Where available, some users might prefer to use official ICAO charts of their
-countries.</p></li>
+<li><p>Many pilots prefer to fly with the official VFR or ICAO chart of their
+country, which they know from printed charts and from flight training.</p></li>
 <li><p>Some users might prefer raster maps that follow a different style.</p></li>
 </ul>
-<p><strong>Enroute Flight Navigation</strong> is able to import MBTILES files containing raster
-data.</p>
+<p><strong>Enroute Flight Navigation</strong> can show raster maps on top of the base map.
+There are two ways to get raster maps onto your device.</p>
+<ul class="simple">
+<li><p>For many countries, we offer raster charts for download, right next to the
+aviation maps.  The charts are installed and updated like any other map, and no
+further action is required on your part.  The section <a class="reference internal" href="#rasterdownload"><span class="std std-ref">Download Raster Charts</span></a>
+explains the details.</p></li>
+<li><p>You can import your own raster maps in MBTILES format, as explained in the
+section <a class="reference internal" href="#importraster"><span class="std std-ref">Import Custom Raster Maps</span></a>.</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Even if you decide to use raster maps, we still recommend installing our
 regular maps, because <strong>Enroute Flight Navigation</strong> needs the data to provide
 airspace and waypoint information.</p>
 </div>
+<section id="download-raster-charts">
+<span id="rasterdownload"></span><h2>Download Raster Charts<a class="headerlink" href="#download-raster-charts" title="Link to this heading"></a></h2>
+<p>For many European countries, we distribute the VFR charts published by the
+<a class="reference external" href="https://www.openflightmaps.org">open flightmaps</a> project.  These charts follow
+the familiar style of the official ICAO charts and cover, among others, Austria,
+France, Germany, Italy, Poland, Sweden and Switzerland.  The charts are updated
+with every AIRAC cycle, that is, every 28 days.  In addition, we distribute the
+official ICAO charts for France and Switzerland and the Swiss glider chart.  The
+section <a class="reference internal" href="../11-appendix/02-dataSources.html#rasterdata"><span class="std std-ref">Raster Maps</span></a> lists all charts that are currently available, and the
+section <a class="reference internal" href="../11-appendix/03-license.html#licensepage"><span class="std std-ref">Software and Data Licenses</span></a> describes the licenses under which the charts are
+distributed.</p>
+<p>To install a chart, open the main menu and go to “Library/Maps and Data”.  The
+page “Map and Data Library” will then open.  Its “Maps” tab lists the available
+maps by continent; the raster charts appear next to the aviation and base maps
+of the respective country, with names such as “Germany VFR Chart (open
+flightmaps)” or “Switzerland ICAO Chart”.  Tap on the download button to install
+a chart.</p>
+<p>Once installed, the charts are available immediately.  Like all other maps, they
+are updated automatically whenever you update your maps, and they can be
+uninstalled on the page “Map and Data Library”.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The downloaded charts are provided for information only.  Always check the
+official publications of the national aeronautical information services
+before you fly.</p>
+</div>
+</section>
+<section id="import-custom-raster-maps">
+<span id="importraster"></span><h2>Import Custom Raster Maps<a class="headerlink" href="#import-custom-raster-maps" title="Link to this heading"></a></h2>
+<p>If we do not offer a raster chart for your region, or if you prefer a chart from
+a different source, you can import your own maps.  <strong>Enroute Flight Navigation</strong>
+is able to import MBTILES files containing raster data.</p>
 <section id="mbtiles-map-data-sources">
-<h2>MBTILES Map Data Sources<a class="headerlink" href="#mbtiles-map-data-sources" title="Link to this heading"></a></h2>
+<h3>MBTILES Map Data Sources<a class="headerlink" href="#mbtiles-map-data-sources" title="Link to this heading"></a></h3>
 <p>The website <a class="reference external" href="https://www.openflightmaps.org">open flightmaps</a> provides
 excellent aviation maps in raster format for a variety of European countries, as
-well as South Africa and Namibia.  We are aware of aviation authorities that
-offer ICAO raster maps in GeoTIFF format. The Section <a class="reference internal" href="../05-additionalSoftware/03-mapConversion.html#mapconversiontools"><span class="std std-ref">Map Generation and Conversion Tools</span></a>
-explains how these can be converted to the MBTILES format suitable for <strong>Enroute
-Flight Navigation</strong>.</p>
+well as South Africa and Namibia.  Most of these maps can be downloaded
+directly within the app, as explained in the section <a class="reference internal" href="#rasterdownload"><span class="std std-ref">Download Raster Charts</span></a>.  We
+are also aware of aviation authorities that offer ICAO raster maps in GeoTIFF
+format. The Section <a class="reference internal" href="../05-additionalSoftware/03-mapConversion.html#mapconversiontools"><span class="std std-ref">Map Generation and Conversion Tools</span></a> explains how these can be
+converted to the MBTILES format suitable for <strong>Enroute Flight Navigation</strong>.</p>
 </section>
 <section id="import-raster-maps">
-<h2>Import Raster Maps<a class="headerlink" href="#import-raster-maps" title="Link to this heading"></a></h2>
+<h3>Import Raster Maps<a class="headerlink" href="#import-raster-maps" title="Link to this heading"></a></h3>
 <p>Transfer the MBTILES file to your device and open the file on your device.  The
 Section <a class="reference internal" href="../09-referenceWorkflow/01-share.html#importdata"><span class="std std-ref">Import Data</span></a> explains the process in detail.</p>
 </section>
-<section id="manage-imported-raster-maps">
-<h2>Manage Imported Raster Maps<a class="headerlink" href="#manage-imported-raster-maps" title="Link to this heading"></a></h2>
-<p>To manage the raster maps installed in <strong>Enroute Flight Navigation</strong>, open the
-main menu and go to “Library/Maps and Data”.</p>
 </section>
-<section id="use-imported-raster-maps">
-<h2>Use Imported Raster Maps<a class="headerlink" href="#use-imported-raster-maps" title="Link to this heading"></a></h2>
+<section id="manage-raster-maps">
+<h2>Manage Raster Maps<a class="headerlink" href="#manage-raster-maps" title="Link to this heading"></a></h2>
+<p>To manage the raster maps installed in <strong>Enroute Flight Navigation</strong>, whether
+downloaded or imported, open the main menu and go to “Library/Maps and Data”.</p>
+</section>
+<section id="use-raster-maps">
+<h2>Use Raster Maps<a class="headerlink" href="#use-raster-maps" title="Link to this heading"></a></h2>
 <p>As soon as raster maps are installed, a button with the label <img alt="ico1" src="../_images/ic_layers.webp" /> will become
 visible on the moving map page.  A tap on the button will open the Raster Map
 Menu, which shows all raster maps installed.  Tap on an entry to show the
