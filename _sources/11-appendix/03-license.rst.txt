@@ -631,11 +631,22 @@ are downloaded at runtime.  They are compiled from the following sources.
   <https://www.openflightmaps.org/>`_, licensed under the `OFMA General Users´
   License <https://www.openflightmaps.org/live/downloads/20150306-LCN.pdf>`_.
 
-- The visual approach charts for France are published by the `Service de
-  l'Information Aéronautique (SIA)
+- The VFR raster charts are published by `open flightmaps
+  <https://www.openflightmaps.org/>`_, licensed under the `OFMA General Users´
+  License <https://www.openflightmaps.org/live/downloads/20150306-LCN.pdf>`_.
+
+- The ICAO raster chart and the visual approach charts for France are published
+  by the `Service de l'Information Aéronautique (SIA)
   <https://www.sia.aviation-civile.gouv.fr/>`_, licensed under Version 2.0 of
   the `Licence Ouverte (Open Licence)
   <https://www.etalab.gouv.fr/licence-ouverte-open-licence/>`_ of Etalab.
+
+- The ICAO raster chart and the glider chart for Switzerland are published by
+  the `Federal Office of Topography swisstopo <https://www.swisstopo.admin.ch>`_
+  under the `general terms of use
+  <https://www.geo.admin.ch/en/general-terms-of-use-fsdi>`_ of the Federal
+  Spatial Data Infrastructure.  These charts are provided for information only;
+  the terms of use do not allow operational use.
 
 
 

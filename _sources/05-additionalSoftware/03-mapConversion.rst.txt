@@ -20,6 +20,10 @@ We are aware of websites that offer raster maps in GeoTIFF format. **Enroute
 Flight Navigation** cannot use GeoTIFF files as raster maps, but there are
 tools that convert GeoTIFF to MBTILES.
 
+.. note:: Before you convert a chart yourself, check the section
+   :ref:`rasterDownload`.  For many countries, ready-made raster charts can be
+   downloaded directly within the app.
+
 .. note:: GeoTIFF files *can* be used as visual approach charts, as described
    in the Section :ref:`vac_tutorial`. The restriction described here applies
    only to raster maps that replace the base map.
