@@ -12,7 +12,8 @@ gets to see traffic data.
     from the serial port device. **Enroute Flight Navigation** is not able to
     integrate into a CAN-Bus environment.
 
-.. note:: Serial port communication is not available at all on iPhone or iPad devices.
+.. note:: Serial port communication is not available at all on iPhone or iPad
+    devices.  It is, however, supported on Mac computers running macOS.
 
 
 One-time Setup

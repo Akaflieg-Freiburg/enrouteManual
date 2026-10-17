@@ -47,8 +47,9 @@ be read by **Enroute Flight Navigation**.
   - On Android or iOS, open the file on your device. The Section
     :ref:`importData` explains the process in detail.
 
-  - On Linux/Desktop, use the file manager to drag-and-drop the GPX file into
-    the window of **Enroute Flight Navigation**.
+  - On Linux or macOS, use the file manager (the Finder, on macOS) to
+    drag-and-drop the GPX file into the window of **Enroute Flight
+    Navigation**.
 
 - A dialog window will open. **Enroute Flight Navigation** needs to know if the
   GPX file contains a flight route or a list of waypoints that you wish to
@@ -85,9 +86,9 @@ follows.
   - On Android or iOS, transfer the GPX file to your device and open the file on
     your device. The Section :ref:`importData` explains the process in detail.
 
-  - On Linux/Desktop, transfer the GPX file to your device and use the file
-    manager to drag-and-drop it into the window of **Enroute Flight
-    Navigation**.
+  - On Linux or macOS, transfer the GPX file to your device and use the file
+    manager (the Finder, on macOS) to drag-and-drop it into the window of
+    **Enroute Flight Navigation**.
 
 - A dialog window will open. **Enroute Flight Navigation** needs to know if the
   GPX file contains a flight route or a list of waypoints that you wish to

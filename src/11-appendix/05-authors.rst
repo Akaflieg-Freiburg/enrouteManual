@@ -10,10 +10,10 @@ club. Stefan flies gliders and motor planes.
 Contributions
 ~~~~~~~~~~~~~
 
-- **iOS Version:** The app has been ported to iOS by Simon Schneider,
-  who also maintains the iOS port. Simon received his PPL license in
-  2024. Like Stefan, he is a member of the Akaflieg Freiburg flight
-  club.
+- **iOS and macOS Versions:** The app has been ported to iOS and macOS
+  by Simon Schneider, who also maintains both ports. Simon received his
+  PPL license in 2024. Like Stefan, he is a member of the Akaflieg
+  Freiburg flight club.
 - **Programming:** Heinz Blöchinger has helped us with file import
   functionality. After 15 years of alpine gliding, Heinz has fulfilled a
   big dream and now flies helicopters.
