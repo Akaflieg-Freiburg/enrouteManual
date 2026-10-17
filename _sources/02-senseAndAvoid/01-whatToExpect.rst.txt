@@ -63,7 +63,9 @@ Platform Support
 ^^^^^^^^^^^^^^^^
 
 Access to Bluetooth radio is severely limited on iOS platforms. For that reason,
-Bluetooth communication is not supported at all on iPhone or iPad devices.
+Bluetooth communication is not supported at all on iPhone or iPad devices.  On
+Mac computers running macOS, Bluetooth and serial port connections are
+supported.
 
 Applications are not allowed to read the Wi-Fi status on iOS platforms. For that
 reason, **Enroute Flight Navigation** cannot determine the ID of the traffic

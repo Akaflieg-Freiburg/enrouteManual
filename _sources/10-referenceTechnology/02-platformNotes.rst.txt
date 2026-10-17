@@ -85,10 +85,27 @@ from accessing the SSID of the Wi-Fi network, which makes it impossible to
 identify networks and suggest correct passwords from the password storage.
 
 
-Linux Desktop
--------------
+macOS
+-----
 
-The following command line options are supported.
+There is no menu item "Exit" on macOS.  Use the menu bar or the keyboard
+shortcut ⌘Q to quit **Enroute Flight Navigation**.
+
+Mac computers do not contain a SatNav receiver.  The location services of macOS
+determine your approximate position using nearby Wi-Fi networks, which is not
+suitable for flight navigation.  In flight, use a traffic data receiver that
+broadcasts position information, as explained in the Section
+:ref:`secInstallation`.
+
+
+.. _platformNotesDesktop:
+
+Linux and macOS Desktop
+-----------------------
+
+The following command line options are supported.  On macOS, the executable is
+found inside the app bundle, typically at
+"/Applications/enroute.app/Contents/MacOS/enroute".
 
 ================ =====================
 Option           Description

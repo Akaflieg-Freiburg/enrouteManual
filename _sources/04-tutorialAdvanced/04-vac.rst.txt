@@ -142,7 +142,10 @@ came with a country map are not affected.
   that it cannot read, for instance a damaged GeoTIFF file, it moves the file
   to a subfolder named "unrecognised" instead of deleting it.  On Linux desktop
   computers, the chart directory is the folder "VAC" in the data directory of
-  the app, typically "~/.local/share/Akaflieg Freiburg/Enroute/VAC".
+  the app, typically "~/.local/share/Akaflieg Freiburg/Enroute/VAC".  On macOS,
+  the data directory is found inside the app's sandbox container, typically
+  "~/Library/Containers/de.akafliegfreiburg.enroute/Data/Library/Application
+  Support/Akaflieg Freiburg/enroute flight navigation".
 
 
 Use Approach Charts

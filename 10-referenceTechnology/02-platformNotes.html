@@ -70,7 +70,8 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#ios">iOS</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#linux-desktop">Linux Desktop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#macos">macOS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linux-and-macos-desktop">Linux and macOS Desktop</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="03-altitude.html">Altitude Measurement</a></li>
@@ -184,9 +185,21 @@ the Wi-Fi network. Privacy features of iOS prevent <strong>Enroute Flight Naviga
 from accessing the SSID of the Wi-Fi network, which makes it impossible to
 identify networks and suggest correct passwords from the password storage.</p>
 </section>
-<section id="linux-desktop">
-<h2>Linux Desktop<a class="headerlink" href="#linux-desktop" title="Link to this heading"></a></h2>
-<p>The following command line options are supported.</p>
+<section id="macos">
+<h2>macOS<a class="headerlink" href="#macos" title="Link to this heading"></a></h2>
+<p>There is no menu item “Exit” on macOS.  Use the menu bar or the keyboard
+shortcut ⌘Q to quit <strong>Enroute Flight Navigation</strong>.</p>
+<p>Mac computers do not contain a SatNav receiver.  The location services of macOS
+determine your approximate position using nearby Wi-Fi networks, which is not
+suitable for flight navigation.  In flight, use a traffic data receiver that
+broadcasts position information, as explained in the Section
+<a class="reference internal" href="../01-gettingStarted/02-installation.html#secinstallation"><span class="std std-ref">Installation and Setup</span></a>.</p>
+</section>
+<section id="linux-and-macos-desktop">
+<span id="platformnotesdesktop"></span><h2>Linux and macOS Desktop<a class="headerlink" href="#linux-and-macos-desktop" title="Link to this heading"></a></h2>
+<p>The following command line options are supported.  On macOS, the executable is
+found inside the app bundle, typically at
+“/Applications/enroute.app/Contents/MacOS/enroute”.</p>
 <table class="docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>Option</p></th>

@@ -31,6 +31,7 @@ in the same frequency range.
 
 .. note:: Access to Bluetooth radio is severely limited on iOS platforms. For that reason,
     Bluetooth communication is not supported at all on iPhone or iPad devices.
+    It is, however, supported on Mac computers running macOS.
 
 
 One-time Setup
