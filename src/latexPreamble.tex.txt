@@ -1,5 +1,4 @@
 \usepackage{newunicodechar}
-\usepackage{marvosym}
 
 \newunicodechar{☰}{\ensuremath{\equiv}}
-\newunicodechar{⌘}{\Command}
+\newunicodechar{⌘}{Cmd+}
