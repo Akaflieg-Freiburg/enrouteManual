@@ -12,12 +12,12 @@ There are five ways to import files into **Enroute Flight Navigation**.
 
 - Import Files and Text Data Shared by Other Apps
 - Import Files from Local or Remote Storage
-- Drag-and-Drop (Linux Desktop only)
-- Copy-and-Paste (Linux Desktop only)
-- Command line (Linux Desktop only)
+- Drag-and-Drop (Linux and macOS only)
+- Copy-and-Paste (Linux and macOS only)
+- Command line (Linux and macOS only)
 
 We expect that most users on mobile devices will import files that are shared by
-other apps.  Users on Linux desktop computers will probably prefer drag-and-drop.
+other apps.  Users on Linux or macOS desktop computers will probably prefer drag-and-drop.
 
 
 Import Files and Text Data Shared by Other Apps
@@ -121,30 +121,32 @@ Library/Waypoints     GPX         Waypoint Collection
    the section :ref:`vacDownload`.
 
 
-Drag-and-Drop (Linux Desktop Only)
-----------------------------------
+Drag-and-Drop (Linux and macOS Only)
+------------------------------------
 
-If you are running **Enroute Flight Navigation** on a Linux desktop computer,
-you can import a file by dragging its icon from the desktop and drop it anywhere
-in the **Enroute Flight Navigation** window.  You can import text data items by
-dragging the text into the **Enroute Flight Navigation** window.
+If you are running **Enroute Flight Navigation** on a Linux or macOS desktop
+computer, you can import a file by dragging its icon from the desktop or from
+the file manager (the Finder, on macOS) and drop it anywhere in the **Enroute
+Flight Navigation** window.  You can import text data items by dragging the text
+into the **Enroute Flight Navigation** window.
 
 
-Copy-and-Paste (Linux Desktop Only)
+Copy-and-Paste (Linux and macOS Only)
+-------------------------------------
+
+If you are running **Enroute Flight Navigation** on a Linux or macOS desktop
+computer, you can import text data items, such as the links listed in the
+section `Supported Text Data Items`_ below, by copying the text to the clipboard
+and pasting it into the **Enroute Flight Navigation** window with the keyboard
+shortcut Ctrl+V (⌘V on macOS).
+
+
+Command Line (Linux and macOS Only)
 -----------------------------------
 
-If you are running **Enroute Flight Navigation** on a Linux desktop computer,
-you can import text data items, such as the links listed in the section
-`Supported Text Data Items`_ below, by copying the text to the clipboard and
-pasting it into the **Enroute Flight Navigation** window with the keyboard
-shortcut Ctrl+V.
-
-
-Command Line (Linux Desktop Only)
----------------------------------
-
 When starting **Enroute Flight Navigation** from the Unix command line, it is
-possible to pass file names as command line arguments.
+possible to pass file names as command line arguments.  The Section
+:ref:`platformNotesDesktop` explains the details.
 
 
 .. _supportedFileFormats:

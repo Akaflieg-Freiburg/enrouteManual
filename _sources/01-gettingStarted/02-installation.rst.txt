@@ -22,6 +22,13 @@ Navigation** can use your aircraft's traffic data receiver as a fallback source.
   they can only be used for flight navigation if the aircraft is equipped with a
   traffic data receiver that broadcasts position information.
 
+  Mac computers do not contain a SatNav receiver.  On macOS, **Enroute Flight
+  Navigation** can determine your approximate position using the location
+  services of the operating system, which is fine for flight planning but not
+  suitable for flight navigation.  In flight, a Mac can only be used if the
+  aircraft is equipped with a traffic data receiver that broadcasts position
+  information.
+
 
 App Installation
 ----------------
@@ -34,7 +41,7 @@ Installation on Mobile Devices
   Binaries for Android are available for sideloading `here
   <https://github.com/Akaflieg-Freiburg/enroute/releases/latest>`_.
 
-Installation on Mac Computers with Apple Silicon
+Installation on Mac Computers
   **Enroute Flight Navigation** is available for free on the `App Store
   <https://apps.apple.com/us/app/enroute-flight-navigation/id6448892176>`_.
 

@@ -11,7 +11,7 @@ waypoint library.
 
 .. note::
   The functionality described here is only available in version 2.30.9 or later. At the time
-  of writing, the functionality is only available on the Android and Linux/Desktop
+  of writing, the functionality is only available on the Android, Linux and macOS
   platforms.
 
 .. note::
